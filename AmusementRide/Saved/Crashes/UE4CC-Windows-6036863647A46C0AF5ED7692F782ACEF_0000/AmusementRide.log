@@ -1,0 +1,406 @@
+﻿Log file open, 09/19/18 16:08:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AmusementRide
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(610559013) SRandInit(610559013).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.213687
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.19-20.08.16:838][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-20.08.16:838][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.19-20.08.16:853][  0]LogInit: Computer: VARUNMW01
+[2018.09.19-20.08.16:853][  0]LogInit: User: Varun
+[2018.09.19-20.08.16:853][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.19-20.08.16:853][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2018.09.19-20.08.16:853][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.19-20.08.16:853][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.19-20.08.16:853][  0]LogMemory: Process Physical Memory: 278.69 MB used, 278.69 MB peak
+[2018.09.19-20.08.16:853][  0]LogMemory: Process Virtual Memory: 282.52 MB used, 282.52 MB peak
+[2018.09.19-20.08.16:853][  0]LogMemory: Physical Memory: 9118.56 MB used,  7138.39 MB free, 16256.96 MB total
+[2018.09.19-20.08.16:853][  0]LogMemory: Virtual Memory: 4812.88 MB used,  7138.39 MB free, 134217728.00 MB total
+[2018.09.19-20.08.17:099][  0]LogInit: Using OS detected language (en-US).
+[2018.09.19-20.08.17:099][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.19-20.08.17:105][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.19-20.08.18:362][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.19-20.08.18:500][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.09.19-20.08.18:500][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.19-20.08.18:519][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.19-20.08.18:519][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.19-20.08.18:523][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.19-20.08.18:523][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.19-20.08.18:523][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.19-20.08.18:549][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.19-20.08.18:549][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.09.19-20.08.18:549][  0]LogWindows: EnumDisplayDevices:
+[2018.09.19-20.08.18:549][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.19-20.08.18:550][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.19-20.08.18:550][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.19-20.08.18:550][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.19-20.08.18:550][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.09.19-20.08.18:550][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.19-20.08.18:550][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.19-20.08.18:550][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.09.19-20.08.18:606][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.19-20.08.18:632][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.19-20.08.18:633][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Intermediate/Shaders/WorkingDirectory/31488/).
+[2018.09.19-20.08.18:633][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/2F2AD43147FC297456DEDCB5E7D14553/'.
+[2018.09.19-20.08.18:633][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.19-20.08.20:332][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.19-20.08.20:657][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.19-20.08.20:789][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.19-20.08.20:942][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.19-20.08.21:080][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.19-20.08.21:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.19-20.08.21:303][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.19-20.08.21:492][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.19-20.08.21:607][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.19-20.08.21:722][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-20.08.21:818][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.19-20.08.21:927][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.19-20.08.22:023][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.19-20.08.22:134][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.19-20.08.22:230][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.19-20.08.22:408][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.19-20.08.22:408][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.19-20.08.22:481][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.19-20.08.22:627][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-20.08.22:671][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-20.08.22:770][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.19-20.08.22:882][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.19-20.08.22:994][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.19-20.08.23:147][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.19-20.08.23:149][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.19-20.08.24:291][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/AmusementRide/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/AmusementRide/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.19-20.08.24:427][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.19-20.08.24:449][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.19-20.08.24:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.19-20.08.24:478][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.19-20.08.24:479][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.19-20.08.24:481][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.19-20.08.24:481][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.19-20.08.25:063][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2018.09.19-20.08.25:302][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-20.08.25:521][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.19-20.08.26:186][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.19-20.08.26:285][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.19-20.08.26:285][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.19-20.08.26:285][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.19-20.08.26:285][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.19-20.08.26:285][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.19-20.08.27:003][  0]LogNetVersion: AmusementRide , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1125379997)
+[2018.09.19-20.08.27:397][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.068755 seconds
+[2018.09.19-20.08.27:407][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.09.19-20.08.27:407][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.09.19-20.08.27:407][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.19-20.08.27:501][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.19-20.08.33:150][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.19-20.08.33:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.19-20.08.34:423][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.19-20.08.35:853][  0]SourceControl: Source control is disabled
+[2018.09.19-20.08.35:853][  0]SourceControl: Source control is disabled
+[2018.09.19-20.08.35:955][  0]SourceControl: Source control is disabled
+[2018.09.19-20.08.36:077][  0]SourceControl: Source control is disabled
+[2018.09.19-20.08.37:182][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.19-20.08.37:627][  0]LogOcInput: OculusInput pre-init called
+[2018.09.19-20.08.38:073][  0]LogEngine: Initializing Engine...
+[2018.09.19-20.08.38:077][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.19-20.08.38:419][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-20.08.38:419][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-20.08.38:666][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.19-20.08.38:716][  0]LogInit: XAudio2 using 'Headphones (Varun's Bose QC30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.19-20.08.38:742][  0]LogInit: FAudioDevice initialized.
+[2018.09.19-20.08.39:027][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.19-20.08.39:044][  0]LogInit: Texture streaming: Enabled
+[2018.09.19-20.08.39:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.19-20.08.39:767][  0]LogInit: Transaction tracking system initialized
+[2018.09.19-20.08.40:418][  0]BlueprintLog: New page: Editor Load
+[2018.09.19-20.08.42:239][  0]LocalizationService: Localization service is disabled
+[2018.09.19-20.08.43:443][  0]LogConsoleResponse: Display: 
+[2018.09.19-20.08.43:932][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.19-20.08.43:933][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.19-20.08.43:933][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.19-20.08.44:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/' took 0.03s
+[2018.09.19-20.08.46:376][  0]SourceControl: Source control is disabled
+[2018.09.19-20.08.46:376][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-20.08.46:377][  0]LightingResults: New page: Lighting Build
+[2018.09.19-20.08.46:445][  0]MapCheck: New page: Map Check
+[2018.09.19-20.08.46:445][  0]LightingResults: New page: Lighting Build
+[2018.09.19-20.08.47:752][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.19-20.08.47:933][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-20.08.48:002][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-20.08.48:233][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 230.42ms to complete.
+[2018.09.19-20.08.48:233][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.857
+[2018.09.19-20.08.48:623][  0]LogCollectionManager: Loaded 0 collections in 0.005930 seconds
+[2018.09.19-20.08.48:976][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Collections/' took 0.01s
+[2018.09.19-20.08.48:976][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/Developers/Varun/Collections/' took 0.01s
+[2018.09.19-20.08.48:976][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/Collections/' took 0.01s
+[2018.09.19-20.08.48:976][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.19-20.08.49:001][  0]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 2386 classes and 500 folders.
+[2018.09.19-20.08.49:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2018.09.19-20.08.50:060][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2018.09.19-20.08.50:580][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.09.19-20.08.51:154][  0]LogSlate: Took 0.000875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.19-20.08.51:179][  0]LogSlate: Took 0.001225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.19-20.08.51:201][  0]LogSlate: Took 0.019077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.19-20.08.51:840][  0]LogRenderer: Reallocating scene render targets to support 932x708 Format 10 NumSamples 1 (Frame:1).
+[2018.09.19-20.08.52:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.19-20.08.52:466][  0]LogLoad: (Engine Initialization) Total time: 38.45 seconds
+[2018.09.19-20.08.52:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.19-20.08.52:466][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.09.19-20.08.52:466][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.09.19-20.08.52:852][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.19-20.08.52:911][  0]LogSlate: Took 0.019491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.19-20.08.53:157][  1]LogAssetRegistry: Asset discovery search completed in 28.1161 seconds
+[2018.09.19-20.08.53:159][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.19-20.08.53:159][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2018.09.19-20.11.17:508][618]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.19-20.12.01:468][622]MapCheck: New page: Map Check
+[2018.09.19-20.12.01:525][622]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.19-20.12.01:525][622]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.19-20.12.01:814][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.19-20.12.01:875][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.09.19-20.12.01:886][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.09.19-20.12.01:900][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.09.19-20.12.01:914][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.09.19-20.12.01:925][622]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.19-20.12.03:667][622]TextureStreamingBuild: Display: Compiling optional shaders took 1.918 seconds.
+[2018.09.19-20.12.03:800][622]LogLevel: Display: Export Material TexCoord Scales took 0.133 seconds.
+[2018.09.19-20.12.03:824][622]TextureStreamingBuild: Display: Build Texture Streaming took 0.023 seconds.
+[2018.09.19-20.12.03:896][622]LightingResults: New page: Lighting Build - Sep 19, 2018, 12:12:03 PM
+[2018.09.19-20.12.04:035][622]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.19-20.12.04:267][622]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.19-20.12.04:293][622]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.19-20.12.05:864][622]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.19-20.12.05:865][622]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31488
+[2018.09.19-20.12.19:040][622]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.19-20.12.19:040][622]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.19-20.12.19:040][622]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.19-20.12.19:040][622]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.19-20.12.19:040][622]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.19-20.12.19:309][622]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.19-20.12.19:309][622]MapCheck: New page: ThirdPersonExampleMap - Sep 19, 2018, 12:12:19 PM
+[2018.09.19-20.12.19:464][622]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 155.472ms to complete.
+[2018.09.19-20.12.19:488][622]LogEditorBuildUtils: Build time 0:17
+[2018.09.19-20.12.27:465][647]Job is a success!
+[2018.09.19-20.12.28:748][648]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.19-20.12.28:748][648]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.09.19-20.12.28:748][648]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.09.19-20.12.28:749][648]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.09.19-20.12.28:749][648]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.19-20.12.28:749][648]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.19-20.12.28:909][648]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.09.19-20.12.28:909][648]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2018.09.19-20.12.29:122][648]Lightmass on VARUNMW01: 7.71 sec total, 133 ms importing, 4 ms setup, 1.54 sec photons, 5.91 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 41.2 sec total, 12.2 sec processing.
+[2018.09.19-20.12.29:210][648]LogStaticLightingSystem: Illumination: 24.9 sec (608 ms encoding lightmaps, 159 ms encoding shadowmaps)
+[2018.09.19-20.12.29:210][648]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.09.19-20.12.29:210][648]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.19-20.12.30:031][648]DumpUnbuiltLightIteractions
+[2018.09.19-20.12.30:031][648]Lights with unbuilt interactions: 0
+[2018.09.19-20.12.30:031][648]
+[2018.09.19-20.12.30:031][648]Primitives with unbuilt interactions: 0
+[2018.09.19-20.12.30:046][649]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.19-20.12.30:047][649]MapCheck: New page: ThirdPersonExampleMap - Sep 19, 2018, 12:12:30 PM
+[2018.09.19-20.12.30:616][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 569.314ms to complete.
+[2018.09.19-20.15.56:063][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.19-20.16.11:678][  2]Cmd: MODE GRID=0
+[2018.09.19-20.16.13:078][ 32]Cmd: MODE SCALEGRID=0
+[2018.09.19-20.16.19:565][225]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.16.27:134][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2018.09.19-20.17.35:816][822]Cmd: DELETE
+[2018.09.19-20.17.35:816][822]Cmd: ACTOR DELETE
+[2018.09.19-20.17.36:133][822]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-20.17.36:179][822]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.09.19-20.17.36:616][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2018.09.19-20.17.37:017][850]Cmd: DELETE
+[2018.09.19-20.17.37:017][850]Cmd: ACTOR DELETE
+[2018.09.19-20.17.37:018][850]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-20.17.37:031][850]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.09.19-20.17.37:717][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.09.19-20.17.38:050][881]Cmd: DELETE
+[2018.09.19-20.17.38:050][881]Cmd: ACTOR DELETE
+[2018.09.19-20.17.38:051][881]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-20.17.38:066][881]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.09.19-20.17.38:717][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.09.19-20.17.39:152][914]Cmd: DELETE
+[2018.09.19-20.17.39:152][914]Cmd: ACTOR DELETE
+[2018.09.19-20.17.39:153][914]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-20.17.39:166][914]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.19-20.17.44:051][ 61]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.09.19-20.17.45:067][ 67]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.09.19-20.17.46:532][113]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.18.20:550][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.19-20.18.21:434][668]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.18.39:101][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.19.08:745][ 13]LogActorFactory: Actor Factory created Cube
+[2018.09.19-20.19.11:087][ 72]LogActorFactory: Actor Factory created Cube
+[2018.09.19-20.19.12:266][109]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.19.30:899][668]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.19.36:966][849]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.19.49:001][210]Cmd: TRANSACTION UNDO
+[2018.09.19-20.19.49:001][210]LogEditorTransaction: Undo Scale Actors
+[2018.09.19-20.19.49:376][210]LogSlate: Took 0.000900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.19-20.20.29:699][743]LogSavePackage: Save=141.91ms
+[2018.09.19-20.20.29:699][743]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/ThirdPersonExampleMap_Auto121A7F074423C8545E7071D9BD5A59D44.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.09.19-20.20.29:702][743]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.09.19-20.20.29:719][743]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.290
+[2018.09.19-20.20.29:719][743]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2018.09.19-20.20.29:756][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.09.19-20.20.29:756][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData]
+[2018.09.19-20.20.29:841][743]LogSavePackage: Save=20.80ms
+[2018.09.19-20.20.29:841][743]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/ThirdPersonExampleMap_BuiltData_Auto1021A8D7349513012FA9708B867DD094B.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset'
+[2018.09.19-20.20.29:842][743]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset
+[2018.09.19-20.20.29:847][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Coaster] ([1] browsable assets)...
+[2018.09.19-20.20.29:847][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Coaster]
+[2018.09.19-20.20.29:865][743]LogSavePackage: Save=13.13ms
+[2018.09.19-20.20.29:865][743]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/BP_Coaster_Auto11D290E15432CCCF5B19B4891A3D80F9F.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Coaster_Auto1.uasset'
+[2018.09.19-20.20.29:868][743]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Coaster_Auto1.uasset
+[2018.09.19-20.20.29:868][743]LogFileHelpers: Auto-saving content packages took 0.114
+[2018.09.19-20.38.20:153][218]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.09.19-20.38.20:953][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-20.38.22:555][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-20.38.29:621][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-20.38.30:287][514]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.38.43:586][895]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.BP_Track:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.SKEL_BP_Track_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.BP_Track_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.BP_Track:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.BP_Track:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:698][558]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Track.BP_Track:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Actor.PackageMetaData'
+[2018.09.19-20.39.07:798][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Track" FILE="C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset" SILENT=true
+[2018.09.19-20.39.07:815][558]LogSavePackage: Save=14.38ms
+[2018.09.19-20.39.07:815][558]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/BP_Track745AAD0A427DFB184FE771B4ED9E3A96.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset'
+[2018.09.19-20.39.07:819][558]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset
+[2018.09.19-20.39.11:529][633]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.19-20.39.12:062][633]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2018.09.19-20.39.13:848][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Track" FILE="C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset" SILENT=true
+[2018.09.19-20.39.13:863][637]LogSavePackage: Save=10.64ms
+[2018.09.19-20.39.13:864][637]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/BP_TrackB6E15C0A4AE9C91D18C46C835E6AA06A.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset'
+[2018.09.19-20.39.13:866][637]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Content/ThirdPersonBP/Blueprints/BP_Track.uasset
+[2018.09.19-20.39.21:740][906]LogSlate: Took 0.013835 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.19-20.40.11:103][247]LogSavePackage: Save=121.11ms
+[2018.09.19-20.40.11:103][247]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/ThirdPersonExampleMap_Auto248F79FBE46377B648B19EDAD11622578.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.09.19-20.40.11:109][247]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.09.19-20.40.11:133][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.233
+[2018.09.19-20.40.11:133][247]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2018.09.19-20.40.11:206][247]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Coaster] ([1] browsable assets)...
+[2018.09.19-20.40.11:206][247]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Coaster]
+[2018.09.19-20.40.11:231][247]LogSavePackage: Save=20.22ms
+[2018.09.19-20.40.11:231][247]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/BP_Coaster_Auto21609C107422B3C4A0FE51AAC996EAD68.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Coaster_Auto2.uasset'
+[2018.09.19-20.40.11:236][247]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/AmusementRide/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Coaster_Auto2.uasset
+[2018.09.19-20.40.11:236][247]LogFileHelpers: Auto-saving content packages took 0.037
+[2018.09.19-20.42.37:121][924]LogSlate: Took 0.331055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.19-20.43.12:291][860]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.09.19-20.43.12:296][860]LogWindows: Windows GetLastError: The operation completed successfully. (0)
