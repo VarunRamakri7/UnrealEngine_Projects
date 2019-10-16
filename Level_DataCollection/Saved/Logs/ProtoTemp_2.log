@@ -1,0 +1,627 @@
+﻿Log file open, 01/06/19 18:17:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProtoTemp
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.153389
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogStreaming: Display: Took  0.587s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 7 (Service Pack 1), CPU:        Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.06-23.17.27:210][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-23.17.27:239][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.06-23.17.27:345][  0]LogHAL: Display: Platform has ~ 8 GB [8399384576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.06-23.17.27:345][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.06-23.17.27:345][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.06-23.17.27:388][  0]LogInit: Computer: BRANTLY-PC
+[2019.01.06-23.17.27:388][  0]LogInit: User: Brantly
+[2019.01.06-23.17.27:388][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.06-23.17.27:388][  0]LogInit: High frequency timer resolution =2.533369 MHz
+[2019.01.06-23.17.27:388][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2019.01.06-23.17.27:398][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.06-23.17.27:398][  0]LogMemory: Process Physical Memory: 103.60 MB used, 103.60 MB peak
+[2019.01.06-23.17.27:398][  0]LogMemory: Process Virtual Memory: 95.51 MB used, 95.51 MB peak
+[2019.01.06-23.17.27:398][  0]LogMemory: Physical Memory: 4490.83 MB used,  3519.45 MB free, 8010.28 MB total
+[2019.01.06-23.17.27:398][  0]LogMemory: Virtual Memory: 482.32 MB used,  3519.45 MB free, 8388608.00 MB total
+[2019.01.06-23.17.28:692][  0]LogInit: Using OS detected language (en-US).
+[2019.01.06-23.17.28:692][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.06-23.17.28:756][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.06-23.17.29:971][  0]LogStreaming: Display: Took  1.279s to InitEngineTextLocalization.
+[2019.01.06-23.17.29:972][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.01.06-23.17.29:972][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.01.06-23.17.29:972][  0]LogInit: Setting process to DPI aware
+[2019.01.06-23.17.32:236][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.06-23.17.32:236][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.06-23.17.41:712][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.01.06-23.17.41:746][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.06-23.17.44:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2019.01.06-23.17.44:629][  0]LogD3D11RHI:       2000/0/3749 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.06-23.17.44:648][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2019.01.06-23.17.44:648][  0]LogD3D11RHI:       2000/0/3749 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.01.06-23.17.44:648][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.06-23.17.44:657][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.06-23.17.44:657][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.06-23.17.44:685][  0]LogWindows: EnumDisplayDevices:
+[2019.01.06-23.17.44:686][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.01.06-23.17.44:686][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-23.17.44:686][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-23.17.44:687][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2019.01.06-23.17.44:687][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.06-23.17.44:687][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.06-23.17.44:687][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.06-23.17.44:688][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2019.01.06-23.17.44:688][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2019.01.06-23.17.44:688][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2019.01.06-23.17.44:688][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2019.01.06-23.17.44:688][  0]LogRHI: Texture pool is 1400 MB (70% of 2000 MB)
+[2019.01.06-23.17.44:776][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.01.06-23.17.44:787][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.06-23.17.45:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.06-23.17.45:792][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Users/Brantly/Desktop/ProtoTemp/Intermediate/Shaders/WorkingDirectory/27172/).
+[2019.01.06-23.17.45:792][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brantly/AppData/Local/Temp/UnrealShaderWorkingDir/80FA548B4196BE91370E58865BCE0C4B/'.
+[2019.01.06-23.18.06:301][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.06-23.18.06:349][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.06-23.18.06:378][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.06-23.18.06:416][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.06-23.18.06:479][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.06-23.18.06:509][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.06-23.18.06:544][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.06-23.18.06:570][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.06-23.18.06:590][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-23.18.06:752][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.06-23.18.06:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.06-23.18.06:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.06-23.18.06:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.06-23.18.06:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.06-23.18.07:059][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.06-23.18.07:078][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.06-23.18.07:096][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.06-23.18.07:128][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.06-23.18.07:151][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.06-23.18.07:151][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.06-23.18.08:068][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.06-23.18.08:068][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.06-23.18.08:068][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.06-23.18.15:282][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.06-23.18.53:735][  0]LogDerivedDataCache: Loaded boot cache 38.45s 71MB C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.06-23.18.53:735][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.06-23.18.53:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brantly/Desktop/ProtoTemp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.06-23.18.53:735][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.06-23.18.53:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brantly/Desktop/ProtoTemp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.06-23.18.53:736][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.06-23.18.53:793][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.06-23.18.53:805][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brantly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.06-23.18.53:805][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.06-23.18.53:805][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.06-23.18.53:908][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.06-23.18.53:965][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.06-23.18.54:015][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.06-23.18.56:027][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2019.01.06-23.19.03:165][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-23.19.05:032][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.06-23.19.05:314][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.06-23.19.05:314][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.06-23.19.05:325][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.06-23.19.05:325][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.06-23.19.05:693][  0]LogNetVersion: ProtoTemp 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2383772072)
+[2019.01.06-23.19.10:752][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.133099 seconds
+[2019.01.06-23.19.10:844][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.06-23.19.10:844][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.06-23.19.10:844][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.06-23.19.36:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.06-23.19.36:709][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.06-23.19.38:625][  0]SourceControl: Source control is disabled
+[2019.01.06-23.19.38:625][  0]SourceControl: Source control is disabled
+[2019.01.06-23.19.38:723][  0]SourceControl: Source control is disabled
+[2019.01.06-23.19.38:756][  0]SourceControl: Source control is disabled
+[2019.01.06-23.19.39:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.06-23.19.40:130][  0]LogOcInput: OculusInput pre-init called
+[2019.01.06-23.19.41:071][  0]LogEngine: Initializing Engine...
+[2019.01.06-23.19.41:134][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.01.06-23.19.41:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.01.06-23.19.41:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-23.19.41:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-23.19.41:165][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-23.19.42:165][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.06-23.19.42:397][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.06-23.19.42:479][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.19.42:645][  0]LogInit: FAudioDevice initialized.
+[2019.01.06-23.19.42:682][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.06-23.19.43:158][  0]LogDerivedDataCache: Saved boot cache 0.48s 71MB C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.06-23.19.43:162][  0]LogInit: Texture streaming: Enabled
+[2019.01.06-23.19.43:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.06-23.19.43:414][  0]LogInit: Transaction tracking system initialized
+[2019.01.06-23.19.43:929][  0]BlueprintLog: New page: Editor Load
+[2019.01.06-23.19.46:180][  0]LocalizationService: Localization service is disabled
+[2019.01.06-23.19.51:745][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.06-23.19.51:745][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.06-23.19.51:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/' took 0.01s
+[2019.01.06-23.19.51:778][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.06-23.19.51:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.06-23.19.51:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-23.19.51:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-23.19.51:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-23.19.55:650][  0]SourceControl: Source control is disabled
+[2019.01.06-23.19.55:725][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.06-23.19.55:733][  0]LightingResults: New page: Lighting Build
+[2019.01.06-23.19.55:773][  0]MapCheck: New page: Map Check
+[2019.01.06-23.19.55:773][  0]LightingResults: New page: Lighting Build
+[2019.01.06-23.20.02:179][  0]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.20.02:422][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.06-23.20.02:538][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.06-23.20.02:652][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.669ms to complete.
+[2019.01.06-23.20.02:653][  0]LogFileHelpers: Loading map 'TemplateMap' took 6.927
+[2019.01.06-23.20.03:644][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.20.03:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.20.03:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.20.03:681][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.20.03:793][  0]LogCollectionManager: Loaded 0 collections in 0.002408 seconds
+[2019.01.06-23.20.04:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Saved/Collections/' took 0.01s
+[2019.01.06-23.20.04:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/Developers/Brantly/Collections/' took 0.01s
+[2019.01.06-23.20.04:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/Collections/' took 0.01s
+[2019.01.06-23.20.04:008][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.06-23.20.04:021][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2587 classes and 611 folders.
+[2019.01.06-23.20.04:094][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.06-23.20.05:722][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.06-23.20.05:790][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.06-23.20.06:326][  0]LogSlate: Took 0.025363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.06-23.20.06:358][  0]LogSlate: Took 0.030012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.06-23.20.06:487][  0]LogSlate: Took 0.076667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.06-23.20.06:988][  0]LogRenderer: Reallocating scene render targets to support 912x524 Format 10 NumSamples 1 (Frame:1).
+[2019.01.06-23.20.08:695][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.06-23.20.08:695][  0]LogLoad: (Engine Initialization) Total time: 195.98 seconds
+[2019.01.06-23.20.08:695][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.06-23.20.08:879][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.06-23.20.08:975][  0]LogSlate: Took 0.020380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.06-23.20.10:154][  2]LogAssetRegistry: Asset discovery search completed in 74.1458 seconds
+[2019.01.06-23.20.10:157][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.06-23.20.10:157][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2019.01.06-23.38.09:465][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.38.09:640][319]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.06-23.38.09:650][319]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.01.06-23.38.10:647][319]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.01.06-23.38.12:088][319]LogSlate: Took 0.020385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.06-23.38.12:648][320]LogSlate: Took 0.019780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.06-23.47.16:132][819]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.06-23.47.17:500][841]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter6A3EB37D429E58897442F5A1E95EFCF8.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.06-23.49.03:185][960]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap_Auto1C052D79C4AED9FBB7D4AFAA268C969CB.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Autosaves/Game/ThirdPersonBP/Maps/TemplateMap_Auto1.umap'
+[2019.01.06-23.49.03:193][960]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TemplateMap' took 2.050
+[2019.01.06-23.49.03:193][960]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.050
+[2019.01.06-23.49.03:198][960]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.01.06-23.49.03:249][960]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.01.06-23.49.03:249][960]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.01.06-23.49.03:426][960]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter_Auto1A300C3984C86512B1B8E2A8CC5DADCAC.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2019.01.06-23.49.03:429][960]LogFileHelpers: Auto-saving content packages took 0.233
+[2019.01.06-23.52.00:521][541]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.06-23.52.01:928][572]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacterD344BD0749BDB5E9DD385D85E0B97F59.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.06-23.52.16:273][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.52.44:875][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.52.46:852][484]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap672093BA4A2D548BFFCA27992B35DF93.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.06-23.53.13:217][898]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacterF96E926A4502F7E5E9691B9859845DA5.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.06-23.53.24:053][ 90]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_BreakBoulder.BP_BreakBoulder
+[2019.01.06-23.55.50:065][743]BlueprintLog: New page: Compile BP_BreakBoulder
+[2019.01.06-23.55.50:789][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BreakBoulder" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset" SILENT=true
+[2019.01.06-23.55.50:824][767]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BreakBoulder0B3EC4B74ABF62A159F7E6A83116A391.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset'
+[2019.01.06-23.56.01:791][ 60]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.01.06-23.56.22:250][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.56.22:250][207]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.56.22:324][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.56.22:393][207]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:56:22 PM)
+[2019.01.06-23.56.22:394][207]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.56.22:725][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.330740s)
+[2019.01.06-23.56.22:726][207]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.56.22:726][207]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2019.01.06-23.56.22:726][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.332522s)
+[2019.01.06-23.56.22:812][207]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.56.22:840][207]LogInit: FAudioDevice initialized.
+[2019.01.06-23.56.22:934][207]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.56.22:955][207]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.56.22
+[2019.01.06-23.56.23:003][207]LogWorld: Bringing up level for play took: 0.067645
+[2019.01.06-23.56.23:046][207]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.01.06-23.56.23:048][207]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap 1.478
+[2019.01.06-23.56.30:202][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.56.30:251][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.06-23.56.30:317][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.56.30:472][346]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.06-23.56.31:000][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.56.35:267][602]BlueprintLog: New page: Compile BP_BreakBoulder
+[2019.01.06-23.56.35:967][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BreakBoulder" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset" SILENT=true
+[2019.01.06-23.56.36:000][625]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BreakBoulder12541EF34F83FAEC80A781B659D7B8AB.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset'
+[2019.01.06-23.56.37:783][696]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.56.37:812][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.56.37:812][696]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:56:37 PM)
+[2019.01.06-23.56.37:812][696]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.56.38:046][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233962s)
+[2019.01.06-23.56.38:047][696]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.56.38:048][696]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2019.01.06-23.56.38:048][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.235375s)
+[2019.01.06-23.56.38:091][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.56.38:101][696]LogInit: FAudioDevice initialized.
+[2019.01.06-23.56.38:132][696]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.56.38:146][696]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.56.38
+[2019.01.06-23.56.38:148][696]LogWorld: Bringing up level for play took: 0.015323
+[2019.01.06-23.56.38:162][696]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap 0.591
+[2019.01.06-23.56.42:228][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.56.42:316][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.06-23.56.42:384][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.56.42:462][772]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.06-23.56.42:990][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.56.50:875][243]BlueprintLog: New page: Compile BP_BreakBoulder
+[2019.01.06-23.56.51:577][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BreakBoulder" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset" SILENT=true
+[2019.01.06-23.56.51:603][266]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BreakBoulder22F7805F44EF7BA46A7609A052BABFA4.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset'
+[2019.01.06-23.56.52:916][313]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.56.52:946][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.56.52:946][313]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:56:52 PM)
+[2019.01.06-23.56.52:946][313]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.56.53:180][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233570s)
+[2019.01.06-23.56.53:181][313]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.56.53:181][313]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2019.01.06-23.56.53:181][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.234816s)
+[2019.01.06-23.56.53:227][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.56.53:238][313]LogInit: FAudioDevice initialized.
+[2019.01.06-23.56.53:271][313]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.56.53:285][313]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.56.53
+[2019.01.06-23.56.53:286][313]LogWorld: Bringing up level for play took: 0.014556
+[2019.01.06-23.56.53:299][313]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap -0.271
+[2019.01.06-23.57.23:426][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.57.23:512][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.06-23.57.23:572][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.57.23:708][912]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.06-23.57.24:513][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.57.45:760][745]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_BoulderSpawner.BP_BoulderSpawner
+[2019.01.06-23.58.01:247][616]BlueprintLog: New page: Compile BP_BoulderSpawner
+[2019.01.06-23.58.01:984][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BoulderSpawner" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset" SILENT=true
+[2019.01.06-23.58.02:014][642]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BoulderSpawnerA9EC68964701A69FDA4303AC9569EB4E.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset'
+[2019.01.06-23.58.11:424][948]LogEditorViewport: Clicking on Actor (LMB): BP_BoulderSpawner_C (BP_BoulderSpawner2)
+[2019.01.06-23.58.13:392][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.58.16:987][ 43]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap7BD63D444344519C07E19EA87601A185.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.06-23.58.17:532][ 58]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.58.17:555][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.58.17:555][ 58]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:58:17 PM)
+[2019.01.06-23.58.17:555][ 58]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.58.17:781][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.225371s)
+[2019.01.06-23.58.17:781][ 58]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.58.17:782][ 58]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2019.01.06-23.58.17:782][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.226568s)
+[2019.01.06-23.58.17:827][ 58]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.58.17:838][ 58]LogInit: FAudioDevice initialized.
+[2019.01.06-23.58.17:871][ 58]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.58.17:885][ 58]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.58.17
+[2019.01.06-23.58.17:886][ 58]LogWorld: Bringing up level for play took: 0.014533
+[2019.01.06-23.58.17:901][ 58]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap 0.328
+[2019.01.06-23.58.27:754][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.58.27:873][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.06-23.58.27:931][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.58.28:056][252]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.06-23.58.28:840][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.58.33:076][382]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_BoulderSpawner.BP_BoulderSpawner
+[2019.01.06-23.58.42:914][904]BlueprintLog: New page: Compile BP_BoulderSpawner
+[2019.01.06-23.58.43:654][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BoulderSpawner" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset" SILENT=true
+[2019.01.06-23.58.43:682][930]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BoulderSpawnerDA8DFE064207931AA4175996C931BA22.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset'
+[2019.01.06-23.58.45:747][983]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_BreakBoulder.BP_BreakBoulder
+[2019.01.06-23.58.52:576][357]BlueprintLog: New page: Compile BP_BreakBoulder
+[2019.01.06-23.58.53:337][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BreakBoulder" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset" SILENT=true
+[2019.01.06-23.58.53:364][381]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BreakBoulderB91BD3F54045C8A841DEA69DCE06429A.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BreakBoulder.uasset'
+[2019.01.06-23.58.54:771][432]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.58.54:801][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.58.54:801][432]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:58:54 PM)
+[2019.01.06-23.58.54:801][432]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.58.55:045][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.244121s)
+[2019.01.06-23.58.55:046][432]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.58.55:046][432]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2019.01.06-23.58.55:047][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.245425s)
+[2019.01.06-23.58.55:098][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.58.55:111][432]LogInit: FAudioDevice initialized.
+[2019.01.06-23.58.55:144][432]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.58.55:161][432]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.58.55
+[2019.01.06-23.58.55:162][432]LogWorld: Bringing up level for play took: 0.017215
+[2019.01.06-23.58.55:176][432]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap -0.398
+[2019.01.06-23.59.17:115][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.59.17:212][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.06-23.59.17:285][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-23.59.17:370][877]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.06-23.59.19:740][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.59.27:247][356]BlueprintLog: New page: Compile BP_BoulderSpawner
+[2019.01.06-23.59.27:884][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_BoulderSpawner" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset" SILENT=true
+[2019.01.06-23.59.27:905][376]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_BoulderSpawnerC0C46858454FA62CCA0DAD8954D90F19.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_BoulderSpawner.uasset'
+[2019.01.06-23.59.31:516][481]LogEditorViewport: Clicking on Actor (LMB): BP_Despawner_C (BP_Despawner)
+[2019.01.06-23.59.35:019][561]LogEditorViewport: Clicking on Actor (LMB): BP_BoulderSpawner_C (BP_BoulderSpawner2)
+[2019.01.06-23.59.36:360][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-23.59.41:196][658]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap70AD1FDC4FF012D13A33078F9B824FCF.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.06-23.59.42:245][684]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.06-23.59.42:278][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.06-23.59.42:278][684]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 1:59:42 PM)
+[2019.01.06-23.59.42:278][684]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.06-23.59.42:550][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272247s)
+[2019.01.06-23.59.42:551][684]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.06-23.59.42:551][684]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2019.01.06-23.59.42:551][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.273476s)
+[2019.01.06-23.59.42:594][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-23.59.42:605][684]LogInit: FAudioDevice initialized.
+[2019.01.06-23.59.42:639][684]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.06-23.59.42:653][684]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-18.59.42
+[2019.01.06-23.59.42:654][684]LogWorld: Bringing up level for play took: 0.014270
+[2019.01.06-23.59.42:667][684]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap 1.093
+[2019.01.06-23.59.57:089][989]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=129.98 Y=-170.23 Z=0.00 Location: X=450.15 Y=4013.44 Z=210.15 Normal: X=-0.84 Y=-0.53 Z=0.00 PenetrationDepth:24.420 Actor:BP_BreakBoulder_C_27 Component:DestructibleComponent0 BoneName:Part07 (0 other events since notify)
+[2019.01.07-00.00.18:547][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-00.00.18:644][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.07-00.00.18:724][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-00.00.18:989][397]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.07-00.00.23:268][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.00.34:915][618]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.07-00.00.48:099][943]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_CustomNotifierBox.BP_CustomNotifierBox
+[2019.01.07-00.00.50:321][967]LogRenderer: Reallocating scene render targets to support 944x676 Format 10 NumSamples 1 (Frame:28).
+[2019.01.07-00.00.50:775][981]LogSlate: Window 'BP_CustomNotifierBox*' being destroyed
+[2019.01.07-00.00.56:689][208]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.00.57:563][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.00.57:573][228]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox7A5761BA4A7AC85B7A30108432B499E3.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.01.15:595][930]LogSlate: Took 0.017309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.07-00.01.18:556][ 38]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.01.19:397][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.01.19:428][ 56]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox7CF2A73B4A4F33258864669C1639D0B5.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.01.58:076][622]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.01.58:867][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.01.58:887][641]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox1A61F39043C3554EE88B13A7EDF4CD20.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.02.02:547][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.07-00.02.03:275][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.07-00.02.18:397][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.02.23:708][277]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.07-00.04.03:250][101]Cmd: TRANSACTION UNDO
+[2019.01.07-00.04.03:250][101]LogEditorTransaction: Undo Scale Actors
+[2019.01.07-00.08.19:041][682]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.07-00.08.40:323][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.08.59:572][311]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMapB04DA8DA4E27E0E007725981F750ED33.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.09.06:125][374]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_CustomNotifierBox.BP_CustomNotifierBox
+[2019.01.07-00.10.45:165][ 81]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.07-00.10.46:320][105]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter140E8AB0406FD622AEAC3187C83134D5.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.11.21:669][154]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.07-00.11.22:863][181]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter50B80A6C4E3A2639CDEC22BAAD7FC60F.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.14.54:020][617]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.07-00.14.55:151][637]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacterEF6AC42746AEED28CA404BBB14E5A6EA.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.15.55:738][216]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.07-00.15.56:970][238]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter1EF6A579436A4ABF671DEE87E00A7199.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.17.33:881][945]LogEditorTransaction: Undo Add Node
+[2019.01.07-00.18.18:099][551]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.07-00.18.19:319][574]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter5B56F0D74F6D8502A27D1B8A065446F5.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.18.23:575][656]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap4DFF31FA4449179964BBF381FFEFFF99.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.36.11:905][592]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Core/Blueprints/BP_CustomNotifierBox.BP_CustomNotifierBox
+[2019.01.07-00.36.17:792][886]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.36.20:052][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.36.20:072][  1]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox98CD671749392E0793B5309E1000B346.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.36.28:932][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.36.41:012][885]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.36.41:750][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.36.41:765][910]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox89309E5E4BF247038A2031B828503FDF.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.36.49:558][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.36.57:770][554]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.36.58:441][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.36.58:460][575]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox4B81E7324611AA96F357F68835A51E0C.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.37.05:581][890]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.37.06:246][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.37.06:261][911]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox1A61A1F8481B8B88290CF49C49E47476.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.37.17:481][158]Cmd: TRANSACTION UNDO
+[2019.01.07-00.37.17:481][158]LogEditorTransaction: Undo Scale Actors
+[2019.01.07-00.37.20:071][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.37.27:776][665]Cmd: TRANSACTION UNDO
+[2019.01.07-00.37.27:776][665]LogEditorTransaction: Undo Move Actors
+[2019.01.07-00.37.28:771][722]Cmd: TRANSACTION UNDO
+[2019.01.07-00.37.28:771][722]LogEditorTransaction: Undo Make New Scene Root
+[2019.01.07-00.37.31:501][879]BlueprintLog: New page: Compile BP_CustomNotifierBox
+[2019.01.07-00.37.32:206][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Blueprints/BP_CustomNotifierBox" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset" SILENT=true
+[2019.01.07-00.37.32:225][901]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BP_CustomNotifierBox769DD79248074D21EA7B74AB77E3B30A.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_CustomNotifierBox.uasset'
+[2019.01.07-00.38.07:572][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.38.09:666][620]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMapFFE3323B4400577BBEC78D94D1BF6E8F.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.40.06:768][546]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/ThirdPersonCharacter8AFF75124C7811F5CF6195956F32C97C.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.07-00.40.19:297][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.07-00.42.36:634][798]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.01.07-00.42.42:723][831]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.07-00.42.46:751][ 36]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProtoTemp
+[2019.01.07-00.42.46:751][ 36]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.07-00.42.46:751][ 36]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.01.07-00.42.46:751][ 36]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.07-00.42.46:784][ 38]LogTemp: BranchPath = BRANTLY-PC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = BRANTLY-PC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.07-00.42.47:434][ 76]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Brantly\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.07-00.42.54:497][324]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap7A4E2FD2422BA8BB4989E598E2D6DD8A.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.43.12:932][614]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.01.07-00.43.17:719][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.07-00.43.48:829][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.44.01:787][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.44.01:846][683]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.07-00.44.01:884][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.07-00.44.01:885][683]PIE: New page: PIE session: TemplateMap (Jan 6, 2019, 2:44:01 PM)
+[2019.01.07-00.44.01:885][683]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap
+[2019.01.07-00.44.02:164][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279239s)
+[2019.01.07-00.44.02:165][683]LogAIModule: Creating AISystem for world TemplateMap
+[2019.01.07-00.44.02:165][683]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2019.01.07-00.44.02:166][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TemplateMap.TemplateMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap (0.280770s)
+[2019.01.07-00.44.02:242][683]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.07-00.44.02:258][683]LogInit: FAudioDevice initialized.
+[2019.01.07-00.44.02:287][683]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.07-00.44.02:303][683]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap.TemplateMap up for play (max tick rate 60) at 2019.01.06-19.44.02
+[2019.01.07-00.44.02:305][683]LogWorld: Bringing up level for play took: 0.016500
+[2019.01.07-00.44.02:334][683]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TemplateMap 0.695
+[2019.01.07-00.44.03:825][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-00.44.03:900][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.07-00.44.03:948][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.07-00.44.04:164][713]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.07-00.44.14:488][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.44.16:379][935]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap5559F4894E4A1BF46F0E51BED9A656F6.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.44.36:053][116]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.07-00.44.36:266][116]LogFileManager: Warning: Error deleting file: ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Blueprints/BP_Explorer.uasset (Error Code 32)
+[2019.01.07-00.44.39:708][144]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap0A766A234F1EE8906954609B191ADC69.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.45.26:738][ 65]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.01.07-00.45.28:452][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.07-00.45.30:624][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2019.01.07-00.45.35:971][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.07-00.45.40:968][253]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.01.07-00.45.43:794][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-00.45.46:031][295]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap3286002B4DEED2D08E7560970E6ECDD2.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-00.45.59:703][567]LogSlate: Took 0.013774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.07-00.46.08:653][742]Cmd: DisableAllScreenMessages
+[2019.01.07-00.46.08:669][742]LogEngine: Onscreen warnings/messages are now DISABLED
+[2019.01.07-00.48.29:919][678]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.01.07-00.48.29:921][678]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.01.07-00.48.44:769][846]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/TemplateMap5B5C9CDF462CBC9C6DE1DB80494DCB62.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/TemplateMap.umap'
+[2019.01.07-01.13.46:364][169]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.01.07-01.13.50:990][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.07-01.13.53:092][201]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter

@@ -1,0 +1,755 @@
+﻿Log file open, 01/05/19 23:48:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProtoTemp
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.191667
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.440s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 7 (Service Pack 1), CPU:        Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="Brantly" -epicuserid=d28c5c240d8448aea56f197e5e46f726 -epiclocale=en-US
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.06-04.48.36:643][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-04.48.36:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.06-04.48.36:660][  0]LogHAL: Display: Platform has ~ 8 GB [8399384576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.06-04.48.36:661][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.06-04.48.36:661][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.06-04.48.36:661][  0]LogInit: Computer: BRANTLY-PC
+[2019.01.06-04.48.36:662][  0]LogInit: User: Brantly
+[2019.01.06-04.48.36:662][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.06-04.48.36:662][  0]LogInit: High frequency timer resolution =2.533369 MHz
+[2019.01.06-04.48.36:662][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2019.01.06-04.48.36:662][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.06-04.48.36:662][  0]LogMemory: Process Physical Memory: 102.07 MB used, 102.07 MB peak
+[2019.01.06-04.48.36:662][  0]LogMemory: Process Virtual Memory: 86.38 MB used, 86.38 MB peak
+[2019.01.06-04.48.36:662][  0]LogMemory: Physical Memory: 5244.49 MB used,  2765.79 MB free, 8010.28 MB total
+[2019.01.06-04.48.36:662][  0]LogMemory: Virtual Memory: 474.65 MB used,  2765.79 MB free, 8388608.00 MB total
+[2019.01.06-04.48.36:748][  0]LogInit: Using OS detected language (en-US).
+[2019.01.06-04.48.36:748][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.06-04.48.36:749][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.06-04.48.37:325][  0]LogStreaming: Display: Took  0.577s to InitEngineTextLocalization.
+[2019.01.06-04.48.37:326][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.01.06-04.48.37:326][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.01.06-04.48.37:326][  0]LogInit: Setting process to DPI aware
+[2019.01.06-04.48.37:371][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.06-04.48.37:371][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.06-04.48.37:728][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.01.06-04.48.37:728][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.06-04.48.37:787][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2019.01.06-04.48.37:787][  0]LogD3D11RHI:       2000/0/3749 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.06-04.48.37:827][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2019.01.06-04.48.37:827][  0]LogD3D11RHI:       2000/0/3749 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.01.06-04.48.37:827][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.06-04.48.37:836][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.06-04.48.37:836][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.06-04.48.37:836][  0]LogWindows: EnumDisplayDevices:
+[2019.01.06-04.48.37:836][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.01.06-04.48.37:837][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-04.48.37:837][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-04.48.37:838][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2019.01.06-04.48.37:838][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.06-04.48.37:838][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.06-04.48.37:838][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.06-04.48.37:838][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2019.01.06-04.48.37:838][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2019.01.06-04.48.37:838][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2019.01.06-04.48.37:838][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2019.01.06-04.48.37:838][  0]LogRHI: Texture pool is 1400 MB (70% of 2000 MB)
+[2019.01.06-04.48.37:875][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.01.06-04.48.37:875][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.06-04.48.37:891][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.06-04.48.37:894][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Users/Brantly/Desktop/ProtoTemp/Intermediate/Shaders/WorkingDirectory/13496/).
+[2019.01.06-04.48.37:894][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brantly/AppData/Local/Temp/UnrealShaderWorkingDir/DD136DB7461F68BB5106A89374C61E80/'.
+[2019.01.06-04.48.40:003][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.06-04.48.40:029][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.06-04.48.40:058][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.06-04.48.40:088][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.06-04.48.40:118][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.06-04.48.40:143][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.06-04.48.40:164][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.06-04.48.40:193][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.06-04.48.40:206][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:334][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.06-04.48.40:337][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.06-04.48.40:418][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.06-04.48.40:418][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.06-04.48.40:462][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.06-04.48.40:462][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.06-04.48.40:485][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.06-04.48.40:507][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.06-04.48.40:530][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.06-04.48.40:557][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.06-04.48.40:571][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.06-04.48.40:571][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.06-04.48.40:699][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.06-04.48.40:699][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.06-04.48.40:699][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.06-04.48.42:064][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: Loaded boot cache 0.11s 86MB C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brantly/Desktop/ProtoTemp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brantly/Desktop/ProtoTemp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.06-04.48.42:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.06-04.48.42:197][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.06-04.48.42:213][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brantly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.06-04.48.42:213][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.06-04.48.42:213][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.06-04.48.42:243][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.06-04.48.42:245][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.06-04.48.42:246][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.06-04.48.42:369][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2019.01.06-04.48.43:212][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-04.48.43:488][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.06-04.48.43:495][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.06-04.48.43:495][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.06-04.48.43:496][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.06-04.48.43:496][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.06-04.48.43:520][  0]LogNetVersion: ProtoTemp 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2383772072)
+[2019.01.06-04.48.44:566][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.162002 seconds
+[2019.01.06-04.48.44:575][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.06-04.48.44:575][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.06-04.48.44:575][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.06-04.48.46:868][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.06-04.48.46:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.06-04.48.47:132][  0]SourceControl: Source control is disabled
+[2019.01.06-04.48.47:132][  0]SourceControl: Source control is disabled
+[2019.01.06-04.48.47:137][  0]SourceControl: Source control is disabled
+[2019.01.06-04.48.47:141][  0]SourceControl: Source control is disabled
+[2019.01.06-04.48.47:428][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.06-04.48.47:535][  0]LogOcInput: OculusInput pre-init called
+[2019.01.06-04.48.47:647][  0]LogEngine: Initializing Engine...
+[2019.01.06-04.48.47:655][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.01.06-04.48.47:658][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.06-04.48.47:658][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-04.48.47:658][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-04.48.47:658][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-04.48.48:006][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.06-04.48.48:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.06-04.48.48:051][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.06-04.48.48:071][  0]LogInit: FAudioDevice initialized.
+[2019.01.06-04.48.48:071][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.06-04.48.48:603][  0]LogDerivedDataCache: Saved boot cache 0.53s 86MB C:/Users/Brantly/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.06-04.48.48:619][  0]LogInit: Texture streaming: Enabled
+[2019.01.06-04.48.48:668][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.06-04.48.48:690][  0]LogInit: Transaction tracking system initialized
+[2019.01.06-04.48.48:754][  0]BlueprintLog: New page: Editor Load
+[2019.01.06-04.48.49:468][  0]LocalizationService: Localization service is disabled
+[2019.01.06-04.48.50:035][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.06-04.48.50:035][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.06-04.48.50:036][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.06-04.48.50:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.06-04.48.50:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-04.48.50:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-04.48.50:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-04.48.50:378][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/' took 0.02s
+[2019.01.06-04.48.50:378][  0]SourceControl: Source control is disabled
+[2019.01.06-04.48.50:378][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.06-04.48.50:379][  0]LightingResults: New page: Lighting Build
+[2019.01.06-04.48.50:384][  0]MapCheck: New page: Map Check
+[2019.01.06-04.48.50:384][  0]LightingResults: New page: Lighting Build
+[2019.01.06-04.48.52:656][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.06-04.48.52:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.06-04.48.52:815][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.06-04.48.52:940][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.073ms to complete.
+[2019.01.06-04.48.52:940][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.562
+[2019.01.06-04.48.53:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-04.48.53:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-04.48.53:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-04.48.53:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-04.48.53:082][  0]LogCollectionManager: Loaded 0 collections in 0.002081 seconds
+[2019.01.06-04.48.53:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Saved/Collections/' took 0.01s
+[2019.01.06-04.48.53:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/Developers/Brantly/Collections/' took 0.01s
+[2019.01.06-04.48.53:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brantly/Desktop/ProtoTemp/Content/Collections/' took 0.01s
+[2019.01.06-04.48.53:165][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.06-04.48.53:182][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2572 classes and 603 folders.
+[2019.01.06-04.48.53:192][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.06-04.48.53:281][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.06-04.48.53:296][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.06-04.48.53:411][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.06-04.48.53:414][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.06-04.48.53:426][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.06-04.48.53:604][  0]LogRenderer: Reallocating scene render targets to support 804x448 Format 10 NumSamples 1 (Frame:1).
+[2019.01.06-04.48.54:005][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.06-04.48.54:005][  0]LogLoad: (Engine Initialization) Total time: 20.46 seconds
+[2019.01.06-04.48.54:005][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.06-04.48.54:057][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.06-04.48.54:077][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.06-04.48.55:059][  2]LogAssetRegistry: Asset discovery search completed in 12.7114 seconds
+[2019.01.06-04.48.55:064][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.06-04.48.55:064][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000215 seconds (updated 0 objects)
+[2019.01.06-04.50.20:817][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-04.50.38:708][109]Cmd: SELECT NONE
+[2019.01.06-04.54.37:929][380]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.06-04.54.37:991][380]LogMaterial: Display: Missing cached shader map for material M_Solid_ExpShirt, compiling. 
+[2019.01.06-04.54.38:087][380]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.06-04.54.38:087][380]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.06-04.54.38:087][380]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.06-04.54.38:087][380]LogMaterial: Display: Missing cached shader map for material M_Solid_ExpMedFur, compiling. 
+[2019.01.06-04.54.38:120][380]LogMaterial: Display: Missing cached shader map for material M_Solid_ExpLightFur, compiling. 
+[2019.01.06-04.54.38:161][380]LogMaterial: Display: Missing cached shader map for material M_Solid_Dark, compiling. 
+[2019.01.06-04.54.38:197][380]LogMaterial: Display: Missing cached shader map for material M_Solid_CaveRedOrange, compiling. 
+[2019.01.06-04.54.38:237][380]LogMaterial: Display: Missing cached shader map for material M_Solid_Black, compiling. 
+[2019.01.06-04.54.38:298][380]LogMaterial: Display: Missing cached shader map for material M_Solid_GlowBlue, compiling. 
+[2019.01.06-04.54.38:343][380]LogMaterial: Display: Missing cached shader map for material M_Solid_Sand2, compiling. 
+[2019.01.06-04.54.38:385][380]LogMaterial: Display: Missing cached shader map for material M_Solid_CaveCrimson, compiling. 
+[2019.01.06-04.54.38:426][380]LogMaterial: Display: Missing cached shader map for material M_Solid_CaveDark, compiling. 
+[2019.01.06-04.54.38:478][380]LogMaterial: Display: Missing cached shader map for material M_Solid_CavePeach, compiling. 
+[2019.01.06-04.54.38:546][380]LogMaterial: Display: Missing cached shader map for material M_Solid_Sand, compiling. 
+[2019.01.06-04.54.38:595][380]LogMaterial: Display: Missing cached shader map for material M_Solid_Sand1, compiling. 
+[2019.01.06-04.54.38:676][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex'
+[2019.01.06-04.54.38:677][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Barrel_Mat.uasset.
+[2019.01.06-04.54.38:677][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Barrel_Mat : Can't find file for asset. /Game/Core/Materials/BarrelTex
+[2019.01.06-04.54.38:677][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex_AO'
+[2019.01.06-04.54.38:677][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Barrel_Mat.uasset.
+[2019.01.06-04.54.38:678][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Barrel_Mat : Can't find file for asset. /Game/Core/Materials/BarrelTex_AO
+[2019.01.06-04.54.38:678][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex'
+[2019.01.06-04.54.38:678][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Barrel_Mat.uasset.
+[2019.01.06-04.54.38:679][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex_AO'
+[2019.01.06-04.54.38:679][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Barrel_Mat.uasset.
+[2019.01.06-04.54.38:681][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex'
+[2019.01.06-04.54.38:681][380]LoadErrors: Failed to load /Game/Core/Materials/BarrelTex.BarrelTex Referenced by MaterialExpressionTextureSample_0
+[2019.01.06-04.54.38:682][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex' while loading NULL.
+[2019.01.06-04.54.38:682][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/BarrelTex_AO'
+[2019.01.06-04.54.38:682][380]LoadErrors: Failed to load /Game/Core/Materials/BarrelTex_AO.BarrelTex_AO Referenced by MaterialExpressionTextureSample_1
+[2019.01.06-04.54.38:682][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/BarrelTex_AO' while loading NULL.
+[2019.01.06-04.54.38:687][380]LogMaterial: Display: Missing cached shader map for material Barrel_Mat, compiling. 
+[2019.01.06-04.54.38:688][380]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\LoanedAssets\Core\Materials\Barrel_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-04.54.38:688][380]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-04.54.38:732][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex'
+[2019.01.06-04.54.38:732][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:732][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Grail_Mat : Can't find file for asset. /Game/Core/Materials/GrailTex
+[2019.01.06-04.54.38:732][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_AO'
+[2019.01.06-04.54.38:733][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:733][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Grail_Mat : Can't find file for asset. /Game/Core/Materials/GrailTex_AO
+[2019.01.06-04.54.38:733][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_Mask'
+[2019.01.06-04.54.38:733][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_Mask' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:734][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Grail_Mat : Can't find file for asset. /Game/Core/Materials/GrailTex_Mask
+[2019.01.06-04.54.38:734][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex'
+[2019.01.06-04.54.38:734][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:735][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_AO'
+[2019.01.06-04.54.38:735][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:735][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_Mask'
+[2019.01.06-04.54.38:736][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_Mask' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Grail_Mat.uasset.
+[2019.01.06-04.54.38:738][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex'
+[2019.01.06-04.54.38:739][380]LoadErrors: Failed to load /Game/Core/Materials/GrailTex.GrailTex Referenced by MaterialExpressionTextureSample_0
+[2019.01.06-04.54.38:739][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex' while loading NULL.
+[2019.01.06-04.54.38:739][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_AO'
+[2019.01.06-04.54.38:740][380]LoadErrors: Failed to load /Game/Core/Materials/GrailTex_AO.GrailTex_AO Referenced by MaterialExpressionTextureSample_1
+[2019.01.06-04.54.38:740][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_AO' while loading NULL.
+[2019.01.06-04.54.38:740][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_Mask'
+[2019.01.06-04.54.38:741][380]LoadErrors: Failed to load /Game/Core/Materials/GrailTex_Mask.GrailTex_Mask Referenced by MaterialExpressionTextureSample_3
+[2019.01.06-04.54.38:741][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:741][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_Mask'
+[2019.01.06-04.54.38:741][380]LoadErrors: Failed to load /Game/Core/Materials/GrailTex_Mask.GrailTex_Mask Referenced by MaterialExpressionTextureSample_4
+[2019.01.06-04.54.38:742][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:742][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/GrailTex_Mask'
+[2019.01.06-04.54.38:742][380]LoadErrors: Failed to load /Game/Core/Materials/GrailTex_Mask.GrailTex_Mask Referenced by MaterialExpressionTextureSample_5
+[2019.01.06-04.54.38:743][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/GrailTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:746][380]LogMaterial: Display: Missing cached shader map for material Grail_Mat, compiling. 
+[2019.01.06-04.54.38:747][380]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\LoanedAssets\Core\Materials\Grail_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-04.54.38:747][380]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-04.54.38:792][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex'
+[2019.01.06-04.54.38:793][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:793][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Sword_Mat : Can't find file for asset. /Game/Core/Materials/SwordTex
+[2019.01.06-04.54.38:793][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_AO'
+[2019.01.06-04.54.38:794][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:794][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Sword_Mat : Can't find file for asset. /Game/Core/Materials/SwordTex_AO
+[2019.01.06-04.54.38:794][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:795][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:795][380]LoadErrors: Error: /Game/LoanedAssets/Core/Materials/Sword_Mat : Can't find file for asset. /Game/Core/Materials/SwordTex_Mask
+[2019.01.06-04.54.38:795][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex'
+[2019.01.06-04.54.38:795][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:796][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_AO'
+[2019.01.06-04.54.38:796][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_AO' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:797][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:797][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Core/Materials/Sword_Mat.uasset.
+[2019.01.06-04.54.38:801][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_AO'
+[2019.01.06-04.54.38:802][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_AO.SwordTex_AO Referenced by MaterialExpressionTextureSample_1
+[2019.01.06-04.54.38:802][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_AO' while loading NULL.
+[2019.01.06-04.54.38:802][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:802][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_Mask.SwordTex_Mask Referenced by MaterialExpressionTextureSample_3
+[2019.01.06-04.54.38:803][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:803][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:803][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_Mask.SwordTex_Mask Referenced by MaterialExpressionTextureSample_4
+[2019.01.06-04.54.38:804][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:804][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:804][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_Mask.SwordTex_Mask Referenced by MaterialExpressionTextureSample_5
+[2019.01.06-04.54.38:804][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:805][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex'
+[2019.01.06-04.54.38:805][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex.SwordTex Referenced by MaterialExpressionTextureSample_6
+[2019.01.06-04.54.38:805][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex' while loading NULL.
+[2019.01.06-04.54.38:806][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:806][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_Mask.SwordTex_Mask Referenced by MaterialExpressionTextureSample_7
+[2019.01.06-04.54.38:806][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:807][380]LogLinker: Warning: Can't find file '/Game/Core/Materials/SwordTex_Mask'
+[2019.01.06-04.54.38:807][380]LoadErrors: Failed to load /Game/Core/Materials/SwordTex_Mask.SwordTex_Mask Referenced by MaterialExpressionTextureSample_8
+[2019.01.06-04.54.38:807][380]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/SwordTex_Mask' while loading NULL.
+[2019.01.06-04.54.38:811][380]LogMaterial: Display: Missing cached shader map for material Sword_Mat, compiling. 
+[2019.01.06-04.54.38:812][380]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\LoanedAssets\Core\Materials\Sword_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-04.54.38:812][380]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-04.54.38:836][380]LogMaterial: Display: Missing cached shader map for material SwordGem_Mat, compiling. 
+[2019.01.06-04.54.39:018][380]LogMaterial: Display: Missing cached shader map for material Fbx_Default_Material, compiling. 
+[2019.01.06-04.54.49:656][380]LogShaderCompilers: Display: Shaders left to compile 420
+[2019.01.06-04.54.49:656][380]LogShaderCompilers: Display: Shaders left to compile 410
+[2019.01.06-04.54.49:656][380]LogShaderCompilers: Display: Shaders left to compile 400
+[2019.01.06-04.54.49:656][380]LogShaderCompilers: Display: Shaders left to compile 390
+[2019.01.06-04.54.49:782][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_ExpShirt" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_ExpShirt.uasset" SILENT=true
+[2019.01.06-04.54.49:849][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_ExpShirt039206A64326A0A109EE9CB75361E00A.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_ExpShirt.uasset'
+[2019.01.06-04.54.55:932][380]LogShaderCompilers: Display: Shaders left to compile 380
+[2019.01.06-04.54.55:932][380]LogShaderCompilers: Display: Shaders left to compile 370
+[2019.01.06-04.54.55:932][380]LogShaderCompilers: Display: Shaders left to compile 360
+[2019.01.06-04.54.56:014][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_ExpMedFur" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_ExpMedFur.uasset" SILENT=true
+[2019.01.06-04.54.56:039][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_ExpMedFurC92878BF4AD53DA13FCE3FA55786B850.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_ExpMedFur.uasset'
+[2019.01.06-04.55.02:938][380]LogShaderCompilers: Display: Shaders left to compile 350
+[2019.01.06-04.55.02:939][380]LogShaderCompilers: Display: Shaders left to compile 340
+[2019.01.06-04.55.02:939][380]LogShaderCompilers: Display: Shaders left to compile 330
+[2019.01.06-04.55.03:165][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_ExpLightFurCD3CED2B4E45D022E69DF0B4669E35E9.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_ExpLightFur.uasset'
+[2019.01.06-04.55.10:379][380]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.01.06-04.55.10:379][380]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.01.06-04.55.10:379][380]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.01.06-04.55.10:598][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_Dark" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Dark.uasset" SILENT=true
+[2019.01.06-04.55.11:063][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_DarkCCCF231047A8D1A3D9D3D7AB346CDD35.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Dark.uasset'
+[2019.01.06-04.55.16:139][380]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.01.06-04.55.16:139][380]LogShaderCompilers: Display: Shaders left to compile 280
+[2019.01.06-04.55.16:139][380]LogShaderCompilers: Display: Shaders left to compile 270
+[2019.01.06-04.55.16:331][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_CaveRedOrangeCD3ABFDF4AAD41F2BE5079A2DE890A60.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CaveRedOrange.uasset'
+[2019.01.06-04.55.24:957][380]LogShaderCompilers: Display: Shaders left to compile 260
+[2019.01.06-04.55.24:957][380]LogShaderCompilers: Display: Shaders left to compile 250
+[2019.01.06-04.55.24:957][380]LogShaderCompilers: Display: Shaders left to compile 240
+[2019.01.06-04.55.25:097][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_Black" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Black.uasset" SILENT=true
+[2019.01.06-04.55.25:149][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_BlackAEA62D5A4EA3B6B978C0069BE91ECDA3.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Black.uasset'
+[2019.01.06-04.55.29:235][380]LogShaderCompilers: Display: Shaders left to compile 230
+[2019.01.06-04.55.29:483][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_GlowBlue" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_GlowBlue.uasset" SILENT=true
+[2019.01.06-04.55.29:506][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_GlowBlueDF60FE094BF845880769C1925FE74E98.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_GlowBlue.uasset'
+[2019.01.06-04.55.33:805][380]LogShaderCompilers: Display: Shaders left to compile 220
+[2019.01.06-04.55.33:805][380]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.01.06-04.55.33:806][380]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.01.06-04.55.33:806][380]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.01.06-04.55.33:962][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_Sand2" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand2.uasset" SILENT=true
+[2019.01.06-04.55.33:985][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_Sand2FB8EDD784E5158DA853939A0CF9851C2.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand2.uasset'
+[2019.01.06-04.55.38:511][380]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.01.06-04.55.38:511][380]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.01.06-04.55.38:511][380]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.01.06-04.55.41:686][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_CaveCrimson0C35F0054F52F2BDABC901A71D4237B8.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CaveCrimson.uasset'
+[2019.01.06-04.55.48:755][380]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.01.06-04.55.48:755][380]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.01.06-04.55.48:755][380]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.01.06-04.55.48:902][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_CaveDark" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CaveDark.uasset" SILENT=true
+[2019.01.06-04.55.48:957][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_CaveDark75C51B0446F450A3B68DB293582EE8DA.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CaveDark.uasset'
+[2019.01.06-04.55.53:154][380]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.01.06-04.55.53:154][380]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.01.06-04.55.53:154][380]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.01.06-04.55.53:256][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_CavePeach" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CavePeach.uasset" SILENT=true
+[2019.01.06-04.55.53:279][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_CavePeach0526D0894EC6E4848FB6D19470EE7A33.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_CavePeach.uasset'
+[2019.01.06-04.55.57:711][380]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.01.06-04.55.57:711][380]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.01.06-04.55.57:711][380]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.01.06-04.55.57:784][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_Sand" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand.uasset" SILENT=true
+[2019.01.06-04.55.57:807][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_SandF562D5244E217B457458AB821E8B26F8.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand.uasset'
+[2019.01.06-04.56.05:486][380]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.06-04.56.05:486][380]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.06-04.56.05:486][380]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.06-04.56.05:602][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/M_Solid_Sand1" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand1.uasset" SILENT=true
+[2019.01.06-04.56.05:649][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/M_Solid_Sand1A76F4B414C5AF602E518C7BCE8B4234B.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/M_Solid_Sand1.uasset'
+[2019.01.06-04.56.05:781][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/BarrelTex" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/BarrelTex.uasset" SILENT=true
+[2019.01.06-04.56.05:805][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BarrelTexA58F68434613FD879BD1F5993047D676.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/BarrelTex.uasset'
+[2019.01.06-04.56.05:852][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/BarrelTex_AO" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/BarrelTex_AO.uasset" SILENT=true
+[2019.01.06-04.56.05:892][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/BarrelTex_AODB85998549309448A34C5B93F7E3ADE4.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/BarrelTex_AO.uasset'
+[2019.01.06-04.56.06:008][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/Barrel_Mat" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Barrel_Mat.uasset" SILENT=true
+[2019.01.06-04.56.06:062][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Barrel_Mat20C9D888417E49CBCA6D9F85B9B2BB90.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Barrel_Mat.uasset'
+[2019.01.06-04.56.06:113][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/GrailTex" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex.uasset" SILENT=true
+[2019.01.06-04.56.06:137][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/GrailTexA11F5F77422BF3C95974E887EB1E55A8.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex.uasset'
+[2019.01.06-04.56.06:186][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/GrailTex_AO" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex_AO.uasset" SILENT=true
+[2019.01.06-04.56.09:809][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/GrailTex_AO69FDD46F4E7B71F7A7C9CB94033C44E0.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex_AO.uasset'
+[2019.01.06-04.56.09:859][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/GrailTex_Mask" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex_Mask.uasset" SILENT=true
+[2019.01.06-04.56.09:871][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/GrailTex_Mask272CE0B542B514AD889D5EAA1B953049.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/GrailTex_Mask.uasset'
+[2019.01.06-04.56.09:978][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/Grail_Mat" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Grail_Mat.uasset" SILENT=true
+[2019.01.06-04.56.10:010][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Grail_MatB4E57CFB4410AE0813A4CC8BFAD31F64.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Grail_Mat.uasset'
+[2019.01.06-04.56.11:525][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/SwordTex" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex.uasset" SILENT=true
+[2019.01.06-04.56.11:539][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/SwordTex0D63B66F45D0BF75FAFF449851E456AB.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex.uasset'
+[2019.01.06-04.56.11:561][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/SwordTex_AO" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex_AO.uasset" SILENT=true
+[2019.01.06-04.56.11:585][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/SwordTex_AO72DE08EC4969C37EDE5BE3989DDEC5A9.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex_AO.uasset'
+[2019.01.06-04.56.11:608][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/SwordTex_Mask" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex_Mask.uasset" SILENT=true
+[2019.01.06-04.56.11:620][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/SwordTex_Mask2CD2938D45E9F59DDC4DFC9CBC115137.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordTex_Mask.uasset'
+[2019.01.06-04.56.11:689][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/Sword_Mat" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Sword_Mat.uasset" SILENT=true
+[2019.01.06-04.56.11:725][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Sword_Mat13CCB9D940DA23205AF458B6C8A5D07F.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Sword_Mat.uasset'
+[2019.01.06-04.56.49:854][380]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.06-04.56.49:855][380]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.06-04.56.49:855][380]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.06-04.56.49:952][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LoanedAssets/Materials/SwordGem_Mat" FILE="../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordGem_Mat.uasset" SILENT=true
+[2019.01.06-04.56.49:979][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/SwordGem_MatEEC836F94C7F4AA6593DD0B06C7D19D4.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/SwordGem_Mat.uasset'
+[2019.01.06-04.56.50:107][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/onepointfive_texture38223108460EB00269B5599D2158E3CB.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/onepointfive_texture.uasset'
+[2019.01.06-04.56.50:214][380]LogSavePackage: Moving '../../../../../../Users/Brantly/Desktop/ProtoTemp/Saved/Fbx_Default_MaterialE2EECF5E40B82291E6824A813539EF43.tmp' to '../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/LoanedAssets/Materials/Fbx_Default_Material.uasset'
+[2019.01.06-04.57.06:355][479]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.06-05.01.34:081][ 93]LogMaterial: Display: Missing cached shader map for material Barrel_Mat, compiling. 
+[2019.01.06-05.01.34:142][ 93]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.06-05.01.34:142][ 93]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.06-05.01.34:142][ 93]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.06-05.01.34:142][ 93]LogMaterial: Display: Missing cached shader map for material Grail_Mat, compiling. 
+[2019.01.06-05.01.34:446][ 93]LogMaterial: Display: Missing cached shader map for material Sword_Mat, compiling. 
+[2019.01.06-05.01.45:342][ 93]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.01.06-05.01.45:387][ 93]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.06-05.01.45:652][ 95]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.01.06-05.01.49:486][125]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.06-05.01.51:204][126]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.06-05.01.54:422][148]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.01.06-05.01.55:214][148]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.01.06-05.01.55:214][148]LogStaticMesh: Building static mesh SM_TestCube...
+[2019.01.06-05.01.55:236][148]LogStaticMesh: Built static mesh [0.04s] /Game/Core/StaticMeshes/SM_TestCube.SM_TestCube
+[2019.01.06-05.01.55:313][148]LogMaterial: Display: Missing cached shader map for material whole_model_group1Mat, compiling. 
+[2019.01.06-05.01.55:938][148]LogStaticMesh: Building static mesh vr_controller_vive_1_5...
+[2019.01.06-05.02.30:120][148]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.01.06-05.02.30:120][148]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.01.06-05.02.30:121][148]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.06-05.02.30:121][148]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.06-05.02.30:121][148]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.06-05.02.30:121][148]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.06-05.02.30:121][148]LogStaticMesh: Built static mesh [34.18s] /Game/Core/StaticMeshes/vr_controller_vive_1_5.vr_controller_vive_1_5
+[2019.01.06-05.02.38:765][148]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.06-05.02.40:064][148]LogStaticMesh: Building static mesh vr_controller_vive_1_5...
+[2019.01.06-05.03.03:646][148]LogStaticMesh: Built static mesh [23.60s] /Game/Core/StaticMeshes/vr_controller_vive_1_5.vr_controller_vive_1_5
+[2019.01.06-05.03.03:656][148]LogStaticMesh: Building static mesh SM_TestCube...
+[2019.01.06-05.03.03:658][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_TestCube.SM_TestCube
+[2019.01.06-05.03.03:663][148]LogStaticMesh: Building static mesh SM_Pointer_Inner...
+[2019.01.06-05.03.03:665][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Pointer_Inner.SM_Pointer_Inner
+[2019.01.06-05.03.03:671][148]LogStaticMesh: Building static mesh SM_Pointer_Handle...
+[2019.01.06-05.03.03:678][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Pointer_Handle.SM_Pointer_Handle
+[2019.01.06-05.03.03:690][148]LogStaticMesh: Building static mesh SM_Pointer_Body...
+[2019.01.06-05.03.03:701][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Pointer_Body.SM_Pointer_Body
+[2019.01.06-05.03.03:718][148]LogStaticMesh: Building static mesh SM_Origin_Topper...
+[2019.01.06-05.03.03:725][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Origin_Topper.SM_Origin_Topper
+[2019.01.06-05.03.03:728][148]LogStaticMesh: Warning: SM_Origin_Topper has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.01.06-05.03.03:728][148]LogStaticMesh: Warning: SM_Origin_Topper has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.01.06-05.03.03:755][148]LogStaticMesh: Building static mesh SM_Origin_Support...
+[2019.01.06-05.03.03:758][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Origin_Support.SM_Origin_Support
+[2019.01.06-05.03.03:769][148]LogStaticMesh: Building static mesh SM_Origin_RingLow...
+[2019.01.06-05.03.03:773][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Origin_RingLow.SM_Origin_RingLow
+[2019.01.06-05.03.03:777][148]LogStaticMesh: Building static mesh SM_Origin_RingHigh...
+[2019.01.06-05.03.03:781][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Origin_RingHigh.SM_Origin_RingHigh
+[2019.01.06-05.03.03:800][148]LogStaticMesh: Building static mesh SM_Origin_Pedestal...
+[2019.01.06-05.03.03:804][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Origin_Pedestal.SM_Origin_Pedestal
+[2019.01.06-05.03.03:810][148]LogStaticMesh: Building static mesh SM_Origin_GearLower...
+[2019.01.06-05.03.03:825][148]LogStaticMesh: Built static mesh [0.02s] /Game/Core/StaticMeshes/SM_Origin_GearLower.SM_Origin_GearLower
+[2019.01.06-05.03.03:828][148]LogStaticMesh: Warning: SM_Origin_GearLower has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.01.06-05.03.03:829][148]LogStaticMesh: Warning: SM_Origin_GearLower has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.01.06-05.03.03:884][148]LogStaticMesh: Building static mesh SM_Origin_GearHigher...
+[2019.01.06-05.03.03:901][148]LogStaticMesh: Built static mesh [0.07s] /Game/Core/StaticMeshes/SM_Origin_GearHigher.SM_Origin_GearHigher
+[2019.01.06-05.03.03:904][148]LogStaticMesh: Warning: SM_Origin_GearHigher has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.01.06-05.03.03:904][148]LogStaticMesh: Warning: SM_Origin_GearHigher has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.01.06-05.03.03:910][148]LogStaticMesh: Building static mesh SM_Explorer_Tail...
+[2019.01.06-05.03.03:914][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_Tail.SM_Explorer_Tail
+[2019.01.06-05.03.03:941][148]LogStaticMesh: Building static mesh SM_Explorer_Scarf...
+[2019.01.06-05.03.03:946][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_Scarf.SM_Explorer_Scarf
+[2019.01.06-05.03.03:963][148]LogStaticMesh: Building static mesh SM_Explorer_REye...
+[2019.01.06-05.03.03:967][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_REye.SM_Explorer_REye
+[2019.01.06-05.03.03:975][148]LogStaticMesh: Building static mesh SM_Explorer_REar...
+[2019.01.06-05.03.03:978][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_REar.SM_Explorer_REar
+[2019.01.06-05.03.03:998][148]LogStaticMesh: Building static mesh SM_Explorer_RArm...
+[2019.01.06-05.03.04:001][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Explorer_RArm.SM_Explorer_RArm
+[2019.01.06-05.03.04:016][148]LogStaticMesh: Building static mesh SM_Explorer_Nose...
+[2019.01.06-05.03.04:018][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_Nose.SM_Explorer_Nose
+[2019.01.06-05.03.04:025][148]LogStaticMesh: Building static mesh SM_Explorer_LEye...
+[2019.01.06-05.03.04:029][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_LEye.SM_Explorer_LEye
+[2019.01.06-05.03.04:042][148]LogStaticMesh: Building static mesh SM_Explorer_LEar...
+[2019.01.06-05.03.04:045][148]LogStaticMesh: Built static mesh [0.00s] /Game/Core/StaticMeshes/SM_Explorer_LEar.SM_Explorer_LEar
+[2019.01.06-05.03.04:055][148]LogStaticMesh: Building static mesh SM_Explorer_Head...
+[2019.01.06-05.03.04:071][148]LogStaticMesh: Built static mesh [0.02s] /Game/Core/StaticMeshes/SM_Explorer_Head.SM_Explorer_Head
+[2019.01.06-05.03.04:076][148]LogStaticMesh: Building static mesh SM_Explorer_Hat...
+[2019.01.06-05.03.04:082][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Explorer_Hat.SM_Explorer_Hat
+[2019.01.06-05.03.04:101][148]LogStaticMesh: Building static mesh SM_Explorer_LArm...
+[2019.01.06-05.03.04:106][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Explorer_LArm.SM_Explorer_LArm
+[2019.01.06-05.03.04:115][148]LogStaticMesh: Building static mesh SM_Explorer_Body...
+[2019.01.06-05.03.04:124][148]LogStaticMesh: Built static mesh [0.01s] /Game/Core/StaticMeshes/SM_Explorer_Body.SM_Explorer_Body
+[2019.01.06-05.03.26:395][305]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.06-05.03.26:853][305]LogMaterial: Display: Missing cached shader map for material Grail_Mat, compiling. 
+[2019.01.06-05.03.26:854][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Grail_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:854][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:863][305]LogMaterial: Display: Missing cached shader map for material Grail_Mat, compiling. 
+[2019.01.06-05.03.26:865][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Grail_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:865][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:870][305]LogMaterial: Display: Missing cached shader map for material Grail_Mat, compiling. 
+[2019.01.06-05.03.26:871][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Grail_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:871][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:876][305]LogMaterial: Display: Missing cached shader map for material Barrel_Mat, compiling. 
+[2019.01.06-05.03.26:877][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Barrel_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:877][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:881][305]LogMaterial: Display: Missing cached shader map for material Barrel_Mat, compiling. 
+[2019.01.06-05.03.26:881][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Barrel_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:881][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:886][305]LogMaterial: Display: Missing cached shader map for material Sword_Mat, compiling. 
+[2019.01.06-05.03.26:887][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Sword_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:887][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:891][305]LogMaterial: Display: Missing cached shader map for material Sword_Mat, compiling. 
+[2019.01.06-05.03.26:892][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Sword_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:892][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.26:899][305]LogMaterial: Display: Missing cached shader map for material Sword_Mat, compiling. 
+[2019.01.06-05.03.26:900][305]LogMaterial: Warning: C:\Users\Brantly\Desktop\ProtoTemp\Content\Core\Materials\Sword_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.01.06-05.03.26:900][305]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.01.06-05.03.38:736][533]LogLinker: Warning: Can't find file '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh'
+[2019.01.06-05.03.38:737][533]LogLinker: Warning: Can't find file for asset '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Box_Brush2_StaticMesh.uasset.
+[2019.01.06-05.03.38:737][533]LoadErrors: Error: /Game/Core/Box_Brush2_StaticMesh : Can't find file for asset. /Game/Core/StaticMeshes/Box_Brush2_StaticMesh
+[2019.01.06-05.03.38:738][533]LogLinker: Warning: Can't find file '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh'
+[2019.01.06-05.03.38:738][533]LogLinker: Warning: Can't find file for asset '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/Box_Brush2_StaticMesh.uasset.
+[2019.01.06-05.03.38:739][533]LogLinker: Warning: Can't find file '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh'
+[2019.01.06-05.03.38:739][533]LoadErrors: Failed to load /Game/Core/StaticMeshes/Box_Brush2_StaticMesh.Box_Brush2_StaticMesh Referenced by Box_Brush2_StaticMesh
+[2019.01.06-05.03.38:740][533]LogLinker: Warning: Can't find file for asset '/Game/Core/StaticMeshes/Box_Brush2_StaticMesh' while loading NULL.
+[2019.01.06-05.03.38:749][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveCrimson'
+[2019.01.06-05.03.38:749][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveCrimson' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveCrimson.uasset.
+[2019.01.06-05.03.38:749][533]LoadErrors: Error: /Game/Core/M_Solid_CaveCrimson : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveCrimson
+[2019.01.06-05.03.38:750][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveCrimson'
+[2019.01.06-05.03.38:750][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveCrimson' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveCrimson.uasset.
+[2019.01.06-05.03.38:751][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveCrimson'
+[2019.01.06-05.03.38:752][533]LoadErrors: Failed to load /Game/Core/Materials/M_Solid_CaveCrimson.M_Solid_CaveCrimson Referenced by M_Solid_CaveCrimson
+[2019.01.06-05.03.38:752][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveCrimson' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveFloor.uasset.
+[2019.01.06-05.03.38:753][533]LoadErrors: Error: /Game/Core/M_Solid_CaveFloor : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveCrimson
+[2019.01.06-05.03.38:756][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveCrimson'
+[2019.01.06-05.03.38:757][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveCrimson' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveFloor.uasset.
+[2019.01.06-05.03.38:777][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CavePeach'
+[2019.01.06-05.03.38:778][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CavePeach' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CavePeach.uasset.
+[2019.01.06-05.03.38:778][533]LoadErrors: Error: /Game/Core/M_Solid_CavePeach : Can't find file for asset. /Game/Core/Materials/M_Solid_CavePeach
+[2019.01.06-05.03.38:779][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CavePeach'
+[2019.01.06-05.03.38:779][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CavePeach' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CavePeach.uasset.
+[2019.01.06-05.03.38:780][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CavePeach'
+[2019.01.06-05.03.38:780][533]LoadErrors: Failed to load /Game/Core/Materials/M_Solid_CavePeach.M_Solid_CavePeach Referenced by M_Solid_CavePeach
+[2019.01.06-05.03.38:781][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CavePeach' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveOrange.uasset.
+[2019.01.06-05.03.38:781][533]LoadErrors: Error: /Game/Core/M_Solid_CaveOrange : Can't find file for asset. /Game/Core/Materials/M_Solid_CavePeach
+[2019.01.06-05.03.38:783][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CavePeach'
+[2019.01.06-05.03.38:784][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CavePeach' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveOrange.uasset.
+[2019.01.06-05.03.38:803][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveRedOrange'
+[2019.01.06-05.03.38:804][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveRedOrange' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveRedOrange.uasset.
+[2019.01.06-05.03.38:804][533]LoadErrors: Error: /Game/Core/M_Solid_CaveRedOrange : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveRedOrange
+[2019.01.06-05.03.38:805][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveRedOrange'
+[2019.01.06-05.03.38:806][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveRedOrange' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveRedOrange.uasset.
+[2019.01.06-05.03.38:808][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveRedOrange'
+[2019.01.06-05.03.38:809][533]LoadErrors: Failed to load /Game/Core/Materials/M_Solid_CaveRedOrange.M_Solid_CaveRedOrange Referenced by M_Solid_CaveRedOrange
+[2019.01.06-05.03.38:810][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveRedOrange' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveRed.uasset.
+[2019.01.06-05.03.38:810][533]LoadErrors: Error: /Game/Core/M_Solid_CaveRed : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveRedOrange
+[2019.01.06-05.03.38:814][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveRedOrange'
+[2019.01.06-05.03.38:815][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveRedOrange' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveRed.uasset.
+[2019.01.06-05.03.38:841][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveDark'
+[2019.01.06-05.03.38:841][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveDark' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveDark.uasset.
+[2019.01.06-05.03.38:842][533]LoadErrors: Error: /Game/Core/M_Solid_CaveDark : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveDark
+[2019.01.06-05.03.38:843][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveDark'
+[2019.01.06-05.03.38:843][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveDark' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveDark.uasset.
+[2019.01.06-05.03.38:845][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveDark'
+[2019.01.06-05.03.38:846][533]LoadErrors: Failed to load /Game/Core/Materials/M_Solid_CaveDark.M_Solid_CaveDark Referenced by M_Solid_CaveDark
+[2019.01.06-05.03.38:847][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveDark' while loading NULL.
+[2019.01.06-05.03.38:856][533]LogLinker: Warning: Can't find file '/Game/Core/Materials/M_Solid_CaveDark'
+[2019.01.06-05.03.38:857][533]LogLinker: Warning: Can't find file for asset '/Game/Core/Materials/M_Solid_CaveDark' while loading ../../../../../../Users/Brantly/Desktop/ProtoTemp/Content/Core/M_Solid_CaveWood.uasset.
+[2019.01.06-05.03.38:858][533]LoadErrors: Error: /Game/Core/M_Solid_CaveWood : Can't find file for asset. /Game/Core/Materials/M_Solid_CaveDark
+[2019.01.06-05.03.43:025][533]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.06-05.03.45:471][533]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.370 s
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: 
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 198]
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: Cannot remove redirection from /Game/Core/Box_Brush2_StaticMesh.Box_Brush2_StaticMesh, it was not registered
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: Stack: 
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fec01071f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febfe40c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febfe5b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fec0a1f3f2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fecfff2c98 UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febab45404 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febab44f05 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feba290dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feba531760 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feba53cd7f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc909c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc6f94c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc791db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc777c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc76b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4cd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4c0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4cf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4bc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x0000000077999c11 USER32.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000000007799992a USER32.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4d05a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc79f2b2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febc7277c7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feba5e1156 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007febab444f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feab86dc8f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feab978119 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.01.06-05.03.45:472][533]LogOutputDevice: Error: [Callstack] 0x000007feab9713da UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007feab8d0103 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007feab87461f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007febc909c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007febc6f94c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007febc791db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007febc777c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007febc76b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4cd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4c0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4cf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4bc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x0000000077999c11 USER32.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000007799992a USER32.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000007fedd4d0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000013f4654e5 UE4Editor.exe!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000013f475b3c UE4Editor.exe!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000013f475bba UE4Editor.exe!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000013f483dac UE4Editor.exe!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x000000013f485aaa UE4Editor.exe!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x00000000778759bd kernel32.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: [Callstack] 0x0000000077aaa2e1 ntdll.dll!UnknownFunction []
+[2019.01.06-05.03.45:473][533]LogOutputDevice: Error: 
+[2019.01.06-05.03.45:474][533]LogStats:                SubmitErrorReport -  0.000 s
