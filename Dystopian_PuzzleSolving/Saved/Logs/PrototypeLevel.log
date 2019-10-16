@@ -1,0 +1,1586 @@
+﻿Log file open, 01/29/19 13:45:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PrototypeLevel
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282355
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogStreaming: Display: Took  0.424s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 7 (Service Pack 1), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.29-18.45.21:303][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.29-18.45.21:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.29-18.45.21:330][  0]LogHAL: Display: Platform has ~ 16 GB [17098522624 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.29-18.45.21:330][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.29-18.45.21:330][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.29-18.45.21:331][  0]LogInit: Computer: KNOY340PC09
+[2019.01.29-18.45.21:331][  0]LogInit: User: ramakri7
+[2019.01.29-18.45.21:331][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.29-18.45.21:331][  0]LogInit: High frequency timer resolution =3.410117 MHz
+[2019.01.29-18.45.21:331][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.29-18.45.21:331][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.29-18.45.21:331][  0]LogMemory: Process Physical Memory: 103.47 MB used, 103.47 MB peak
+[2019.01.29-18.45.21:331][  0]LogMemory: Process Virtual Memory: 93.23 MB used, 93.23 MB peak
+[2019.01.29-18.45.21:331][  0]LogMemory: Physical Memory: 8502.86 MB used,  7803.56 MB free, 16306.42 MB total
+[2019.01.29-18.45.21:331][  0]LogMemory: Virtual Memory: 494.04 MB used,  7803.56 MB free, 8388608.00 MB total
+[2019.01.29-18.45.21:390][  0]LogInit: Using OS detected language (en-US).
+[2019.01.29-18.45.21:390][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.29-18.45.21:391][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.29-18.45.21:771][  0]LogStreaming: Display: Took  0.395s to InitEngineTextLocalization.
+[2019.01.29-18.45.21:772][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.01.29-18.45.21:772][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.01.29-18.45.21:773][  0]LogInit: Setting process to DPI aware
+[2019.01.29-18.45.21:812][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.29-18.45.21:812][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.29-18.45.22:429][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.29-18.45.22:429][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.29-18.45.22:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.29-18.45.22:456][  0]LogD3D11RHI:       4008/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.29-18.45.22:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.29-18.45.22:465][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.29-18.45.22:465][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.29-18.45.22:465][  0]LogWindows: EnumDisplayDevices:
+[2019.01.29-18.45.22:465][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.29-18.45.22:466][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.29-18.45.22:467][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.29-18.45.22:467][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.29-18.45.22:468][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.29-18.45.22:468][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.29-18.45.22:468][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.29-18.45.22:468][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.29-18.45.22:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.29-18.45.22:468][  0]LogD3D11RHI:   Driver Version: 353.30 (internal:10.18.13.5330, unified:353.30)
+[2019.01.29-18.45.22:468][  0]LogD3D11RHI:      Driver Date: 6-17-2015
+[2019.01.29-18.45.22:468][  0]LogRHI: Texture pool is 2805 MB (70% of 4008 MB)
+[2019.01.29-18.45.22:486][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2019.01.29-18.45.22:486][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.29-18.45.22:503][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.29-18.45.22:508][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Intermediate/Shaders/WorkingDirectory/10692/).
+[2019.01.29-18.45.22:508][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ramakri7/AppData/Local/Temp/UnrealShaderWorkingDir/B158C4554BB697C704ADA380D05B21CC/'.
+[2019.01.29-18.45.23:152][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.29-18.45.23:167][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.29-18.45.23:182][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.29-18.45.23:198][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.29-18.45.23:214][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.29-18.45.23:229][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.29-18.45.23:245][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.29-18.45.23:260][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.29-18.45.23:267][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-18.45.23:356][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.29-18.45.23:420][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.29-18.45.23:420][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.29-18.45.23:447][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.29-18.45.23:447][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.29-18.45.23:462][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.29-18.45.23:476][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.29-18.45.23:491][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.29-18.45.23:507][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.29-18.45.23:518][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.29-18.45.23:518][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.29-18.45.23:652][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.29-18.45.23:652][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.29-18.45.23:652][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.29-18.45.24:719][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.29-18.45.25:012][  0]LogDerivedDataCache: Loaded boot cache 0.30s 87MB C:/Users/ramakri7/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.29-18.45.25:012][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ramakri7/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.29-18.45.25:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.29-18.45.25:013][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.29-18.45.25:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.29-18.45.25:013][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.29-18.45.25:029][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.29-18.45.25:042][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ramakri7/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.29-18.45.25:042][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.29-18.45.25:042][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.29-18.45.25:063][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.29-18.45.25:065][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.29-18.45.25:067][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.29-18.45.25:545][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2019.01.29-18.45.25:902][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.29-18.45.26:071][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.29-18.45.26:088][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.29-18.45.26:088][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.29-18.45.26:088][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.29-18.45.26:088][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.29-18.45.26:106][  0]LogNetVersion: PrototypeLevel 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2856359110)
+[2019.01.29-18.45.26:822][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.169133 seconds
+[2019.01.29-18.45.26:828][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.29-18.45.26:828][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.29-18.45.26:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.29-18.45.40:992][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.29-18.45.41:005][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.29-18.45.41:496][  0]SourceControl: Source control is disabled
+[2019.01.29-18.45.41:496][  0]SourceControl: Source control is disabled
+[2019.01.29-18.45.41:502][  0]SourceControl: Source control is disabled
+[2019.01.29-18.45.41:505][  0]SourceControl: Source control is disabled
+[2019.01.29-18.45.41:915][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.29-18.45.41:982][  0]LogOcInput: OculusInput pre-init called
+[2019.01.29-18.45.42:067][  0]LogEngine: Initializing Engine...
+[2019.01.29-18.45.42:068][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.29-18.45.42:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.29-18.45.42:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.29-18.45.42:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.29-18.45.42:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.29-18.45.42:342][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.29-18.45.42:362][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.29-18.45.42:393][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.45.42:495][  0]LogInit: FAudioDevice initialized.
+[2019.01.29-18.45.42:496][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.29-18.45.43:228][  0]LogDerivedDataCache: Saved boot cache 0.74s 87MB C:/Users/ramakri7/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.29-18.45.43:230][  0]LogInit: Texture streaming: Enabled
+[2019.01.29-18.45.43:270][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.29-18.45.43:288][  0]LogInit: Transaction tracking system initialized
+[2019.01.29-18.45.43:330][  0]BlueprintLog: New page: Editor Load
+[2019.01.29-18.45.43:633][  0]LocalizationService: Localization service is disabled
+[2019.01.29-18.45.44:101][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.29-18.45.44:101][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.29-18.45.44:101][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.29-18.45.44:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.29-18.45.44:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.29-18.45.44:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.29-18.45.44:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.29-18.45.44:398][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/' took 0.02s
+[2019.01.29-18.45.44:658][  0]SourceControl: Source control is disabled
+[2019.01.29-18.45.44:658][  0]Cmd: MAP LOAD FILE="../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-18.45.44:659][  0]LightingResults: New page: Lighting Build
+[2019.01.29-18.45.44:663][  0]MapCheck: New page: Map Check
+[2019.01.29-18.45.44:663][  0]LightingResults: New page: Lighting Build
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_100 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_101 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_102 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_103 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_104 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_105 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_106 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_107 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_108 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_109 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_110 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_111 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_112 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_113 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_114 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:745][  0]LogTexture: Display: Building textures: HQ_Lightmap1_115 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:745][  0]LogMaterial: Display: Missing cached shader map for material SIrenLight, compiling. 
+[2019.01.29-18.45.47:872][  0]LogTexture: Display: Building textures: HQ_Lightmap1_116 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_117 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_118 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_119 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_120 (AutoDXT, 256X256)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_121 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_122 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_123 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:873][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-18.45.47:873][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-18.45.47:873][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-18.45.47:873][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-18.45.47:873][  0]LogTexture: Display: Building textures: HQ_Lightmap1_124 (AutoDXT, 128X128)
+[2019.01.29-18.45.47:874][  0]LogMaterial: Display: Missing cached shader map for material Screen, compiling. 
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_125 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_126 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_127 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_128 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_129 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2019.01.29-18.45.48:734][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_131 (AutoDXT, 512X512)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_130 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_132 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_134 (AutoDXT, 128X128)
+[2019.01.29-18.45.48:734][  0]LogTexture: Display: Building textures: HQ_Lightmap1_133 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_136 (AutoDXT, 512X512)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_135 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_137 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_138 (AutoDXT, 512X512)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_139 (AutoDXT, 512X512)
+[2019.01.29-18.45.49:864][  0]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_140 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_141 (AutoDXT, 512X512)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_142 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_143 (AutoDXT, 128X128)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_144 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_145 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_146 (AutoDXT, 64X64)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:617][  0]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 128X128)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_32 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_33 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_34 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_35 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_36 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_39 (AutoDXT, 128X128)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_38 (AutoDXT, 128X128)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_37 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_40 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_41 (AutoDXT, 256X256)
+[2019.01.29-18.45.51:618][  0]LogTexture: Display: Building textures: HQ_Lightmap1_42 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_43 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_44 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_45 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_46 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_47 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_48 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_49 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_50 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_51 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_52 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_53 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_54 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_55 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_56 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_57 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_58 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:691][  0]LogTexture: Display: Building textures: HQ_Lightmap1_60 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_59 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_61 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_62 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_63 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_64 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_65 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_66 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_67 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_68 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_69 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_70 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_71 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_72 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_73 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_74 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_75 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_76 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:692][  0]LogTexture: Display: Building textures: HQ_Lightmap1_77 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_79 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_78 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_80 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_81 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_82 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_83 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_84 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_85 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_86 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_87 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_89 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_88 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_90 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_91 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_92 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_93 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:693][  0]LogTexture: Display: Building textures: HQ_Lightmap1_94 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:694][  0]LogTexture: Display: Building textures: HQ_Lightmap1_95 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:694][  0]LogTexture: Display: Building textures: HQ_Lightmap1_96 (AutoDXT, 128X128)
+[2019.01.29-18.45.52:694][  0]LogTexture: Display: Building textures: HQ_Lightmap1_97 (AutoDXT, 256X256)
+[2019.01.29-18.45.52:694][  0]LogTexture: Display: Building textures: HQ_Lightmap1_98 (AutoDXT, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: HQ_Lightmap1_99 (AutoDXT, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_100 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_101 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_102 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_103 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_104 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_105 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_106 (DXT1, 128X128)
+[2019.01.29-18.45.53:889][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_107 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_108 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_109 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_110 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_111 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_112 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_113 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_114 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_115 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_116 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_117 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_118 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_119 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_121 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_120 (DXT1, 256X256)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_122 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_123 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_124 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_125 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_126 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_127 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_128 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_129 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_131 (DXT1, 512X512)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_130 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_132 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_133 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_134 (DXT1, 128X128)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_135 (DXT1, 1024X1024)
+[2019.01.29-18.45.53:890][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_136 (DXT1, 512X512)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_137 (DXT1, 1024X1024)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_138 (DXT1, 512X512)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_139 (DXT1, 512X512)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_141 (DXT1, 512X512)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_140 (DXT1, 1024X1024)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_143 (DXT1, 128X128)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_144 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_142 (DXT1, 1024X1024)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_145 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_146 (DXT1, 64X64)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 256X256)
+[2019.01.29-18.45.55:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 256X256)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 256X256)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 128X128)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (DXT1, 256X256)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (DXT1, 256X256)
+[2019.01.29-18.45.55:023][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (DXT1, 256X256)
+[2019.01.29-18.45.55:024][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_38 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (DXT1, 1024X1024)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_40 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_41 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_42 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_43 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_44 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_45 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_46 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_47 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_48 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_49 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_50 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_51 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_52 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_53 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_54 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_55 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_56 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_57 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_58 (DXT1, 128X128)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_59 (DXT1, 256X256)
+[2019.01.29-18.45.56:791][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_60 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_61 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_62 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_63 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_64 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_65 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_66 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_67 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_68 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_69 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_71 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_70 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_72 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_73 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_74 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_75 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_76 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_77 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_78 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_79 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_80 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_81 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_82 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_83 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_84 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_85 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_86 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_87 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_88 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_89 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_91 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_92 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_90 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_93 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_94 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_95 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_96 (DXT1, 128X128)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_97 (DXT1, 256X256)
+[2019.01.29-18.45.56:792][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_98 (DXT1, 128X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_99 (DXT1, 128X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_100 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_101 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_102 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_103 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_104 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_105 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_106 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_107 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_108 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_109 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_110 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_112 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_111 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_113 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_114 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_115 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_116 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_117 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_118 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_119 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_120 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_121 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_122 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_123 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_124 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_125 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_126 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_127 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_128 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_129 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:793][  0]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_131 (AutoDXT, 512X256)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_130 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_132 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_133 (AutoDXT, 1024X512)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_134 (AutoDXT, 128X64)
+[2019.01.29-18.45.56:794][  0]LogTexture: Display: Building textures: SkyOcclusion1_135 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_136 (AutoDXT, 512X256)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_137 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_138 (AutoDXT, 512X256)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_139 (AutoDXT, 512X256)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_140 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_141 (AutoDXT, 512X256)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_142 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_143 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_144 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_145 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_146 (AutoDXT, 64X32)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_24 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_25 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_26 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_27 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_28 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_29 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_30 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_31 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_32 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_33 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_34 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_35 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:952][  0]LogTexture: Display: Building textures: SkyOcclusion1_36 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_38 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_39 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_40 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_37 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_41 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_42 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_43 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_44 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_45 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_46 (AutoDXT, 128X64)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_47 (AutoDXT, 256X128)
+[2019.01.29-18.45.57:953][  0]LogTexture: Display: Building textures: SkyOcclusion1_48 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_49 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_50 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_51 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_52 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_53 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_54 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_55 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_56 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_57 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_58 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_59 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:914][  0]LogTexture: Display: Building textures: SkyOcclusion1_60 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_61 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_62 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_63 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_64 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_65 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_66 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_67 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_68 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_69 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_70 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_71 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_72 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_73 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_74 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_75 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_76 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_77 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_78 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_79 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_80 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_81 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_82 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_83 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_84 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_85 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_86 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_87 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_88 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_89 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_90 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_91 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_92 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_93 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_94 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_95 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_96 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_97 (AutoDXT, 256X128)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_98 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: SkyOcclusion1_99 (AutoDXT, 128X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_170 (G8, 512X512)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_172 (G8, 512X64)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_171 (BGRA8, 512X1024)
+[2019.01.29-18.45.58:915][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_173 (BGRA8, 1024X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_174 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_175 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_177 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_176 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_179 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_180 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_181 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_182 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_178 (BGRA8, 1024X128)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_183 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_184 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_185 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_186 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_188 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_187 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_189 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_190 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_191 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_192 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_193 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_194 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_195 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_196 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_197 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_199 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_198 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_200 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_201 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_202 (G8, 64X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_203 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_204 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_205 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_206 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_207 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_208 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_209 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_211 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_212 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_210 (G8, 512X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_213 (G8, 128X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_214 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_217 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_216 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_218 (G8, 256X64)
+[2019.01.29-18.45.58:916][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_215 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_219 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_220 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_221 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_222 (G8, 64X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_223 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_224 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_225 (G8, 64X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_226 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_227 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_228 (G8, 512X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_230 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_229 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_231 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_232 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_233 (G8, 64X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_234 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_235 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_236 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_237 (G8, 512X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_238 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_239 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_240 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_241 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_242 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_243 (G8, 512X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_244 (G8, 512X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_245 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_246 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_247 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_248 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_249 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_250 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_251 (G8, 512X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_252 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_253 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_254 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_255 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_256 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_257 (G8, 256X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_258 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_259 (G8, 128X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_260 (G8, 64X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_261 (G8, 64X64)
+[2019.01.29-18.45.58:917][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_262 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_263 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_264 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_266 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_265 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_267 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_268 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_269 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_270 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_271 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_272 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_273 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_274 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_275 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_276 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_277 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_278 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_279 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_280 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_281 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_282 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_283 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_284 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_285 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_286 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_287 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_288 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_289 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_291 (G8, 128X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_292 (G8, 1024X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_293 (G8, 256X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_290 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_294 (G8, 128X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_295 (BGRA8, 128X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_296 (G8, 64X64)
+[2019.01.29-18.45.58:918][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_297 (G8, 32X32)
+[2019.01.29-18.45.58:918][  0]LogMaterial: Display: Missing cached shader map for material BlueSirenLight, compiling. 
+[2019.01.29-18.45.58:966][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-18.45.58:974][  0]LogMaterial: Display: Missing cached shader map for material light, compiling. 
+[2019.01.29-18.46.00:153][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.29-18.46.01:645][  0]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-18.46.01:952][  0]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-18.46.01:952][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.46.02:253][  0]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-18.46.02:253][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-18.46.02:359][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-18.46.02:673][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 328.781ms to complete.
+[2019.01.29-18.46.02:674][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 18.258
+[2019.01.29-18.46.03:077][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.29-18.46.03:078][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.03:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.03:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.03:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.03:250][  0]LogCollectionManager: Loaded 0 collections in 0.002921 seconds
+[2019.01.29-18.46.03:305][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/Collections/' took 0.01s
+[2019.01.29-18.46.03:305][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/Developers/ramakri7/Collections/' took 0.01s
+[2019.01.29-18.46.03:305][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/Collections/' took 0.01s
+[2019.01.29-18.46.03:305][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.29-18.46.03:322][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2587 classes and 611 folders.
+[2019.01.29-18.46.03:339][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.29-18.46.09:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.29-18.46.09:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.29-18.46.09:900][  0]LogSlate: Took 0.054394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.29-18.46.09:939][  0]LogSlate: Took 0.038091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.29-18.46.10:021][  0]LogSlate: Took 0.077868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.29-18.46.10:269][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.29-18.46.10:514][  0]LogSlate: Took 0.045481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.29-18.46.10:584][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.46.10:665][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.29-18.46.10:693][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.29-18.46.10:693][  0]LogLoad: (Engine Initialization) Total time: 53.20 seconds
+[2019.01.29-18.46.10:693][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.29-18.46.10:724][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.29-18.46.10:861][  1]LogAssetRegistry: Asset discovery search completed in 45.9360 seconds
+[2019.01.29-18.46.10:863][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.29-18.46.10:863][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2019.01.29-18.46.11:717][ 59]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.29-18.46.14:158][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.46.14:504][314]LogRenderer: Reallocating scene render targets to support 1208x924 Format 10 NumSamples 1 (Frame:276).
+[2019.01.29-18.46.25:787][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.46.25:787][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.46.25:799][403]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:46:25 AM)
+[2019.01.29-18.46.25:800][403]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.46.25:953][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154016s)
+[2019.01.29-18.46.25:954][403]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.46.25:954][403]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2019.01.29-18.46.25:954][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.155276s)
+[2019.01.29-18.46.25:982][403]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.46.26:003][403]LogInit: FAudioDevice initialized.
+[2019.01.29-18.46.26:009][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.26:056][403]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.46.26:109][403]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.46.26
+[2019.01.29-18.46.26:111][403]LogWorld: Bringing up level for play took: 0.053585
+[2019.01.29-18.46.26:130][403]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.29-18.46.26:135][403]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.119
+[2019.01.29-18.46.26:136][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.46.26:160][403]LogRenderer: Reallocating scene render targets to support 1292x924 Format 10 NumSamples 1 (Frame:1).
+[2019.01.29-18.46.30:315][795]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:394).
+[2019.01.29-18.46.50:035][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.46.50:035][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.46.50:052][675]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-18.46.50:112][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.46.50:113][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.46.50:165][676]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.29-18.47.08:797][216]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.01.29-18.47.09:264][216]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.01.29-18.47.10:317][216]LogSlate: Took 0.012115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.29-18.47.10:925][217]LogSlate: Took 0.033150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.29-18.47.14:469][467]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.01.29-18.47.27:381][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.47.27:381][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.47.27:381][943]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:47:27 AM)
+[2019.01.29-18.47.27:382][943]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.47.27:515][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134107s)
+[2019.01.29-18.47.27:516][943]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.47.27:516][943]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.01.29-18.47.27:516][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.135224s)
+[2019.01.29-18.47.27:553][943]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.47.27:573][943]LogInit: FAudioDevice initialized.
+[2019.01.29-18.47.27:600][943]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.47.27:649][943]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.47.27
+[2019.01.29-18.47.27:651][943]LogWorld: Bringing up level for play took: 0.050449
+[2019.01.29-18.47.27:664][943]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.36
+[2019.01.29-18.47.27:665][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.47.51:723][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.47.51:723][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.47.51:798][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.47.51:798][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.47.51:835][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.47.51:880][714]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.29-18.47.55:235][927]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.47.56:342][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.47.58:201][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.48.05:100][511]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.01.29-18.48.05:118][511]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.01.29-18.48.06:123][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.48.08:562][574]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap79B7260847BC5E521D1D62AA9E49F754.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.48.12:250][574]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltData2E479B374E82CB4F19E36EB3554BA8FB.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.48.13:915][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.48.13:995][676]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.29-18.48.14:012][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.48.14:012][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.48.14:012][676]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:48:14 AM)
+[2019.01.29-18.48.14:013][676]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.48.14:143][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129685s)
+[2019.01.29-18.48.14:143][676]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.48.14:143][676]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.01.29-18.48.14:144][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.130801s)
+[2019.01.29-18.48.14:176][676]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.48.14:196][676]LogInit: FAudioDevice initialized.
+[2019.01.29-18.48.14:226][676]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.48.14:275][676]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.48.14
+[2019.01.29-18.48.14:277][676]LogWorld: Bringing up level for play took: 0.050099
+[2019.01.29-18.48.14:290][676]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.701
+[2019.01.29-18.48.14:291][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.48.37:150][217]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.48.37:162][217]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.48.37:216][217]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.48.37:334][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117495s)
+[2019.01.29-18.48.37:334][217]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.48.37:335][217]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.01.29-18.48.37:335][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.118610s)
+[2019.01.29-18.48.37:335][217]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.48.37:383][217]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.48.37
+[2019.01.29-18.48.37:385][217]LogWorld: Bringing up level for play took: 0.050637
+[2019.01.29-18.48.37:387][217]LogLoad: Took 0.226410 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.48.41:132][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.49.05:053][789]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.49.05:065][789]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.49.05:118][789]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.49.05:235][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117807s)
+[2019.01.29-18.49.05:236][789]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.49.05:236][789]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2019.01.29-18.49.05:237][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.118962s)
+[2019.01.29-18.49.05:237][789]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.49.05:286][789]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.49.05
+[2019.01.29-18.49.05:288][789]LogWorld: Bringing up level for play took: 0.051206
+[2019.01.29-18.49.05:290][789]LogLoad: Took 0.226106 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.49.07:405][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.49.09:843][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.49.09:843][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.49.09:891][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.49.09:892][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.49.09:927][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.49.09:949][332]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.29-18.49.38:082][915]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.49.38:550][915]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacterAA0CF3AC434007A9974AA4BEC048D1C0.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.49.42:373][ 29]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap636697A3497E5B80890A398A7DB3DA86.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.49.44:883][ 29]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltData51EFBEDF48CB37D743FA7C94D36623BF.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.49.58:698][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.49.58:774][ 14]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.29-18.49.58:806][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.49.58:806][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.49.58:806][ 14]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:49:58 AM)
+[2019.01.29-18.49.58:807][ 14]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.49.58:931][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123561s)
+[2019.01.29-18.49.58:931][ 14]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.49.58:931][ 14]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2019.01.29-18.49.58:932][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124649s)
+[2019.01.29-18.49.58:964][ 14]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.49.58:984][ 14]LogInit: FAudioDevice initialized.
+[2019.01.29-18.49.59:012][ 14]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.49.59:063][ 14]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.49.59
+[2019.01.29-18.49.59:065][ 14]LogWorld: Bringing up level for play took: 0.052203
+[2019.01.29-18.49.59:078][ 14]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.792
+[2019.01.29-18.49.59:079][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.50.31:432][223]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.50.31:444][223]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.50.31:497][223]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.50.31:623][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125580s)
+[2019.01.29-18.50.31:623][223]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.50.31:624][223]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2019.01.29-18.50.31:624][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.126797s)
+[2019.01.29-18.50.31:624][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.50.31:673][223]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.50.31
+[2019.01.29-18.50.31:675][223]LogWorld: Bringing up level for play took: 0.051601
+[2019.01.29-18.50.31:677][223]LogLoad: Took 0.234295 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.51.39:315][502]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.51.39:329][502]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.51.39:382][502]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.51.39:505][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122648s)
+[2019.01.29-18.51.39:506][502]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.51.39:506][502]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2019.01.29-18.51.39:506][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.123820s)
+[2019.01.29-18.51.39:506][502]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.51.39:556][502]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.51.39
+[2019.01.29-18.51.39:558][502]LogWorld: Bringing up level for play took: 0.050902
+[2019.01.29-18.51.39:560][502]LogLoad: Took 0.231462 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.51.41:347][711]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-18.51.43:033][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.51.43:033][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.51.43:075][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.51.43:075][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.51.43:110][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.51.43:132][915]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.29-18.53.29:541][327]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.53.29:932][327]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacterE6FAEF42456605606552F3B8EF90D83F.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.53.33:428][409]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMapE09C6075460D18B71E87AFBCC19AC427.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.53.36:126][409]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltData8CF451114CF1B77F97CA87BB1E6BF619.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.53.37:225][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.53.57:104][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.53.57:104][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.53.57:104][743]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:53:57 AM)
+[2019.01.29-18.53.57:105][743]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.53.57:228][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122826s)
+[2019.01.29-18.53.57:229][743]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.53.57:229][743]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2019.01.29-18.53.57:229][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124023s)
+[2019.01.29-18.53.57:260][743]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.53.57:281][743]LogInit: FAudioDevice initialized.
+[2019.01.29-18.53.57:287][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.53.57:322][743]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.53.57:371][743]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.53.57
+[2019.01.29-18.53.57:373][743]LogWorld: Bringing up level for play took: 0.050821
+[2019.01.29-18.53.57:388][743]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.488
+[2019.01.29-18.53.57:389][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.54.05:962][248]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.54.05:985][248]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.54.06:037][248]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.54.06:158][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120263s)
+[2019.01.29-18.54.06:158][248]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.54.06:159][248]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.01.29-18.54.06:159][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.121389s)
+[2019.01.29-18.54.06:159][248]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.54.06:209][248]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.54.06
+[2019.01.29-18.54.06:211][248]LogWorld: Bringing up level for play took: 0.051237
+[2019.01.29-18.54.06:213][248]LogLoad: Took 0.228285 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.54.18:783][785]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.54.18:806][785]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.54.18:860][785]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.54.18:978][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118992s)
+[2019.01.29-18.54.18:979][785]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.54.18:979][785]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2019.01.29-18.54.18:979][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120136s)
+[2019.01.29-18.54.18:979][785]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.54.19:030][785]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.54.19
+[2019.01.29-18.54.19:032][785]LogWorld: Bringing up level for play took: 0.051528
+[2019.01.29-18.54.19:034][785]LogLoad: Took 0.228244 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.55.39:692][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.55.39:783][786]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-18.55.39:786][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.55.39:832][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.55.39:833][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.55.39:898][787]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.29-18.58.18:216][494]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.58.18:594][494]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacterF8F4B8D04A49D019FD720C942ED899E7.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.58.22:953][624]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMapEA9C3C4F464586B87330FCAE16F00C0F.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.58.25:981][624]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltDataBA11D8C74F2CD3C48B5BC5A70CC345C3.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.58.27:490][730]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.29-18.58.27:523][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.27:523][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.58.27:523][730]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:58:27 AM)
+[2019.01.29-18.58.27:524][730]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.58.27:642][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118443s)
+[2019.01.29-18.58.27:643][730]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.58.27:643][730]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2019.01.29-18.58.27:643][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.119645s)
+[2019.01.29-18.58.27:676][730]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.58.27:697][730]LogInit: FAudioDevice initialized.
+[2019.01.29-18.58.27:703][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.58.27:733][730]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.58.27:785][730]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.58.27
+[2019.01.29-18.58.27:787][730]LogWorld: Bringing up level for play took: 0.052800
+[2019.01.29-18.58.27:802][730]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.073
+[2019.01.29-18.58.27:803][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.34:521][209]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.58.34:538][209]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.58.34:590][209]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.58.34:713][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123193s)
+[2019.01.29-18.58.34:714][209]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.58.34:714][209]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.01.29-18.58.34:714][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124586s)
+[2019.01.29-18.58.34:714][209]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.58.34:774][209]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.58.34
+[2019.01.29-18.58.34:776][209]LogWorld: Bringing up level for play took: 0.060681
+[2019.01.29-18.58.34:778][209]LogLoad: Took 0.240818 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.58.38:104][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.58.38:212][451]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-18.58.38:215][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.38:258][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.58.38:258][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.38:322][452]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.29-18.58.43:497][ 16]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.58.43:860][ 16]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacter4BFDB5A84A8FA2DFB49FF2A2F0F76895.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.58.47:966][145]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMapC7E6BF664E596B9E66F9EF9CF328D5CB.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.58.51:533][145]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltData5011E1584F82DE01514C1BBBCF54DFA9.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.58.52:581][217]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.29-18.58.52:615][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.52:615][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.58.52:615][217]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:58:52 AM)
+[2019.01.29-18.58.52:616][217]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.58.52:737][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121459s)
+[2019.01.29-18.58.52:738][217]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.58.52:738][217]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2019.01.29-18.58.52:738][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.122588s)
+[2019.01.29-18.58.52:769][217]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.58.52:789][217]LogInit: FAudioDevice initialized.
+[2019.01.29-18.58.52:795][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.58.52:830][217]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.58.52:881][217]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.58.52
+[2019.01.29-18.58.52:883][217]LogWorld: Bringing up level for play took: 0.052467
+[2019.01.29-18.58.52:898][217]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.264
+[2019.01.29-18.58.52:899][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.58.57:654][558]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.58.57:670][558]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.58.57:725][558]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.58.57:848][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123249s)
+[2019.01.29-18.58.57:848][558]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.58.57:849][558]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.01.29-18.58.57:849][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124413s)
+[2019.01.29-18.58.57:849][558]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.58.57:900][558]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.58.57
+[2019.01.29-18.58.57:902][558]LogWorld: Bringing up level for play took: 0.052301
+[2019.01.29-18.58.57:904][558]LogLoad: Took 0.233862 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.59.00:063][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.59.00:202][667]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-18.59.00:205][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.00:246][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.59.00:247][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.00:308][668]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.29-18.59.09:916][739]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.59.10:304][739]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacter1BF254EB4F70233CBC89398714D5C0C7.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.59.13:984][825]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMapE69F81CF4C86B477CA6B0E8D86FD2163.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.59.16:870][825]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltDataF2C39D1F4D7B052AA18ADEA7CB8D09A3.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-18.59.18:123][911]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.29-18.59.18:158][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.18:158][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-18.59.18:158][911]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 8:59:18 AM)
+[2019.01.29-18.59.18:159][911]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.59.18:695][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.532057s)
+[2019.01.29-18.59.18:695][911]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.59.18:695][911]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2019.01.29-18.59.18:696][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.533178s)
+[2019.01.29-18.59.18:727][911]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-18.59.18:747][911]LogInit: FAudioDevice initialized.
+[2019.01.29-18.59.18:753][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-18.59.18:788][911]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.59.18:844][911]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.59.18
+[2019.01.29-18.59.18:846][911]LogWorld: Bringing up level for play took: 0.056283
+[2019.01.29-18.59.18:861][911]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.182
+[2019.01.29-18.59.18:862][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.27:198][389]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.59.27:225][389]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-18.59.27:282][389]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-18.59.27:629][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.344620s)
+[2019.01.29-18.59.27:629][389]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-18.59.27:629][389]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.01.29-18.59.27:630][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.345790s)
+[2019.01.29-18.59.27:630][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-18.59.27:695][389]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-13.59.27
+[2019.01.29-18.59.27:697][389]LogWorld: Bringing up level for play took: 0.065556
+[2019.01.29-18.59.27:699][389]LogLoad: Took 0.470916 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-18.59.30:386][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-18.59.30:541][515]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-18.59.30:544][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.30:584][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-18.59.30:585][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-18.59.30:645][516]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.29-18.59.34:968][952]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-18.59.35:351][952]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacterBBA8684E4844DBFF777624BEA3903D92.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-18.59.39:450][ 73]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap172B34B34065EBF92FABDB85DC8F9708.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-18.59.42:384][ 73]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltData96D3B5AC4303F6BB7B1D7F9DA8A8E75B.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-19.01.07:215][670]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-19.01.07:596][670]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacterAFDF96714D8BAD6CE2E2FF886631D30B.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-19.01.09:004][775]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.29-19.01.09:038][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.01.09:039][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-19.01.09:039][775]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 9:01:09 AM)
+[2019.01.29-19.01.09:039][775]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.01.09:168][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127138s)
+[2019.01.29-19.01.09:168][775]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.01.09:168][775]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.01.29-19.01.09:169][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.128343s)
+[2019.01.29-19.01.09:201][775]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-19.01.09:223][775]LogInit: FAudioDevice initialized.
+[2019.01.29-19.01.09:230][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.01.09:268][775]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.01.09:319][775]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.01.09
+[2019.01.29-19.01.09:321][775]LogWorld: Bringing up level for play took: 0.052495
+[2019.01.29-19.01.09:337][775]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.17
+[2019.01.29-19.01.09:337][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.01.18:476][344]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.01.18:490][344]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.01.18:545][344]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.01.18:671][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124925s)
+[2019.01.29-19.01.18:671][344]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.01.18:672][344]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2019.01.29-19.01.18:672][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.126068s)
+[2019.01.29-19.01.18:672][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.01.18:724][344]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.01.18
+[2019.01.29-19.01.18:726][344]LogWorld: Bringing up level for play took: 0.052339
+[2019.01.29-19.01.18:728][344]LogLoad: Took 0.235721 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.01.29:067][123]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.01.29:083][123]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.01.29:138][123]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.01.29:261][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121881s)
+[2019.01.29-19.01.29:261][123]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.01.29:261][123]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.01.29-19.01.29:262][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.123050s)
+[2019.01.29-19.01.29:262][123]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.01.29:313][123]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.01.29
+[2019.01.29-19.01.29:315][123]LogWorld: Bringing up level for play took: 0.052495
+[2019.01.29-19.01.29:317][123]LogLoad: Took 0.232838 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.01.31:089][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-19.01.32:840][524]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-19.01.32:843][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.01.32:883][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-19.01.32:884][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.01.32:983][525]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.29-19.03.13:931][133]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h 
+[2019.01.29-19.03.16:498][133]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h : 42
+[2019.01.29-19.03.16:498][133]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:502][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:503][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:504][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:505][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:506][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:507][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:508][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:509][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:510][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:511][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:512][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:513][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:514][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:514][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:514][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:515][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:515][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:526][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:551][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:563][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.03.16:587][133]LogVSAccessor: Warning: Couldn't access module table
+[2019.01.29-19.04.07:444][240]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_GameInstance.BP_GameInstance
+[2019.01.29-19.04.48:577][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.04.48:577][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-19.04.48:578][827]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 9:04:48 AM)
+[2019.01.29-19.04.48:578][827]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.04.48:719][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140809s)
+[2019.01.29-19.04.48:720][827]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.04.48:720][827]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2019.01.29-19.04.48:720][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.142006s)
+[2019.01.29-19.04.48:755][827]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-19.04.48:775][827]LogInit: FAudioDevice initialized.
+[2019.01.29-19.04.48:805][827]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.04.48:855][827]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.04.48
+[2019.01.29-19.04.48:857][827]LogWorld: Bringing up level for play took: 0.051296
+[2019.01.29-19.04.48:870][827]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.14
+[2019.01.29-19.04.48:871][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.04.51:041][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.04.51:042][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.04.51:102][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-19.04.51:103][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.04.51:140][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.04.51:164][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.29-19.05.21:404][760]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.01.29-19.05.21:760][760]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonCharacter64CFED534774BCE30450F3879E9B2B48.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.01.29-19.05.25:824][900]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMapCC71704F4B538E42173691B619521202.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.29-19.05.29:048][900]LogSavePackage: Moving '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Saved/ThirdPersonExampleMap_BuiltDataF57305BE4E2F44823EA74C994A4CCBD0.tmp' to '../../../../../../Temp/Ramakrishnan_V_UnrealProjects/Spring 2019/GroupLevel/Group Level/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.29-19.05.29:713][949]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.29-19.05.29:751][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.05.29:751][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-19.05.29:752][949]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 9:05:29 AM)
+[2019.01.29-19.05.29:752][949]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.05.29:877][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124841s)
+[2019.01.29-19.05.29:878][949]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.05.29:878][949]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.01.29-19.05.29:878][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.126013s)
+[2019.01.29-19.05.29:911][949]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-19.05.29:932][949]LogInit: FAudioDevice initialized.
+[2019.01.29-19.05.29:958][949]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.05.30:008][949]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.05.30
+[2019.01.29-19.05.30:010][949]LogWorld: Bringing up level for play took: 0.051701
+[2019.01.29-19.05.30:023][949]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.008
+[2019.01.29-19.05.30:024][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.05.32:355][150]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.32:374][150]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.32:431][150]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.05.32:552][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121495s)
+[2019.01.29-19.05.32:553][150]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.05.32:553][150]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2019.01.29-19.05.32:553][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.122629s)
+[2019.01.29-19.05.32:553][150]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.05.32:603][150]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.05.32
+[2019.01.29-19.05.32:605][150]LogWorld: Bringing up level for play took: 0.051311
+[2019.01.29-19.05.32:608][150]LogLoad: Took 0.233612 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.05.35:421][356]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.35:438][356]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.35:495][356]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.05.35:617][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121967s)
+[2019.01.29-19.05.35:617][356]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.05.35:617][356]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2019.01.29-19.05.35:618][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.123122s)
+[2019.01.29-19.05.35:618][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.05.35:667][356]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.05.35
+[2019.01.29-19.05.35:669][356]LogWorld: Bringing up level for play took: 0.050749
+[2019.01.29-19.05.35:671][356]LogLoad: Took 0.233665 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.05.37:875][530]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.37:890][530]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.05.37:947][530]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.05.38:066][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118971s)
+[2019.01.29-19.05.38:066][530]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.05.38:066][530]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2019.01.29-19.05.38:067][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120118s)
+[2019.01.29-19.05.38:067][530]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.05.38:117][530]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.05.38
+[2019.01.29-19.05.38:119][530]LogWorld: Bringing up level for play took: 0.050899
+[2019.01.29-19.05.38:121][530]LogLoad: Took 0.230260 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.05.39:449][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.05.39:449][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.05.39:496][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-19.05.39:496][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.05.39:535][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.05.39:592][685]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.29-19.05.55:025][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-19.05.58:546][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.05.58:546][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-19.05.58:546][ 62]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2019, 9:05:58 AM)
+[2019.01.29-19.05.58:547][ 62]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.05.58:667][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119457s)
+[2019.01.29-19.05.58:668][ 62]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.05.58:668][ 62]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2019.01.29-19.05.58:669][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120606s)
+[2019.01.29-19.05.58:702][ 62]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-19.05.58:722][ 62]LogInit: FAudioDevice initialized.
+[2019.01.29-19.05.58:728][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.05.58:761][ 62]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.05.58:812][ 62]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.05.58
+[2019.01.29-19.05.58:814][ 62]LogWorld: Bringing up level for play took: 0.052580
+[2019.01.29-19.05.58:829][ 62]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.183
+[2019.01.29-19.05.58:830][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.08.57:673][226]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.08.57:686][226]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.08.57:741][226]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.08.57:867][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126407s)
+[2019.01.29-19.08.57:868][226]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.08.57:868][226]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2019.01.29-19.08.57:869][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.127650s)
+[2019.01.29-19.08.57:869][226]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.08.57:919][226]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.08.57
+[2019.01.29-19.08.57:921][226]LogWorld: Bringing up level for play took: 0.052105
+[2019.01.29-19.08.57:923][226]LogLoad: Took 0.237549 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.11.55:853][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-19.12.20:726][437]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-19.13.59:595][513]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.13.59:613][513]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.13.59:670][513]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.13.59:792][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121178s)
+[2019.01.29-19.13.59:792][513]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.13.59:792][513]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2019.01.29-19.13.59:793][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.122407s)
+[2019.01.29-19.13.59:793][513]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.13.59:843][513]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.13.59
+[2019.01.29-19.13.59:845][513]LogWorld: Bringing up level for play took: 0.051864
+[2019.01.29-19.13.59:847][513]LogLoad: Took 0.234445 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.14.22:132][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-19.14.40:579][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-19.21.22:351][864]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.21.22:363][864]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.21.22:420][864]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.21.22:544][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123267s)
+[2019.01.29-19.21.22:545][864]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.21.22:545][864]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2019.01.29-19.21.22:546][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124490s)
+[2019.01.29-19.21.22:546][864]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.21.22:596][864]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.21.22
+[2019.01.29-19.21.22:598][864]LogWorld: Bringing up level for play took: 0.051373
+[2019.01.29-19.21.22:600][864]LogLoad: Took 0.235349 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.25.08:550][809]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.25.08:579][809]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.25.08:635][809]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.25.08:754][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118670s)
+[2019.01.29-19.25.08:755][809]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.25.08:755][809]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2019.01.29-19.25.08:755][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.119915s)
+[2019.01.29-19.25.08:755][809]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.25.08:805][809]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.25.08
+[2019.01.29-19.25.08:807][809]LogWorld: Bringing up level for play took: 0.051622
+[2019.01.29-19.25.08:810][809]LogLoad: Took 0.230651 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.30.12:682][716]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.30.12:694][716]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.30.12:746][716]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.30.12:867][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120673s)
+[2019.01.29-19.30.12:867][716]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.30.12:868][716]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2019.01.29-19.30.12:868][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.121897s)
+[2019.01.29-19.30.12:868][716]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.30.12:918][716]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.30.12
+[2019.01.29-19.30.12:920][716]LogWorld: Bringing up level for play took: 0.051290
+[2019.01.29-19.30.12:922][716]LogLoad: Took 0.228254 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.39.03:031][572]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.39.03:049][572]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.39.03:108][572]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.39.03:231][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122548s)
+[2019.01.29-19.39.03:232][572]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.39.03:232][572]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2019.01.29-19.39.03:232][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.123776s)
+[2019.01.29-19.39.03:232][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.39.03:284][572]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.39.03
+[2019.01.29-19.39.03:286][572]LogWorld: Bringing up level for play took: 0.051735
+[2019.01.29-19.39.03:288][572]LogLoad: Took 0.237348 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.43.58:539][443]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.43.58:552][443]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.43.58:607][443]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.43.58:727][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118884s)
+[2019.01.29-19.43.58:727][443]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.43.58:727][443]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2019.01.29-19.43.58:728][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120100s)
+[2019.01.29-19.43.58:728][443]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.43.58:777][443]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.43.58
+[2019.01.29-19.43.58:779][443]LogWorld: Bringing up level for play took: 0.050771
+[2019.01.29-19.43.58:781][443]LogLoad: Took 0.228719 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.46.05:835][603]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.46.05:853][603]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.01.29-19.46.05:909][603]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.29-19.46.06:029][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119458s)
+[2019.01.29-19.46.06:030][603]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.29-19.46.06:030][603]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2019.01.29-19.46.06:030][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120670s)
+[2019.01.29-19.46.06:030][603]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.29-19.46.06:081][603]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.29-14.46.06
+[2019.01.29-19.46.06:083][603]LogWorld: Bringing up level for play took: 0.051656
+[2019.01.29-19.46.06:086][603]LogLoad: Took 0.231248 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.01.29-19.52.26:635][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-19.52.26:635][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.52.26:654][940]LogSlate: Window 'PrototypeLevel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-19.52.26:695][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-19.52.26:696][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.29-19.52.26:972][941]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.29-19.55.05:396][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
