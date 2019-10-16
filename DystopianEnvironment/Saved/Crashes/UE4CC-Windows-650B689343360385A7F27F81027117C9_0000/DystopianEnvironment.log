@@ -1,0 +1,477 @@
+﻿Log file open, 09/04/18 13:05:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DystopianEnvironment
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(396278912) SRandInit(396278912).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.193769
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.04-17.05.20:631][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.04-17.05.20:631][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.04-17.05.20:646][  0]LogInit: Computer: VARUNMW01
+[2018.09.04-17.05.20:646][  0]LogInit: User: Varun
+[2018.09.04-17.05.20:646][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.04-17.05.20:646][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.09.04-17.05.20:646][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.04-17.05.20:646][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.04-17.05.20:646][  0]LogMemory: Process Physical Memory: 278.82 MB used, 278.82 MB peak
+[2018.09.04-17.05.20:646][  0]LogMemory: Process Virtual Memory: 282.45 MB used, 282.45 MB peak
+[2018.09.04-17.05.20:646][  0]LogMemory: Physical Memory: 9628.46 MB used,  6628.49 MB free, 16256.96 MB total
+[2018.09.04-17.05.20:646][  0]LogMemory: Virtual Memory: 4812.88 MB used,  6628.49 MB free, 134217728.00 MB total
+[2018.09.04-17.05.20:858][  0]LogInit: Using OS detected language (en-US).
+[2018.09.04-17.05.20:858][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.04-17.05.20:864][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.04-17.05.21:888][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.04-17.05.21:969][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.09.04-17.05.21:969][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.04-17.05.21:986][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.04-17.05.21:986][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.04-17.05.21:991][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.04-17.05.21:991][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.04-17.05.21:991][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.04-17.05.22:017][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.04-17.05.22:017][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.09.04-17.05.22:017][  0]LogWindows: EnumDisplayDevices:
+[2018.09.04-17.05.22:017][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.04-17.05.22:018][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.04-17.05.22:018][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.04-17.05.22:018][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.04-17.05.22:018][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.09.04-17.05.22:018][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.04-17.05.22:018][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.04-17.05.22:018][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.09.04-17.05.22:072][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.04-17.05.22:095][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.04-17.05.22:096][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Intermediate/Shaders/WorkingDirectory/37812/).
+[2018.09.04-17.05.22:096][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/6BB504C645FCA6FE9B68E0AAEA2EB5CF/'.
+[2018.09.04-17.05.22:096][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.04-17.05.23:566][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.04-17.05.23:686][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.04-17.05.23:754][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.04-17.05.23:828][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.04-17.05.23:899][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.04-17.05.23:962][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.04-17.05.24:035][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.04-17.05.24:112][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.04-17.05.24:222][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.04-17.05.24:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-17.05.24:403][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.04-17.05.24:491][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.04-17.05.24:624][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.04-17.05.24:757][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.04-17.05.24:865][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.04-17.05.25:038][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.04-17.05.25:038][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.04-17.05.25:088][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.04-17.05.25:200][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.04-17.05.25:233][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.04-17.05.25:295][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.04-17.05.25:406][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.04-17.05.25:492][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.04-17.05.25:570][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.04-17.05.25:570][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.04-17.05.26:231][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.04-17.05.26:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.04-17.05.26:355][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.04-17.05.26:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.04-17.05.26:383][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.04-17.05.26:384][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.04-17.05.26:385][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.04-17.05.26:385][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.04-17.05.26:778][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.09.04-17.05.26:951][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.04-17.05.27:158][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.04-17.05.27:642][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.04-17.05.27:706][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.04-17.05.27:706][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.04-17.05.27:706][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.04-17.05.27:706][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.04-17.05.27:706][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.04-17.05.28:159][  0]LogNetVersion: DystopianEnvironment , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2288734988)
+[2018.09.04-17.05.28:598][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.083679 seconds
+[2018.09.04-17.05.28:608][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.09.04-17.05.28:608][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.09.04-17.05.28:608][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.04-17.05.28:691][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.04-17.05.34:981][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.04-17.05.35:068][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.04-17.05.36:446][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.04-17.05.36:993][  0]SourceControl: Source control is disabled
+[2018.09.04-17.05.36:993][  0]SourceControl: Source control is disabled
+[2018.09.04-17.05.37:051][  0]SourceControl: Source control is disabled
+[2018.09.04-17.05.37:117][  0]SourceControl: Source control is disabled
+[2018.09.04-17.05.37:885][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.04-17.05.38:198][  0]LogOcInput: OculusInput pre-init called
+[2018.09.04-17.05.38:537][  0]LogEngine: Initializing Engine...
+[2018.09.04-17.05.38:540][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.04-17.05.38:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.04-17.05.38:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.04-17.05.39:011][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.04-17.05.39:029][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.04-17.05.39:538][  0]LogInit: FAudioDevice initialized.
+[2018.09.04-17.05.39:907][  0]LogDerivedDataCache: Saved boot cache 0.37s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.04-17.05.39:957][  0]LogInit: Texture streaming: Enabled
+[2018.09.04-17.05.40:093][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.04-17.05.40:368][  0]LogInit: Transaction tracking system initialized
+[2018.09.04-17.05.40:759][  0]BlueprintLog: New page: Editor Load
+[2018.09.04-17.05.41:876][  0]LocalizationService: Localization service is disabled
+[2018.09.04-17.05.42:732][  0]LogConsoleResponse: Display: 
+[2018.09.04-17.05.42:933][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.04-17.05.42:933][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.04-17.05.42:933][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.04-17.05.43:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/' took 0.02s
+[2018.09.04-17.05.44:263][  0]SourceControl: Source control is disabled
+[2018.09.04-17.05.44:264][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.04-17.05.44:265][  0]LightingResults: New page: Lighting Build
+[2018.09.04-17.05.44:319][  0]MapCheck: New page: Map Check
+[2018.09.04-17.05.44:319][  0]LightingResults: New page: Lighting Build
+[2018.09.04-17.05.45:321][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.04-17.05.45:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.04-17.05.45:380][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.04-17.05.45:489][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.651ms to complete.
+[2018.09.04-17.05.45:489][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.226
+[2018.09.04-17.05.45:907][  0]LogCollectionManager: Loaded 0 collections in 0.001591 seconds
+[2018.09.04-17.05.46:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Collections/' took 0.01s
+[2018.09.04-17.05.46:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Developers/Varun/Collections/' took 0.01s
+[2018.09.04-17.05.46:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Collections/' took 0.01s
+[2018.09.04-17.05.46:052][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.04-17.05.46:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2386 classes and 500 folders.
+[2018.09.04-17.05.46:157][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.09.04-17.05.47:061][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2018.09.04-17.05.47:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.09.04-17.05.47:536][  0]LogSlate: Took 0.000933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.04-17.05.47:553][  0]LogSlate: Took 0.000729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.04-17.05.47:566][  0]LogSlate: Took 0.010561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.04-17.05.48:003][  0]LogRenderer: Reallocating scene render targets to support 932x708 Format 10 NumSamples 1 (Frame:1).
+[2018.09.04-17.05.48:323][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.09.04-17.05.48:323][  0]LogLoad: (Engine Initialization) Total time: 29.80 seconds
+[2018.09.04-17.05.48:323][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.04-17.05.48:323][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.09.04-17.05.48:323][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.09.04-17.05.48:333][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.04-17.05.48:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.04-17.05.48:457][  0]LogSlate: Took 0.020328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.04-17.05.48:510][  1]LogAssetRegistry: Asset discovery search completed in 21.7545 seconds
+[2018.09.04-17.05.48:513][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.04-17.05.48:513][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.09.04-17.07.05:113][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.07.13:391][418]Cmd: MODE SCALEGRID=0
+[2018.09.04-17.07.22:535][687]LogSlate: Took 0.000998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.04-17.07.23:106][687]LogSavePackage: Save=112.07ms
+[2018.09.04-17.07.23:106][687]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap3ECB6A3D4294491040F074A0B1B1B4C6.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.07.23:112][687]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.07.23:241][687]LogSavePackage: Save=103.56ms
+[2018.09.04-17.07.23:241][687]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData579942A447C94D7AC2BC089591AFF94D.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.07.23:243][687]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.10.36:669][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.09.04-17.10.48:818][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.09.04-17.10.58:996][151]LogSavePackage: Save=91.48ms
+[2018.09.04-17.10.58:996][151]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMapB5582CA440C41E5BFC21E1BCEA8ECD50.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.10.59:001][151]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.10.59:078][151]LogSavePackage: Save=56.65ms
+[2018.09.04-17.10.59:078][151]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltDataA8B431A547C8179DB3F7AA92EC061F65.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.10.59:080][151]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.11.28:118][ 23]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.11.29:866][ 69]LogSavePackage: Save=77.02ms
+[2018.09.04-17.11.29:866][ 69]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap4635D93C4B9279846FBFE38F4C1712C5.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.11.29:871][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.11.29:966][ 69]LogSavePackage: Save=67.81ms
+[2018.09.04-17.11.29:966][ 69]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData7E226CC744438B19AAF28BA504C92E7F.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.11.29:968][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.11.31:019][102]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2018.09.04-17.11.32:464][135]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.11.35:570][227]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.09.04-17.11.36:345][248]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.11.40:555][374]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.09.04-17.11.41:515][403]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.11.54:598][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.04-17.12.03:766][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.04-17.12.22:222][622]LogSavePackage: Save=81.98ms
+[2018.09.04-17.12.22:222][622]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap69CF7D4D4B9E398BF29E8398F64622A6.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.12.22:228][622]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.12.22:301][622]LogSavePackage: Save=53.55ms
+[2018.09.04-17.12.22:301][622]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData4756584149308A9E5A236693FE5B3045.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.12.22:302][622]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.13.00:930][355]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.04-17.13.01:814][382]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.13.22:504][996]LogSavePackage: Save=60.69ms
+[2018.09.04-17.13.22:504][996]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap08F280364D12AE7899F658A50982E313.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.13.22:507][996]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.13.22:587][996]LogSavePackage: Save=58.52ms
+[2018.09.04-17.13.22:587][996]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData3261BCC24D7EF2507C32C6A1B5BCDC04.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.13.22:590][996]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.16.26:908][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.09.04-17.16.30:022][519]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.09.04-17.16.30:115][519]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.09.04-17.16.30:318][519]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.09.04-17.16.30:722][519]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.09.04-17.16.30:868][519]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.09.04-17.16.30:993][519]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.04-17.16.31:033][519]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.04-17.16.31:082][519]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.04-17.16.31:142][519]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.04-17.16.31:257][519]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.09.04-17.16.31:323][519]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.04-17.16.31:365][519]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.09.04-17.16.31:394][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.09.04-17.16.31:399][519]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.09.04-17.16.55:638][ 86]Cmd: TRANSACTION UNDO
+[2018.09.04-17.16.55:638][ 86]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.16.55:681][ 86]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.16.55:681][ 86]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.16.55:682][ 86]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.16.55:735][ 86]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.04-17.16.56:170][ 96]Cmd: TRANSACTION UNDO
+[2018.09.04-17.16.56:171][ 96]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.16.57:615][140]Cmd: TRANSACTION UNDO
+[2018.09.04-17.16.57:615][140]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.04-17.17.45:974][487]Cmd: TRANSACTION UNDO
+[2018.09.04-17.17.45:974][487]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.17.46:013][487]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.09.04-17.17.46:013][487]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.17.46:013][487]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.17.51:690][654]Cmd: TRANSACTION UNDO
+[2018.09.04-17.17.51:690][654]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.17.51:731][654]LogGeometryMode: Warning: Unable to find 2 Poly(s) in new BSP
+[2018.09.04-17.17.51:731][654]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.17.51:731][654]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.20.39:436][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.21.13:241][646]Cmd: DELETE
+[2018.09.04-17.21.13:242][646]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.21.13:242][646]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.21.13:242][646]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.21.19:708][840]Cmd: TRANSACTION UNDO
+[2018.09.04-17.21.19:708][840]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.21.20:297][852]Cmd: TRANSACTION UNDO
+[2018.09.04-17.21.20:297][852]LogEditorTransaction: Undo Modifier [Delete]
+[2018.09.04-17.21.54:875][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2018.09.04-17.23.22:541][512]LogSavePackage: Save=74.44ms
+[2018.09.04-17.23.22:541][512]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_Auto1979F4807492272C69879D08A44B6CF51.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.09.04-17.23.22:542][512]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.09.04-17.23.22:544][512]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.136
+[2018.09.04-17.23.22:544][512]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2018.09.04-17.24.09:630][880]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.24.27:423][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.04-17.24.41:425][801]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.41:425][801]LogEditorTransaction: Undo Scale Actors
+[2018.09.04-17.24.44:583][891]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2018.09.04-17.24.45:849][930]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2018.09.04-17.24.47:173][972]Cmd: DELETE
+[2018.09.04-17.24.47:175][972]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.24.47:175][972]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.24.47:175][972]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.24.49:409][ 39]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.49:409][ 39]LogEditorTransaction: Undo Modifier [Delete]
+[2018.09.04-17.24.49:869][ 47]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.49:869][ 47]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.24.50:364][ 61]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.50:364][ 61]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2018.09.04-17.24.50:999][ 80]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.51:000][ 80]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.24.51:550][ 96]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.51:550][ 96]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.24.52:049][111]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.52:049][111]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2018.09.04-17.24.52:948][138]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.52:948][138]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.24.53:615][158]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.53:616][158]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.24.54:614][188]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.54:614][188]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.24.55:148][204]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.55:148][204]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.24.55:614][218]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.55:614][218]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.24.56:281][238]Cmd: TRANSACTION UNDO
+[2018.09.04-17.24.56:282][238]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.24.56:322][238]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.24.56:323][238]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.24.56:323][238]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.25.04:490][486]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.04:490][486]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.04:887][494]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.04:887][494]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.05:113][499]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.05:113][499]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.05:187][499]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.25.05:187][499]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.25.05:187][499]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.25.05:314][502]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.05:314][502]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.25.05:573][504]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.05:573][504]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.04-17.25.11:114][616]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.25.12:624][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.25.16:024][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.25.23:214][941]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.25.39:357][402]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.39:357][402]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.39:981][416]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.39:981][416]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.40:532][433]Cmd: TRANSACTION UNDO
+[2018.09.04-17.25.40:532][433]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.25.40:572][433]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.25.40:572][433]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.25.40:572][433]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.25.46:564][611]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.26.08:072][249]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2018.09.04-17.26.22:171][603]Cmd: TRANSACTION UNDO
+[2018.09.04-17.26.22:171][603]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.26.22:216][603]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.26.22:216][603]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.26.22:216][603]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.26.41:881][173]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.26.46:808][315]Cmd: TRANSACTION UNDO
+[2018.09.04-17.26.46:808][315]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.26.46:850][315]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.26.46:850][315]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.26.46:850][315]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.27.07:863][935]LogDialogs: Warning: Suppressed: Extrude only works with Local Coordinates System
+[2018.09.04-17.27.20:024][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.27.40:174][880]Cmd: TRANSACTION UNDO
+[2018.09.04-17.27.40:174][880]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.27.40:633][888]Cmd: TRANSACTION UNDO
+[2018.09.04-17.27.40:633][888]LogEditorTransaction: Undo Modifier [Edit]
+[2018.09.04-17.27.41:031][899]Cmd: TRANSACTION UNDO
+[2018.09.04-17.27.41:032][899]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.27.41:072][899]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.27.41:072][899]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.27.41:072][899]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.27.41:566][915]Cmd: TRANSACTION UNDO
+[2018.09.04-17.27.41:566][915]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.27.41:606][915]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.27.41:607][915]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.27.41:607][915]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.27.46:122][ 55]Cmd: TRANSACTION UNDO
+[2018.09.04-17.27.46:122][ 55]LogEditorTransaction: Undo Move Actors
+[2018.09.04-17.27.46:162][ 55]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2018.09.04-17.27.46:162][ 55]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2018.09.04-17.27.46:162][ 55]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.09.04-17.28.25:500][190]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.04-17.28.29:058][298]Cmd: TRANSACTION UNDO
+[2018.09.04-17.28.29:058][298]LogEditorTransaction: Undo Scale Actors
+[2018.09.04-17.29.28:887][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.29.40:516][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.29.44:854][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.04-17.29.57:591][920]LogSavePackage: Save=116.20ms
+[2018.09.04-17.29.57:591][920]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMapCEE7E3A14C6F884008D5B1AF85984FE4.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.04-17.29.57:598][920]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.04-17.29.57:690][920]LogSavePackage: Save=65.54ms
+[2018.09.04-17.29.57:690][920]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltDataB7EE40D74FA58B7DCF438E8A9E871E64.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.04-17.29.57:692][920]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.04-17.31.15:052][901]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush2)
+[2018.09.04-17.31.43:870][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2018.09.04-17.31.53:887][878]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.09.04-17.31.54:288][878]LogWindows: Windows GetLastError: The operation completed successfully. (0)

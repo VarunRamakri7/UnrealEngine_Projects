@@ -1,0 +1,965 @@
+﻿Log file open, 09/03/18 15:22:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DystopianEnvironment
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(35601240) SRandInit(35601240).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.193517
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.03-19.22.20:241][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.03-19.22.20:241][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.03-19.22.20:249][  0]LogInit: Computer: VARUNMW01
+[2018.09.03-19.22.20:249][  0]LogInit: User: Varun
+[2018.09.03-19.22.20:249][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.03-19.22.20:249][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.09.03-19.22.20:249][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.03-19.22.20:249][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.03-19.22.20:249][  0]LogMemory: Process Physical Memory: 278.21 MB used, 278.21 MB peak
+[2018.09.03-19.22.20:249][  0]LogMemory: Process Virtual Memory: 274.54 MB used, 274.54 MB peak
+[2018.09.03-19.22.20:249][  0]LogMemory: Physical Memory: 9773.72 MB used,  6483.23 MB free, 16256.96 MB total
+[2018.09.03-19.22.20:249][  0]LogMemory: Virtual Memory: 4804.88 MB used,  6483.23 MB free, 134217728.00 MB total
+[2018.09.03-19.22.20:450][  0]LogInit: Using OS detected language (en-US).
+[2018.09.03-19.22.20:450][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.03-19.22.20:455][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.03-19.22.21:475][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.03-19.22.21:549][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.09.03-19.22.21:549][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.03-19.22.21:568][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.03-19.22.21:568][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.03-19.22.21:571][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.03-19.22.21:571][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.03-19.22.21:571][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.03-19.22.21:593][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.03-19.22.21:593][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.09.03-19.22.21:593][  0]LogWindows: EnumDisplayDevices:
+[2018.09.03-19.22.21:593][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.03-19.22.21:594][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.03-19.22.21:594][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.03-19.22.21:594][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.03-19.22.21:594][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.09.03-19.22.21:594][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.03-19.22.21:594][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.03-19.22.21:594][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.09.03-19.22.21:642][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.03-19.22.21:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.03-19.22.21:667][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Intermediate/Shaders/WorkingDirectory/40092/).
+[2018.09.03-19.22.21:667][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/C210F15E47432F44696D65BB501670AB/'.
+[2018.09.03-19.22.21:667][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.03-19.22.22:732][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.03-19.22.22:806][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.03-19.22.22:866][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.03-19.22.22:927][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.03-19.22.22:988][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.03-19.22.23:046][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.03-19.22.23:112][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.03-19.22.23:177][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.03-19.22.23:240][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.03-19.22.23:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.03-19.22.23:378][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.03-19.22.23:442][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.03-19.22.23:501][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.03-19.22.23:561][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.03-19.22.23:628][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.03-19.22.23:770][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.03-19.22.23:770][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.03-19.22.23:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.03-19.22.23:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.03-19.22.24:007][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.03-19.22.24:074][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.03-19.22.24:135][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.03-19.22.24:196][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.03-19.22.24:260][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.03-19.22.24:260][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.03-19.22.24:850][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.03-19.22.24:952][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.03-19.22.24:953][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.09.03-19.22.24:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.03-19.22.24:953][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.03-19.22.24:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.03-19.22.24:953][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.03-19.22.24:969][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.03-19.22.24:983][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.03-19.22.24:997][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.03-19.22.24:998][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.03-19.22.25:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.03-19.22.25:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.03-19.22.25:379][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2018.09.03-19.22.25:521][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.03-19.22.25:702][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.03-19.22.26:103][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.03-19.22.26:152][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.03-19.22.26:152][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.03-19.22.26:152][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.03-19.22.26:152][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.03-19.22.26:152][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.03-19.22.26:595][  0]LogNetVersion: DystopianEnvironment , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2288734988)
+[2018.09.03-19.22.26:881][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.061694 seconds
+[2018.09.03-19.22.26:888][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.09.03-19.22.26:888][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.09.03-19.22.26:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.03-19.22.26:960][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.03-19.22.30:373][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.03-19.22.30:425][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.03-19.22.31:284][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.03-19.22.31:789][  0]SourceControl: Source control is disabled
+[2018.09.03-19.22.31:789][  0]SourceControl: Source control is disabled
+[2018.09.03-19.22.31:846][  0]SourceControl: Source control is disabled
+[2018.09.03-19.22.31:908][  0]SourceControl: Source control is disabled
+[2018.09.03-19.22.32:629][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.03-19.22.32:931][  0]LogOcInput: OculusInput pre-init called
+[2018.09.03-19.22.33:246][  0]LogEngine: Initializing Engine...
+[2018.09.03-19.22.33:249][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.03-19.22.33:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.03-19.22.33:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.03-19.22.33:686][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.03-19.22.33:701][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.03-19.22.34:122][  0]LogInit: FAudioDevice initialized.
+[2018.09.03-19.22.34:340][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.03-19.22.34:363][  0]LogInit: Texture streaming: Enabled
+[2018.09.03-19.22.34:474][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.03-19.22.34:770][  0]LogInit: Transaction tracking system initialized
+[2018.09.03-19.22.35:167][  0]BlueprintLog: New page: Editor Load
+[2018.09.03-19.22.36:328][  0]LocalizationService: Localization service is disabled
+[2018.09.03-19.22.37:207][  0]LogConsoleResponse: Display: 
+[2018.09.03-19.22.37:419][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.03-19.22.37:419][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.03-19.22.37:419][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.03-19.22.38:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/' took 0.01s
+[2018.09.03-19.22.38:738][  0]SourceControl: Source control is disabled
+[2018.09.03-19.22.38:806][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/EpicGames/Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2018.09.03-19.22.38:874][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.09.03-19.22.38:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.09.03-19.22.38:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.09.03-19.22.38:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.09.03-19.22.38:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.09.03-19.22.38:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.09.03-19.22.38:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.09.03-19.22.38:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.09.03-19.22.38:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.09.03-19.22.38:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.09.03-19.22.38:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.09.03-19.22.38:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.09.03-19.22.38:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.09.03-19.22.38:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.09.03-19.22.38:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.09.03-19.22.39:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.09.03-19.22.39:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.09.03-19.22.39:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.09.03-19.22.39:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Fire01.uasset"
+[2018.09.03-19.22.39:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.09.03-19.22.39:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.09.03-19.22.39:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.09.03-19.22.39:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Light01.uasset"
+[2018.09.03-19.22.39:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.09.03-19.22.39:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Light02.uasset"
+[2018.09.03-19.22.39:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.09.03-19.22.39:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.09.03-19.22.39:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.09.03-19.22.39:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.09.03-19.22.39:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.09.03-19.22.39:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.09.03-19.22.39:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.09.03-19.22.39:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.09.03-19.22.39:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.09.03-19.22.39:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Steam01.uasset"
+[2018.09.03-19.22.39:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.09.03-19.22.39:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.09.03-19.22.39:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.09.03-19.22.39:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.09.03-19.22.39:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.09.03-19.22.39:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.09.03-19.22.39:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.09.03-19.22.39:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.09.03-19.22.39:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.09.03-19.22.39:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.09.03-19.22.39:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.09.03-19.22.39:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.09.03-19.22.39:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.09.03-19.22.39:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.09.03-19.22.39:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.09.03-19.22.39:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.09.03-19.22.39:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.09.03-19.22.40:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.09.03-19.22.40:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.09.03-19.22.40:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.09.03-19.22.40:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.09.03-19.22.40:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.09.03-19.22.40:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/StarterMap.umap"
+[2018.09.03-19.22.40:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.09.03-19.22.40:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.09.03-19.22.40:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.09.03-19.22.40:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.09.03-19.22.40:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.09.03-19.22.40:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.09.03-19.22.40:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.09.03-19.22.40:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.09.03-19.22.40:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.09.03-19.22.40:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.09.03-19.22.40:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.09.03-19.22.40:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.09.03-19.22.40:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.09.03-19.22.41:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.09.03-19.22.41:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.09.03-19.22.41:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.09.03-19.22.41:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.09.03-19.22.41:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.09.03-19.22.41:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.09.03-19.22.41:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.09.03-19.22.41:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.09.03-19.22.41:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.09.03-19.22.41:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.09.03-19.22.41:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.09.03-19.22.41:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.09.03-19.22.41:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.09.03-19.22.41:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.09.03-19.22.41:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.09.03-19.22.41:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.09.03-19.22.41:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.09.03-19.22.41:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.09.03-19.22.41:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.09.03-19.22.41:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.09.03-19.22.41:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.09.03-19.22.41:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.09.03-19.22.41:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.09.03-19.22.41:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.09.03-19.22.41:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.09.03-19.22.41:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.09.03-19.22.41:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.09.03-19.22.41:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.09.03-19.22.41:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.09.03-19.22.41:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.09.03-19.22.41:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.09.03-19.22.41:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.09.03-19.22.41:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.09.03-19.22.41:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.09.03-19.22.41:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.09.03-19.22.41:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.09.03-19.22.41:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.09.03-19.22.41:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.09.03-19.22.41:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.09.03-19.22.41:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.09.03-19.22.41:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.09.03-19.22.41:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.09.03-19.22.41:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.09.03-19.22.41:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.09.03-19.22.41:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.09.03-19.22.41:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.09.03-19.22.41:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.09.03-19.22.41:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.09.03-19.22.41:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.09.03-19.22.41:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.09.03-19.22.41:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.09.03-19.22.41:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.09.03-19.22.41:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Door.uasset"
+[2018.09.03-19.22.41:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.09.03-19.22.41:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.09.03-19.22.41:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.09.03-19.22.41:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.09.03-19.22.41:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.09.03-19.22.41:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.09.03-19.22.41:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.09.03-19.22.41:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.09.03-19.22.41:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.09.03-19.22.41:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.09.03-19.22.41:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.09.03-19.22.41:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.09.03-19.22.41:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.09.03-19.22.41:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.09.03-19.22.41:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.09.03-19.22.41:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.09.03-19.22.41:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.09.03-19.22.41:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.09.03-19.22.41:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.09.03-19.22.41:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.09.03-19.22.41:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.09.03-19.22.41:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.09.03-19.22.41:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.09.03-19.22.41:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.09.03-19.22.41:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.09.03-19.22.41:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.09.03-19.22.41:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.09.03-19.22.41:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.09.03-19.22.41:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.09.03-19.22.41:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.09.03-19.22.41:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.09.03-19.22.41:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.09.03-19.22.41:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.09.03-19.22.41:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.09.03-19.22.41:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.09.03-19.22.41:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.09.03-19.22.41:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.09.03-19.22.41:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.09.03-19.22.41:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.09.03-19.22.41:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.09.03-19.22.41:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.09.03-19.22.41:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.09.03-19.22.41:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.09.03-19.22.41:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.09.03-19.22.41:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.09.03-19.22.41:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.09.03-19.22.41:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.09.03-19.22.41:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.09.03-19.22.42:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.09.03-19.22.42:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.09.03-19.22.42:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.09.03-19.22.42:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.09.03-19.22.42:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.09.03-19.22.42:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.09.03-19.22.42:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.09.03-19.22.42:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.09.03-19.22.42:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.09.03-19.22.42:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.09.03-19.22.42:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.09.03-19.22.42:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.09.03-19.22.42:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.09.03-19.22.43:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.09.03-19.22.43:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.09.03-19.22.43:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.09.03-19.22.43:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.09.03-19.22.43:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.09.03-19.22.43:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.09.03-19.22.43:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.09.03-19.22.43:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.09.03-19.22.43:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.09.03-19.22.43:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.09.03-19.22.44:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.09.03-19.22.44:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.09.03-19.22.44:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.09.03-19.22.44:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.09.03-19.22.44:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.09.03-19.22.44:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.09.03-19.22.44:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.09.03-19.22.44:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.09.03-19.22.44:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.09.03-19.22.45:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.09.03-19.22.45:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.09.03-19.22.45:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.09.03-19.22.45:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.09.03-19.22.45:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.09.03-19.22.45:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.09.03-19.22.45:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.09.03-19.22.45:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.09.03-19.22.45:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.09.03-19.22.45:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.09.03-19.22.45:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.09.03-19.22.45:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.09.03-19.22.45:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.09.03-19.22.45:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.09.03-19.22.45:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.09.03-19.22.46:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.09.03-19.22.46:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.09.03-19.22.46:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.09.03-19.22.46:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.09.03-19.22.46:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.09.03-19.22.46:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.09.03-19.22.46:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.09.03-19.22.47:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.09.03-19.22.47:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.09.03-19.22.47:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.09.03-19.22.47:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.09.03-19.22.47:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.09.03-19.22.47:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.09.03-19.22.47:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.09.03-19.22.47:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.09.03-19.22.47:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.09.03-19.22.48:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.09.03-19.22.48:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.09.03-19.22.48:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.09.03-19.22.48:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.09.03-19.22.48:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.09.03-19.22.48:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.09.03-19.22.48:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.09.03-19.22.48:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.09.03-19.22.49:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.09.03-19.22.49:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.09.03-19.22.49:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.09.03-19.22.49:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.09.03-19.22.49:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.09.03-19.22.49:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.09.03-19.22.49:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.09.03-19.22.49:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.09.03-19.22.49:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.09.03-19.22.49:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.09.03-19.22.49:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.09.03-19.22.49:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.09.03-19.22.49:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.09.03-19.22.49:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.09.03-19.22.49:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.09.03-19.22.49:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.09.03-19.22.49:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.09.03-19.22.49:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.09.03-19.22.49:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.09.03-19.22.49:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.09.03-19.22.50:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.09.03-19.22.50:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.09.03-19.22.50:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.09.03-19.22.50:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.09.03-19.22.50:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.09.03-19.22.50:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.09.03-19.22.50:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.09.03-19.22.50:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.09.03-19.22.51:654][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.09.03-19.22.52:725][  0]LogSavePackage: Save=79.48ms
+[2018.09.03-19.22.52:725][  0]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Floor_400x400EF9C3E9D4F376123FCAFCDA9EB622720.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.09.03-19.22.52:728][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.09.03-19.22.52:729][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.09.03-19.22.52:730][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.03-19.22.52:731][  0]LightingResults: New page: Lighting Build
+[2018.09.03-19.22.52:784][  0]MapCheck: New page: Map Check
+[2018.09.03-19.22.52:784][  0]LightingResults: New page: Lighting Build
+[2018.09.03-19.22.54:356][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.03-19.22.54:780][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.03-19.22.54:813][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.03-19.22.54:916][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.404ms to complete.
+[2018.09.03-19.22.54:916][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.186
+[2018.09.03-19.22.55:270][  0]LogCollectionManager: Loaded 0 collections in 0.000910 seconds
+[2018.09.03-19.22.55:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Collections/' took 0.01s
+[2018.09.03-19.22.55:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Developers/Varun/Collections/' took 0.01s
+[2018.09.03-19.22.55:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Collections/' took 0.01s
+[2018.09.03-19.22.55:447][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.03-19.22.55:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2386 classes and 500 folders.
+[2018.09.03-19.22.55:606][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.09.03-19.22.55:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.03-19.22.56:441][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.09.03-19.22.57:035][  0]LogSlate: Took 0.000674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.03-19.22.57:038][  0]LogSlate: Took 0.000511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.03-19.22.57:060][  0]LogSlate: Took 0.009542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.03-19.22.57:307][  0]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-19.22.57:468][  0]LogRenderer: Reallocating scene render targets to support 932x708 Format 10 NumSamples 1 (Frame:1).
+[2018.09.03-19.22.58:123][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.03-19.22.58:123][  0]LogLoad: (Engine Initialization) Total time: 39.84 seconds
+[2018.09.03-19.22.58:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.03-19.22.58:123][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.09.03-19.22.58:123][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.09.03-19.22.58:154][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.03-19.22.58:972][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.03-19.22.59:088][  1]LogAssetRegistry: Asset discovery search completed in 33.7319 seconds
+[2018.09.03-19.22.59:092][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.03-19.22.59:092][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2018.09.03-19.23.01:448][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2018.09.03-19.23.03:022][141]Cmd: DELETE
+[2018.09.03-19.23.03:022][141]Cmd: ACTOR DELETE
+[2018.09.03-19.23.03:227][141]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.03:292][141]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2018.09.03-19.23.03:723][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2018.09.03-19.23.04:144][185]Cmd: DELETE
+[2018.09.03-19.23.04:144][185]Cmd: ACTOR DELETE
+[2018.09.03-19.23.04:145][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.04:157][185]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.03-19.23.04:865][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2018.09.03-19.23.05:080][236]Cmd: DELETE
+[2018.09.03-19.23.05:080][236]Cmd: ACTOR DELETE
+[2018.09.03-19.23.05:081][236]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.05:092][236]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.03-19.23.05:547][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2018.09.03-19.23.05:763][273]Cmd: DELETE
+[2018.09.03-19.23.05:763][273]Cmd: ACTOR DELETE
+[2018.09.03-19.23.05:764][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.05:775][273]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.03-19.23.06:262][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2018.09.03-19.23.06:485][312]Cmd: DELETE
+[2018.09.03-19.23.06:485][312]Cmd: ACTOR DELETE
+[2018.09.03-19.23.06:486][312]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.06:498][312]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.03-19.23.06:913][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2018.09.03-19.23.07:114][346]Cmd: DELETE
+[2018.09.03-19.23.07:114][346]Cmd: ACTOR DELETE
+[2018.09.03-19.23.07:114][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.07:126][346]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.03-19.23.07:828][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.09.03-19.23.09:359][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.03-19.23.10:128][517]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.09.03-19.23.10:712][546]Cmd: DELETE
+[2018.09.03-19.23.10:712][546]Cmd: ACTOR DELETE
+[2018.09.03-19.23.10:712][546]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.09.03-19.23.10:724][546]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.03-19.23.11:361][584]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2018.09.03-19.23.11:599][593]Cmd: DELETE
+[2018.09.03-19.23.11:600][593]Cmd: ACTOR DELETE
+[2018.09.03-19.23.11:600][593]LogEditorActor: Deleted Actor: DocumentationActor
+[2018.09.03-19.23.11:611][593]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.09.03-19.23.13:075][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.03-19.23.14:181][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.09.03-19.23.15:867][842]Cmd: DELETE
+[2018.09.03-19.23.15:867][842]Cmd: ACTOR DELETE
+[2018.09.03-19.23.15:868][842]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.15:881][842]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.03-19.23.16:253][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2018.09.03-19.23.16:426][871]Cmd: DELETE
+[2018.09.03-19.23.16:426][871]Cmd: ACTOR DELETE
+[2018.09.03-19.23.16:426][871]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.16:438][871]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.03-19.23.17:175][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.09.03-19.23.17:295][919]Cmd: DELETE
+[2018.09.03-19.23.17:295][919]Cmd: ACTOR DELETE
+[2018.09.03-19.23.17:295][919]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.17:307][919]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.03-19.23.19:965][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2018.09.03-19.23.20:904][130]Cmd: DELETE
+[2018.09.03-19.23.20:905][130]Cmd: ACTOR DELETE
+[2018.09.03-19.23.20:906][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.03-19.23.20:917][130]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.09.03-19.23.24:047][314]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-19.23.24:219][314]LogSavePackage: Save=105.66ms
+[2018.09.03-19.23.24:219][314]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap6BBAD23F400D9D6DC6ED7FA9434D3E4C.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.03-19.23.24:224][314]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.03-19.23.24:490][314]LogSavePackage: Save=215.82ms
+[2018.09.03-19.23.24:490][314]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData356B9C8F403EE589CD57A1AC8B48FF38.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.03-19.23.24:493][314]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.03-19.23.26:827][452]MapCheck: New page: Map Check
+[2018.09.03-19.23.26:897][452]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.03-19.23.26:897][452]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.03-19.23.27:183][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.03-19.23.27:300][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.09.03-19.23.27:311][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.09.03-19.23.27:319][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.09.03-19.23.27:332][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.09.03-19.23.27:342][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.03-19.23.28:730][452]TextureStreamingBuild: Display: Compiling optional shaders took 1.573 seconds.
+[2018.09.03-19.23.28:765][452]LogLevel: Display: Export Material TexCoord Scales took 0.036 seconds.
+[2018.09.03-19.23.28:776][452]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.09.03-19.23.28:833][452]LightingResults: New page: Lighting Build - Sep 3, 2018, 11:23:28 AM
+[2018.09.03-19.23.28:967][452]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.03-19.23.29:173][452]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.03-19.23.29:202][452]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.03-19.23.30:252][452]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.03-19.23.30:252][452]LogSwarmInterface: [TryOpenConnection] Local Process ID is 40092
+[2018.09.03-19.23.38:723][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.03-19.23.38:728][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.03-19.23.38:728][452]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.03-19.23.38:728][452]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.03-19.23.38:728][452]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.03-19.23.39:074][452]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.03-19.23.39:074][452]MapCheck: New page: ThirdPersonExampleMap - Sep 3, 2018, 11:23:39 AM
+[2018.09.03-19.23.39:240][452]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 165.234ms to complete.
+[2018.09.03-19.23.39:264][452]LogEditorBuildUtils: Build time 0:12
+[2018.09.03-19.23.46:696][837]Job is a success!
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.09.03-19.23.47:131][838]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.03-19.23.47:205][838]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.09.03-19.23.47:205][838]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2018.09.03-19.23.47:244][838]Lightmass on VARUNMW01: 6.20 sec total, 176 ms importing, 6 ms setup, 1.21 sec photons, 3.68 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 25.6 sec total, 3.15 sec processing.
+[2018.09.03-19.23.47:280][838]LogStaticLightingSystem: Illumination: 18.4 sec (203 ms encoding lightmaps, 64 ms encoding shadowmaps)
+[2018.09.03-19.23.47:280][838]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.09.03-19.23.47:280][838]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.03-19.23.47:693][838]DumpUnbuiltLightIteractions
+[2018.09.03-19.23.47:693][838]Lights with unbuilt interactions: 0
+[2018.09.03-19.23.47:693][838]
+[2018.09.03-19.23.47:693][838]Primitives with unbuilt interactions: 0
+[2018.09.03-19.23.47:706][839]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.03-19.23.47:707][839]MapCheck: New page: ThirdPersonExampleMap - Sep 3, 2018, 11:23:47 AM
+[2018.09.03-19.23.47:826][839]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.271ms to complete.
+[2018.09.03-19.24.00:772][614]Cmd: MODE GRID=0
+[2018.09.03-19.49.50:935][117]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.03-19.49.51:128][117]LogSavePackage: Save=97.01ms
+[2018.09.03-19.49.51:128][117]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_Auto13812D2B44E6CCA6191B65D93B89836D3.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.09.03-19.49.51:130][117]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.09.03-19.49.51:134][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.159
+[2018.09.03-19.49.51:135][117]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2018.09.03-19.49.51:161][117]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.09.03-19.49.51:161][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData]
+[2018.09.03-19.49.51:182][117]LogSavePackage: Save=13.80ms
+[2018.09.03-19.49.51:182][117]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData_Auto1A65ECD3F4CE56518D20162AA8D2B6D7D.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset'
+[2018.09.03-19.49.51:184][117]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset
+[2018.09.03-19.49.51:184][117]LogFileHelpers: Auto-saving content packages took 0.036
+[2018.09.03-19.49.58:619][208]LogSavePackage: Save=96.02ms
+[2018.09.03-19.49.58:619][208]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMapADC8EFCC4F2E607E67D0DF81D2D9D468.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.03-19.49.58:624][208]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.03-19.49.58:632][208]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.248
+[2018.09.03-19.49.58:697][208]LogSavePackage: Save=56.69ms
+[2018.09.03-19.49.58:697][208]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData97BCF287465649ECB1214F818C82F7D2.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.03-19.49.58:701][208]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.03-19.49.58:785][208]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.03-19.49.59:145][209]Cmd: QUIT_EDITOR
+[2018.09.03-19.49.59:200][209]LogExit: Preparing to exit.
+[2018.09.03-19.49.59:689][209]LogExit: Editor shut down
+[2018.09.03-19.49.59:694][209]LogExit: Transaction tracking system shut down
+[2018.09.03-19.49.59:767][209]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.09.03-19.49.59:767][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/' was aborted.
+[2018.09.03-19.49.59:767][209]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.09.03-19.49.59:767][209]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.09.03-19.49.59:767][209]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.09.03-19.49.59:823][209]LogExit: Object subsystem successfully closed.
+[2018.09.03-19.49.59:862][209]LogD3D11RHI: Shutdown
+[2018.09.03-19.49.59:862][209]LogD3D11RHI: CleanupD3DDevice
+[2018.09.03-19.49.59:894][209]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.03-19.49.59:924][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2018.09.03-19.49.59:925][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.09.03-19.49.59:925][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.09.03-19.49.59:925][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.09.03-19.49.59:925][209]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.09.03-19.49.59:927][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.09.03-19.49.59:927][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.09.03-19.49.59:927][209]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.09.03-19.49.59:927][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Collections/' was aborted.
+[2018.09.03-19.49.59:928][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Content/Developers/Varun/Collections/' was aborted.
+[2018.09.03-19.49.59:928][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/DystopianEnvironment/Saved/Collections/' was aborted.
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.09.03-19.49.59:928][209]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.09.03-19.49.59:929][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.09.03-19.50.00:909][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.09.03-19.50.00:910][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.09.03-19.50.00:966][209]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.09.03-19.50.00:966][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.09.03-19.50.00:966][209]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.09.03-19.50.00:966][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.09.03-19.50.00:967][209]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.09.03-19.50.00:968][209]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.09.03-19.50.01:141][209]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.09.03-19.50.01:142][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.09.03-19.50.01:143][209]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.09.03-19.50.01:143][209]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.09.03-19.50.01:145][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.09.03-19.50.01:146][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.09.03-19.50.01:146][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.09.03-19.50.01:247][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.09.03-19.50.01:347][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.09.03-19.50.01:348][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.09.03-19.50.01:348][209]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.09.03-19.50.01:348][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.09.03-19.50.01:348][209]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.09.03-19.50.01:351][209]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.09.03-19.50.01:354][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.09.03-19.50.01:355][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.09.03-19.50.01:398][209]LogDerivedDataCache: Shutdown
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.09.03-19.50.01:398][209]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.09.03-19.50.01:399][209]LogOnline: Display: Unloading online subsystem: NULL
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.03-19.50.01:399][209]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.03-19.50.01:399][209]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.03-19.50.01:399][209]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68E0ED19-4796-033C-1D03-B0998D1A5F88%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=492e65dd48673339ba3345820836acac%7C198f0c7eba5d40c39cde66691aa87a3b%7C708ffe7b-f8ea-4e7d-825c-9c27d99d23de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.03-19.50.01:410][209]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.03-19.50.01:412][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.03-19.50.01:413][209]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.03-19.50.01:418][209]LogExit: Exiting.
+[2018.09.03-19.50.01:427][209]Log file closed, 09/03/18 15:50:01
