@@ -1,0 +1,669 @@
+﻿Log file open, 08/27/18 16:25:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UtopianEnvironment
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1012549540) SRandInit(-1012549540).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.197994
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.27-20.25.56:644][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.27-20.25.56:644][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.27-20.25.56:655][  0]LogInit: Computer: VARUNMW01
+[2018.08.27-20.25.56:655][  0]LogInit: User: Varun
+[2018.08.27-20.25.56:655][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.27-20.25.56:655][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.08.27-20.25.56:656][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.27-20.25.56:656][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.27-20.25.56:656][  0]LogMemory: Process Physical Memory: 278.21 MB used, 278.21 MB peak
+[2018.08.27-20.25.56:656][  0]LogMemory: Process Virtual Memory: 274.63 MB used, 274.63 MB peak
+[2018.08.27-20.25.56:656][  0]LogMemory: Physical Memory: 8104.39 MB used,  8152.57 MB free, 16256.96 MB total
+[2018.08.27-20.25.56:656][  0]LogMemory: Virtual Memory: 4804.88 MB used,  8152.57 MB free, 134217728.00 MB total
+[2018.08.27-20.25.56:856][  0]LogInit: Using OS detected language (en-US).
+[2018.08.27-20.25.56:856][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.27-20.25.56:862][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.27-20.25.57:910][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.27-20.25.57:930][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.08.27-20.25.57:930][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.08.27-20.25.58:018][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.08.27-20.25.58:018][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.08.27-20.25.58:023][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.27-20.25.58:023][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.27-20.25.58:023][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.08.27-20.25.58:034][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.27-20.25.58:034][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.08.27-20.25.58:034][  0]LogWindows: EnumDisplayDevices:
+[2018.08.27-20.25.58:034][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.08.27-20.25.58:034][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.27-20.25.58:034][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.27-20.25.58:034][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.27-20.25.58:034][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.08.27-20.25.58:034][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.27-20.25.58:034][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.27-20.25.58:034][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.08.27-20.25.58:090][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.27-20.25.58:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.27-20.25.58:116][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Intermediate/Shaders/WorkingDirectory/19100/).
+[2018.08.27-20.25.58:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/99C849D843348DD5ECA23A8CBCA4DA75/'.
+[2018.08.27-20.25.58:116][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.27-20.25.59:281][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.27-20.25.59:361][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.27-20.25.59:427][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.27-20.25.59:499][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.27-20.25.59:559][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.27-20.25.59:626][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.27-20.25.59:705][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.27-20.25.59:774][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.27-20.25.59:827][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.27-20.25.59:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.27-20.25.59:966][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.27-20.26.00:042][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.27-20.26.00:105][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.27-20.26.00:177][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.27-20.26.00:241][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.27-20.26.00:381][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.27-20.26.00:381][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.27-20.26.00:434][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.27-20.26.00:557][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.27-20.26.00:595][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.27-20.26.00:675][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.27-20.26.00:775][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.27-20.26.00:851][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.27-20.26.00:917][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.27-20.26.00:917][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.27-20.26.01:517][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.27-20.26.01:620][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.27-20.26.01:640][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.27-20.26.01:653][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.27-20.26.01:667][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.27-20.26.01:667][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.27-20.26.01:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.27-20.26.01:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.27-20.26.02:045][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.08.27-20.26.02:202][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.27-20.26.02:381][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.08.27-20.26.02:759][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.27-20.26.02:814][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.27-20.26.02:814][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.27-20.26.02:814][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.27-20.26.02:814][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.27-20.26.02:814][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.27-20.26.03:257][  0]LogNetVersion: UtopianEnvironment , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 35307049)
+[2018.08.27-20.26.03:540][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055760 seconds
+[2018.08.27-20.26.03:548][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.08.27-20.26.03:548][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.08.27-20.26.03:548][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.27-20.26.03:613][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.27-20.26.08:726][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.27-20.26.08:781][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.27-20.26.09:876][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.27-20.26.10:677][  0]SourceControl: Source control is disabled
+[2018.08.27-20.26.10:677][  0]SourceControl: Source control is disabled
+[2018.08.27-20.26.10:758][  0]SourceControl: Source control is disabled
+[2018.08.27-20.26.10:847][  0]SourceControl: Source control is disabled
+[2018.08.27-20.26.11:859][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.27-20.26.12:288][  0]LogOcInput: OculusInput pre-init called
+[2018.08.27-20.26.12:782][  0]LogEngine: Initializing Engine...
+[2018.08.27-20.26.12:785][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.27-20.26.13:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.27-20.26.13:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.27-20.26.13:434][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.27-20.26.13:456][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.27-20.26.13:501][  0]LogInit: FAudioDevice initialized.
+[2018.08.27-20.26.13:815][  0]LogDerivedDataCache: Saved boot cache 0.31s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.08.27-20.26.13:844][  0]LogInit: Texture streaming: Enabled
+[2018.08.27-20.26.14:019][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.27-20.26.14:384][  0]LogInit: Transaction tracking system initialized
+[2018.08.27-20.26.14:909][  0]BlueprintLog: New page: Editor Load
+[2018.08.27-20.26.16:449][  0]LocalizationService: Localization service is disabled
+[2018.08.27-20.26.17:656][  0]LogConsoleResponse: Display: 
+[2018.08.27-20.26.17:929][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.27-20.26.17:930][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.27-20.26.17:930][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.27-20.26.18:376][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/' took 0.02s
+[2018.08.27-20.26.19:492][  0]SourceControl: Source control is disabled
+[2018.08.27-20.26.19:494][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/EpicGames/Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2018.08.27-20.26.19:506][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.08.27-20.26.19:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.08.27-20.26.19:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.08.27-20.26.19:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.08.27-20.26.19:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.08.27-20.26.19:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.08.27-20.26.19:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.08.27-20.26.19:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.08.27-20.26.19:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.08.27-20.26.19:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.08.27-20.26.19:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.08.27-20.26.19:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.08.27-20.26.19:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.08.27-20.26.19:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.08.27-20.26.19:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.08.27-20.26.19:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.08.27-20.26.19:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.08.27-20.26.19:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.08.27-20.26.19:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Fire01.uasset"
+[2018.08.27-20.26.19:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.08.27-20.26.19:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.08.27-20.26.19:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.08.27-20.26.19:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Light01.uasset"
+[2018.08.27-20.26.19:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.08.27-20.26.19:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Light02.uasset"
+[2018.08.27-20.26.19:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.08.27-20.26.19:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.08.27-20.26.19:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.08.27-20.26.19:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.08.27-20.26.19:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.08.27-20.26.19:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.08.27-20.26.19:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.08.27-20.26.19:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.08.27-20.26.19:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.08.27-20.26.19:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Steam01.uasset"
+[2018.08.27-20.26.19:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.08.27-20.26.19:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.08.27-20.26.19:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.08.27-20.26.19:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.08.27-20.26.19:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.08.27-20.26.19:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.08.27-20.26.19:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.08.27-20.26.19:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.08.27-20.26.19:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.08.27-20.26.19:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.08.27-20.26.19:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.08.27-20.26.19:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.08.27-20.26.19:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.08.27-20.26.19:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.08.27-20.26.19:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.08.27-20.26.19:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.08.27-20.26.19:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.08.27-20.26.19:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.08.27-20.26.19:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.08.27-20.26.19:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.08.27-20.26.19:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.08.27-20.26.19:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.08.27-20.26.19:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/StarterMap.umap"
+[2018.08.27-20.26.19:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.08.27-20.26.19:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.08.27-20.26.19:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.08.27-20.26.19:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.08.27-20.26.19:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.08.27-20.26.19:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.08.27-20.26.19:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.08.27-20.26.19:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.08.27-20.26.19:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.08.27-20.26.19:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.08.27-20.26.19:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.08.27-20.26.19:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.08.27-20.26.19:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.08.27-20.26.19:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.08.27-20.26.19:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.08.27-20.26.19:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.08.27-20.26.19:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.08.27-20.26.19:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.08.27-20.26.19:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.08.27-20.26.19:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.08.27-20.26.19:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.08.27-20.26.19:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.08.27-20.26.19:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.08.27-20.26.19:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.08.27-20.26.19:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.08.27-20.26.19:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.08.27-20.26.19:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.08.27-20.26.19:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.08.27-20.26.19:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.08.27-20.26.19:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.08.27-20.26.19:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.08.27-20.26.19:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.08.27-20.26.19:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.08.27-20.26.19:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.08.27-20.26.19:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.08.27-20.26.19:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.08.27-20.26.19:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.08.27-20.26.19:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.08.27-20.26.19:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.08.27-20.26.19:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.08.27-20.26.19:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.08.27-20.26.19:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.08.27-20.26.19:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.08.27-20.26.19:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.08.27-20.26.19:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.08.27-20.26.19:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.08.27-20.26.19:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.08.27-20.26.19:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.08.27-20.26.19:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.08.27-20.26.19:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.08.27-20.26.19:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.08.27-20.26.19:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.08.27-20.26.19:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.08.27-20.26.19:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.08.27-20.26.19:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.08.27-20.26.19:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.08.27-20.26.19:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.08.27-20.26.19:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.08.27-20.26.19:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.08.27-20.26.19:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.08.27-20.26.19:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.08.27-20.26.19:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.08.27-20.26.19:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.08.27-20.26.19:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.08.27-20.26.19:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.08.27-20.26.19:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Door.uasset"
+[2018.08.27-20.26.19:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.08.27-20.26.19:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.08.27-20.26.19:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.08.27-20.26.19:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.08.27-20.26.19:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.08.27-20.26.19:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.08.27-20.26.19:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.08.27-20.26.19:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.08.27-20.26.19:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.08.27-20.26.19:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.08.27-20.26.19:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.08.27-20.26.19:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.08.27-20.26.19:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.08.27-20.26.19:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.08.27-20.26.19:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.08.27-20.26.19:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.08.27-20.26.19:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.08.27-20.26.19:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.08.27-20.26.19:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.08.27-20.26.19:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.08.27-20.26.19:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.08.27-20.26.19:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.08.27-20.26.19:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.08.27-20.26.19:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.08.27-20.26.19:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.08.27-20.26.19:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.08.27-20.26.19:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.08.27-20.26.19:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.08.27-20.26.19:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.08.27-20.26.19:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.08.27-20.26.19:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.08.27-20.26.19:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.08.27-20.26.19:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.08.27-20.26.19:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.08.27-20.26.19:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.08.27-20.26.19:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.08.27-20.26.19:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.08.27-20.26.19:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.08.27-20.26.19:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.08.27-20.26.19:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.08.27-20.26.19:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.08.27-20.26.19:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.08.27-20.26.19:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.08.27-20.26.19:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.08.27-20.26.19:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.08.27-20.26.19:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.08.27-20.26.20:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.08.27-20.26.20:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.08.27-20.26.20:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.08.27-20.26.20:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.08.27-20.26.20:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.08.27-20.26.20:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.08.27-20.26.20:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.08.27-20.26.20:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.08.27-20.26.20:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.08.27-20.26.20:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.08.27-20.26.20:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.08.27-20.26.20:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.08.27-20.26.20:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.08.27-20.26.20:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.08.27-20.26.20:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.08.27-20.26.20:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.08.27-20.26.20:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.08.27-20.26.20:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.08.27-20.26.20:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.08.27-20.26.20:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.08.27-20.26.20:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.08.27-20.26.20:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.08.27-20.26.20:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.08.27-20.26.20:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.08.27-20.26.20:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.08.27-20.26.20:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.08.27-20.26.20:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.08.27-20.26.20:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.08.27-20.26.20:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.08.27-20.26.20:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.08.27-20.26.20:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.08.27-20.26.20:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.08.27-20.26.20:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.08.27-20.26.20:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.08.27-20.26.20:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.08.27-20.26.20:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.08.27-20.26.20:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.08.27-20.26.20:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.08.27-20.26.20:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.08.27-20.26.20:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.08.27-20.26.20:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.08.27-20.26.20:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.08.27-20.26.20:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.08.27-20.26.20:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.08.27-20.26.20:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.08.27-20.26.20:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.08.27-20.26.20:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.08.27-20.26.20:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.08.27-20.26.20:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.08.27-20.26.20:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.08.27-20.26.20:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.08.27-20.26.20:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.08.27-20.26.20:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.08.27-20.26.20:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.08.27-20.26.20:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.08.27-20.26.20:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.08.27-20.26.20:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.08.27-20.26.20:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.08.27-20.26.20:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.08.27-20.26.20:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.08.27-20.26.20:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.08.27-20.26.20:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.08.27-20.26.20:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.08.27-20.26.20:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.08.27-20.26.20:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.08.27-20.26.20:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.08.27-20.26.20:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.08.27-20.26.20:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.08.27-20.26.20:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.08.27-20.26.20:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.08.27-20.26.20:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.08.27-20.26.20:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.08.27-20.26.20:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.08.27-20.26.20:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.08.27-20.26.20:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.08.27-20.26.20:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.08.27-20.26.20:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.08.27-20.26.20:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.08.27-20.26.20:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.08.27-20.26.20:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.08.27-20.26.20:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.08.27-20.26.20:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.08.27-20.26.20:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.08.27-20.26.20:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.08.27-20.26.20:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.08.27-20.26.20:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.08.27-20.26.20:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.08.27-20.26.20:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.08.27-20.26.20:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.08.27-20.26.20:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.08.27-20.26.20:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.08.27-20.26.20:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.08.27-20.26.20:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.08.27-20.26.20:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.08.27-20.26.20:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.08.27-20.26.20:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.08.27-20.26.20:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.08.27-20.26.20:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.08.27-20.26.20:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.08.27-20.26.20:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.08.27-20.26.20:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.08.27-20.26.20:865][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.08.27-20.26.21:035][  0]LogSavePackage: Save=14.03ms
+[2018.08.27-20.26.21:035][  0]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Saved/Floor_400x400225485174963ECB4B0F208B883F5B053.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.08.27-20.26.21:038][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.08.27-20.26.21:038][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.08.27-20.26.21:040][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.27-20.26.21:040][  0]LightingResults: New page: Lighting Build
+[2018.08.27-20.26.21:149][  0]MapCheck: New page: Map Check
+[2018.08.27-20.26.21:149][  0]LightingResults: New page: Lighting Build
+[2018.08.27-20.26.21:784][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.27-20.26.21:794][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.27-20.26.21:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.27-20.26.21:945][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127.737ms to complete.
+[2018.08.27-20.26.21:945][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.906
+[2018.08.27-20.26.22:064][  0]LogCollectionManager: Loaded 0 collections in 0.001370 seconds
+[2018.08.27-20.26.22:321][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Saved/Collections/' took 0.01s
+[2018.08.27-20.26.22:321][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/Developers/Varun/Collections/' took 0.01s
+[2018.08.27-20.26.22:321][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/Collections/' took 0.01s
+[2018.08.27-20.26.22:321][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.27-20.26.22:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2386 classes and 500 folders.
+[2018.08.27-20.26.22:433][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.08.27-20.26.22:503][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.08.27-20.26.22:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.08.27-20.26.22:648][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.27-20.26.22:651][  0]LogSlate: Took 0.000954 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.27-20.26.22:654][  0]LogSlate: Took 0.000546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.27-20.26.22:690][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.27-20.26.22:717][  0]LogRenderer: Reallocating scene render targets to support 932x708 Format 10 NumSamples 1 (Frame:1).
+[2018.08.27-20.26.22:933][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.08.27-20.26.22:934][  0]LogLoad: (Engine Initialization) Total time: 28.83 seconds
+[2018.08.27-20.26.22:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.27-20.26.22:934][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.08.27-20.26.22:934][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.08.27-20.26.35:893][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.27-20.26.36:002][  1]LogAssetRegistry: Asset discovery search completed in 33.9887 seconds
+[2018.08.27-20.26.36:006][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.27-20.26.36:006][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.08.27-20.30.21:785][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2018.08.27-20.30.23:439][854]Cmd: DELETE
+[2018.08.27-20.30.23:439][854]Cmd: ACTOR DELETE
+[2018.08.27-20.30.23:449][854]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.23:460][854]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.08.27-20.30.24:081][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2018.08.27-20.30.24:271][879]Cmd: DELETE
+[2018.08.27-20.30.24:271][879]Cmd: ACTOR DELETE
+[2018.08.27-20.30.24:272][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.24:282][879]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.08.27-20.30.24:671][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2018.08.27-20.30.24:836][896]Cmd: DELETE
+[2018.08.27-20.30.24:836][896]Cmd: ACTOR DELETE
+[2018.08.27-20.30.24:837][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.24:849][896]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.08.27-20.30.25:505][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2018.08.27-20.30.25:754][923]Cmd: DELETE
+[2018.08.27-20.30.25:754][923]Cmd: ACTOR DELETE
+[2018.08.27-20.30.25:755][923]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.25:766][923]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.08.27-20.30.26:288][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2018.08.27-20.30.26:536][946]Cmd: DELETE
+[2018.08.27-20.30.26:536][946]Cmd: ACTOR DELETE
+[2018.08.27-20.30.26:537][946]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.26:548][946]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.08.27-20.30.27:037][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2018.08.27-20.30.27:370][971]Cmd: DELETE
+[2018.08.27-20.30.27:370][971]Cmd: ACTOR DELETE
+[2018.08.27-20.30.27:371][971]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.27-20.30.27:384][971]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.08.27-20.30.29:829][ 17]LogSlate: Took 0.000975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.27-20.30.30:123][ 17]LogSavePackage: Save=98.38ms
+[2018.08.27-20.30.30:123][ 17]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Saved/ThirdPersonExampleMap60FA316A430E3611FB7858A23C4D7362.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.08.27-20.30.30:128][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.08.27-20.30.30:487][ 17]LogSavePackage: Save=332.49ms
+[2018.08.27-20.30.30:487][ 17]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Saved/ThirdPersonExampleMap_BuiltData48899BBA407C472F2FA8C488053AC1EF.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.08.27-20.30.30:490][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/UtopianEnvironment/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.08.27-20.30.31:058][ 38]MapCheck: New page: Map Check
+[2018.08.27-20.30.31:129][ 38]Cmd: MAP REBUILD ALLVISIBLE
+[2018.08.27-20.30.31:129][ 38]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.08.27-20.30.31:303][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.08.27-20.30.31:312][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.08.27-20.30.31:322][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HelpActorMaterial, compiling. 
+[2018.08.27-20.30.31:330][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.08.27-20.30.31:339][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.08.27-20.30.31:349][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.08.27-20.30.31:364][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.08.27-20.30.31:376][ 38]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.08.27-20.30.32:208][ 38]TextureStreamingBuild: Display: Compiling optional shaders took 0.911 seconds.
+[2018.08.27-20.30.32:341][ 38]LogLevel: Display: Export Material TexCoord Scales took 0.133 seconds.
+[2018.08.27-20.30.32:724][ 38]TextureStreamingBuild: Display: Build Texture Streaming took 0.380 seconds.
+[2018.08.27-20.30.32:770][ 38]LightingResults: New page: Lighting Build - Aug 27, 2018, 12:30:32 PM
+[2018.08.27-20.30.32:861][ 38]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.08.27-20.30.33:038][ 38]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.08.27-20.30.33:058][ 38]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.08.27-20.30.33:589][ 38]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.08.27-20.30.33:589][ 38]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19100
+[2018.08.27-20.30.41:622][ 38]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.08.27-20.30.41:622][ 38]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.08.27-20.30.41:622][ 38]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.08.27-20.30.41:622][ 38]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.08.27-20.30.41:622][ 38]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.08.27-20.30.41:929][ 38]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.08.27-20.30.41:929][ 38]MapCheck: New page: ThirdPersonExampleMap - Aug 27, 2018, 12:30:41 PM
+[2018.08.27-20.30.42:080][ 38]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.622ms to complete.
+[2018.08.27-20.30.42:104][ 38]LogEditorBuildUtils: Build time 0:10
+[2018.08.27-20.30.50:144][205]Job is a success!
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.08.27-20.30.50:885][206]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.08.27-20.30.51:039][206]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.08.27-20.30.51:039][206]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2018.08.27-20.30.51:070][206]Lightmass on VARUNMW01: 7.32 sec total, 146 ms importing, 5 ms setup, 1.45 sec photons, 5.70 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 39.7 sec total, 12.9 sec processing.
+[2018.08.27-20.30.51:125][206]LogStaticLightingSystem: Illumination: 18.2 sec (535 ms encoding lightmaps, 145 ms encoding shadowmaps)
+[2018.08.27-20.30.51:125][206]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.08.27-20.30.51:125][206]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.08.27-20.30.51:652][206]DumpUnbuiltLightIteractions
+[2018.08.27-20.30.51:652][206]Lights with unbuilt interactions: 0
+[2018.08.27-20.30.51:652][206]
+[2018.08.27-20.30.51:652][206]Primitives with unbuilt interactions: 0
+[2018.08.27-20.30.51:669][207]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.08.27-20.30.51:669][207]MapCheck: New page: ThirdPersonExampleMap - Aug 27, 2018, 12:30:51 PM
+[2018.08.27-20.30.52:018][207]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 348.562ms to complete.
+[2018.08.27-20.30.54:071][258]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush)
+[2018.08.27-20.30.55:073][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.27-20.30.55:974][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.27-20.30.56:607][338]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.08.27-20.30.57:507][365]Cmd: DELETE
+[2018.08.27-20.30.57:507][365]Cmd: ACTOR DELETE
+[2018.08.27-20.30.57:508][365]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.08.27-20.30.57:541][365]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.08.27-20.30.58:339][390]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2018.08.27-20.30.58:873][406]Cmd: DELETE
+[2018.08.27-20.30.58:873][406]Cmd: ACTOR DELETE
+[2018.08.27-20.30.58:874][406]LogEditorActor: Deleted Actor: DocumentationActor
+[2018.08.27-20.30.58:897][406]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.08.27-20.31.01:739][492]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.08.27-20.31.05:968][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.27-20.31.06:604][638]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.08.27-20.31.09:204][711]Cmd: TRANSACTION UNDO
+[2018.08.27-20.31.09:204][711]LogEditorTransaction: Undo Rotate Actors
+[2018.08.27-20.31.09:297][711]LogSlate: Took 0.000977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.27-20.31.15:102][886]Cmd: TRANSACTION UNDO
+[2018.08.27-20.31.15:102][886]LogEditorTransaction: Undo Rotate Actors
+[2018.08.27-20.31.16:749][930]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.08.27-20.31.23:903][148]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.27-20.31.38:016][517]Cmd: TRANSACTION UNDO
+[2018.08.27-20.31.38:016][517]LogEditorTransaction: Undo Edit Refresh Material
+[2018.08.27-20.31.39:141][547]Cmd: TRANSACTION UNDO
+[2018.08.27-20.31.39:141][547]LogEditorTransaction: Undo Rotate Actors
+[2018.08.27-20.31.40:555][588]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.08.27-20.31.45:863][750]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.27-20.31.49:811][848]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.08.27-20.31.54:595][990]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.27-20.32.32:982][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.08.27-20.32.35:380][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.27-20.32.36:494][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2018.08.27-20.32.37:546][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.08.27-20.32.41:881][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.08.27-20.32.42:611][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.27-20.32.53:425][742]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:289 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.08.27-20.32.53:430][742]LogWindows: Windows GetLastError: The operation completed successfully. (0)
