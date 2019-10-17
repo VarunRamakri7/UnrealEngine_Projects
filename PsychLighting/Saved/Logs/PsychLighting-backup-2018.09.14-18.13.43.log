@@ -1,0 +1,1270 @@
+﻿Log file open, 09/14/18 16:05:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PsychLighting
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1804812927) SRandInit(1804812927).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.192975
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.14-20.05.50:010][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.14-20.05.50:010][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.14-20.05.50:024][  0]LogInit: Computer: VARUNMW01
+[2018.09.14-20.05.50:024][  0]LogInit: User: Varun
+[2018.09.14-20.05.50:024][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.14-20.05.50:024][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2018.09.14-20.05.50:024][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.14-20.05.50:024][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.14-20.05.50:024][  0]LogMemory: Process Physical Memory: 278.78 MB used, 278.78 MB peak
+[2018.09.14-20.05.50:024][  0]LogMemory: Process Virtual Memory: 282.49 MB used, 282.49 MB peak
+[2018.09.14-20.05.50:024][  0]LogMemory: Physical Memory: 9484.91 MB used,  6772.04 MB free, 16256.96 MB total
+[2018.09.14-20.05.50:024][  0]LogMemory: Virtual Memory: 4812.88 MB used,  6772.04 MB free, 134217728.00 MB total
+[2018.09.14-20.05.50:366][  0]LogInit: Using OS detected language (en-US).
+[2018.09.14-20.05.50:366][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.14-20.05.50:371][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.14-20.05.51:349][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.14-20.05.51:429][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.09.14-20.05.51:429][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.14-20.05.51:448][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.14-20.05.51:448][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.14-20.05.51:451][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.14-20.05.51:451][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.14-20.05.51:451][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.14-20.05.51:471][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.14-20.05.51:471][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.09.14-20.05.51:471][  0]LogWindows: EnumDisplayDevices:
+[2018.09.14-20.05.51:471][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.14-20.05.51:471][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.14-20.05.51:471][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.14-20.05.51:471][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.14-20.05.51:471][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.09.14-20.05.51:471][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.14-20.05.51:471][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.14-20.05.51:471][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.09.14-20.05.51:523][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.14-20.05.51:546][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.14-20.05.51:547][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Intermediate/Shaders/WorkingDirectory/1892/).
+[2018.09.14-20.05.51:547][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/61EFAF494FDAD79CEA9F0AA63466C794/'.
+[2018.09.14-20.05.51:547][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.14-20.05.52:704][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.14-20.05.52:834][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.14-20.05.52:903][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.14-20.05.52:974][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.14-20.05.53:050][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.14-20.05.53:125][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.14-20.05.53:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.14-20.05.53:249][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.14-20.05.53:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.14-20.05.53:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-20.05.53:432][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.14-20.05.53:494][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.14-20.05.53:556][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.14-20.05.53:627][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.14-20.05.53:687][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.14-20.05.53:820][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.14-20.05.53:820][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.14-20.05.53:895][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.14-20.05.54:011][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.14-20.05.54:041][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.14-20.05.54:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.14-20.05.54:168][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.14-20.05.54:227][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.14-20.05.54:286][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.14-20.05.54:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.14-20.05.54:828][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.14-20.05.54:942][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.14-20.05.54:943][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.09.14-20.05.54:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/PsychLighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.14-20.05.54:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.14-20.05.54:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/PsychLighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.14-20.05.54:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.14-20.05.54:964][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.14-20.05.54:977][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.14-20.05.54:995][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.14-20.05.54:996][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.14-20.05.54:998][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.14-20.05.54:998][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.14-20.05.55:429][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.09.14-20.05.55:577][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.14-20.05.56:153][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.14-20.05.56:205][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.14-20.05.56:205][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.14-20.05.56:205][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.14-20.05.56:205][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.14-20.05.56:205][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.14-20.05.56:207][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.14-20.05.56:885][  0]LogNetVersion: PsychLighting , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3727005856)
+[2018.09.14-20.05.57:330][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.063727 seconds
+[2018.09.14-20.05.57:337][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.09.14-20.05.57:337][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.09.14-20.05.57:337][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.14-20.05.57:406][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.14-20.06.02:804][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.14-20.06.02:856][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.14-20.06.04:207][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.14-20.06.05:111][  0]SourceControl: Source control is disabled
+[2018.09.14-20.06.05:111][  0]SourceControl: Source control is disabled
+[2018.09.14-20.06.05:213][  0]SourceControl: Source control is disabled
+[2018.09.14-20.06.05:303][  0]SourceControl: Source control is disabled
+[2018.09.14-20.06.06:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.14-20.06.07:073][  0]LogOcInput: OculusInput pre-init called
+[2018.09.14-20.06.07:595][  0]LogEngine: Initializing Engine...
+[2018.09.14-20.06.07:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.14-20.06.07:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.14-20.06.07:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.14-20.06.08:287][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.14-20.06.08:305][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.14-20.06.08:725][  0]LogInit: FAudioDevice initialized.
+[2018.09.14-20.06.09:242][  0]LogDerivedDataCache: Saved boot cache 0.52s 93MB C:/Users/Varun/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.14-20.06.09:277][  0]LogInit: Texture streaming: Enabled
+[2018.09.14-20.06.09:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.14-20.06.09:789][  0]LogInit: Transaction tracking system initialized
+[2018.09.14-20.06.10:454][  0]BlueprintLog: New page: Editor Load
+[2018.09.14-20.06.11:674][  0]LocalizationService: Localization service is disabled
+[2018.09.14-20.06.13:040][  0]LogConsoleResponse: Display: 
+[2018.09.14-20.06.13:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.14-20.06.13:273][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.14-20.06.13:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.14-20.06.14:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/' took 0.02s
+[2018.09.14-20.06.14:863][  0]SourceControl: Source control is disabled
+[2018.09.14-20.06.14:864][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.14-20.06.14:868][  0]LightingResults: New page: Lighting Build
+[2018.09.14-20.06.15:003][  0]MapCheck: New page: Map Check
+[2018.09.14-20.06.15:003][  0]LightingResults: New page: Lighting Build
+[2018.09.14-20.06.17:238][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-20.06.17:266][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.14-20.06.17:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.14-20.06.17:521][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 218.204ms to complete.
+[2018.09.14-20.06.17:522][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.659
+[2018.09.14-20.06.17:912][  0]LogCollectionManager: Loaded 0 collections in 0.002226 seconds
+[2018.09.14-20.06.18:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Collections/' took 0.01s
+[2018.09.14-20.06.18:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/Developers/Varun/Collections/' took 0.01s
+[2018.09.14-20.06.18:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/Collections/' took 0.01s
+[2018.09.14-20.06.18:087][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.14-20.06.18:099][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2386 classes and 500 folders.
+[2018.09.14-20.06.18:181][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.09.14-20.06.18:949][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.09.14-20.06.19:393][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.14-20.06.19:703][  0]LogSlate: Took 0.001108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.14-20.06.19:724][  0]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.14-20.06.19:735][  0]LogSlate: Took 0.009151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.14-20.06.20:631][  0]LogRenderer: Reallocating scene render targets to support 932x708 Format 10 NumSamples 1 (Frame:1).
+[2018.09.14-20.06.21:183][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.09.14-20.06.21:184][  0]LogLoad: (Engine Initialization) Total time: 33.58 seconds
+[2018.09.14-20.06.21:184][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.14-20.06.21:184][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.09.14-20.06.21:184][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.09.14-20.06.21:207][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.14-20.06.21:243][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.14-20.06.21:325][  0]LogSlate: Took 0.019401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.14-20.06.21:386][  1]LogAssetRegistry: Asset discovery search completed in 25.9793 seconds
+[2018.09.14-20.06.21:387][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.14-20.06.21:387][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.09.14-20.11.07:026][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.14-20.11.08:569][ 65]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.11.50:016][212]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.11.52:151][276]Cmd: DELETE
+[2018.09.14-20.11.52:151][276]Cmd: ACTOR DELETE
+[2018.09.14-20.11.52:180][276]LogEditorActor: Deleted Actor: SpotLight
+[2018.09.14-20.11.52:196][276]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.09.14-20.11.58:252][440]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.12.11:950][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.14-20.12.28:133][324]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.12.48:217][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock4_Glass3)
+[2018.09.14-20.12.50:050][974]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.12.51:418][ 15]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.09.14-20.12.52:184][ 38]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.13.01:383][314]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.13.24:017][993]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.13.36:986][355]LogSlate: Took 0.001094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.14-20.13.37:264][355]LogSavePackage: Save=171.29ms
+[2018.09.14-20.13.37:264][355]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap19CC0339493034D016A1678C00F0DFEF.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.13.37:271][355]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.13.38:476][355]LogSlate: Took 0.000858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.14-20.13.39:559][355]LogSavePackage: Save=2076.93ms
+[2018.09.14-20.13.39:560][355]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltData0C415C814DF7761255C8ECBFADC8DB2A.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.13.39:569][355]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.23.51:520][958]MapCheck: New page: Map Check
+[2018.09.14-20.23.51:559][958]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.14-20.23.51:559][958]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.14-20.23.51:802][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.14-20.23.51:811][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.09.14-20.23.51:819][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2018.09.14-20.23.51:827][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Rust, compiling. 
+[2018.09.14-20.23.51:837][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Paint_02, compiling. 
+[2018.09.14-20.23.51:844][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
+[2018.09.14-20.23.51:854][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.14-20.23.51:861][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2018.09.14-20.23.51:870][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_white, compiling. 
+[2018.09.14-20.23.51:878][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_black_, compiling. 
+[2018.09.14-20.23.51:887][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_glass, compiling. 
+[2018.09.14-20.23.51:896][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 3_2, compiling. 
+[2018.09.14-20.23.51:905][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2018.09.14-20.23.51:915][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile_Pulse, compiling. 
+[2018.09.14-20.23.51:925][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
+[2018.09.14-20.23.51:935][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.09.14-20.23.51:943][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-1, compiling. 
+[2018.09.14-20.23.51:951][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-2, compiling. 
+[2018.09.14-20.23.51:960][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.09.14-20.23.51:974][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.09.14-20.23.51:984][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.14-20.23.54:819][958]TextureStreamingBuild: Display: Compiling optional shaders took 3.028 seconds.
+[2018.09.14-20.23.54:857][958]LogLevel: Display: Export Material TexCoord Scales took 0.038 seconds.
+[2018.09.14-20.23.54:874][958]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2018.09.14-20.23.54:890][958]LightingResults: New page: Lighting Build - Sep 14, 2018, 12:23:54 PM
+[2018.09.14-20.23.55:727][958]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.14-20.23.55:945][958]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.14-20.23.56:190][958]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.14-20.23.58:246][958]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.09.14-20.23.58:252][958]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2018.09.14-20.24.03:374][958]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.14-20.24.03:374][958]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1892
+[2018.09.14-20.24.07:536][958]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.14-20.24.07:536][958]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.14-20.24.07:536][958]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.14-20.24.07:536][958]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.14-20.24.07:536][958]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.14-20.24.08:138][958]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.14-20.24.08:138][958]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:24:08 PM
+[2018.09.14-20.24.08:139][958]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.09.14-20.24.08:299][958]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 160.985ms to complete.
+[2018.09.14-20.24.08:323][958]LogEditorBuildUtils: Build time 0:16
+[2018.09.14-20.24.08:898][959]LogSavePackage: Save=147.93ms
+[2018.09.14-20.24.08:898][959]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_Auto1CAFD5B5840C79B9757AE18B7FDC9EEA8.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.09.14-20.24.08:900][959]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.09.14-20.24.08:902][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.194
+[2018.09.14-20.24.08:903][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.194
+[2018.09.14-20.24.47:143][954]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.24.47:164][955]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.24.57:435][260]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.24.57:464][261]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.25:350][441]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.25.25:383][442]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.29:255][618]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.25.29:255][618]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.29:590][631]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.25.29:591][631]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.35:181][829]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.25.35:181][829]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.41:760][  7]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.25.41:760][  7]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.41:957][ 15]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.25.41:977][ 16]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.55:417][621]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.25.55:417][621]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.25.57:202][696]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.25.57:202][696]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.06:415][129]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.06:415][129]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.07:419][177]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.07:420][177]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.07:759][194]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.07:781][195]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.08:665][237]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.08:665][237]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.09:304][268]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.09:304][268]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.09:305][268]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.09:305][268]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.10:040][303]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.26.10:040][303]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.12:588][429]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.26.12:588][429]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.14:138][504]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.26.14:177][505]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.26.14:627][524]Job is a success!
+[2018.09.14-20.26.18:488][525]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:488][525]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 1024X512)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 64X32)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 64X64)
+[2018.09.14-20.26.18:489][525]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 64X64)
+[2018.09.14-20.26.18:930][525]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2018.09.14-20.26.18:930][525]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2018.09.14-20.26.19:055][525]Lightmass on VARUNMW01: 2:08 min total, 224 ms importing, 67 ms setup, 15.0 sec photons, 1:51 min processing, 0 ms extra exporting [56/56 mappings]. Threads: 12:59 min total, 10:25 min processing.
+[2018.09.14-20.26.19:137][525]LogStaticLightingSystem: Illumination: 2:24 min (3.13 sec encoding lightmaps, 440 ms encoding shadowmaps)
+[2018.09.14-20.26.19:137][525]LogStaticLightingSystem: Lightmap texture memory:  45.3 MB (45.3 MB streaming, 0.0 MB non-streaming), 36 textures
+[2018.09.14-20.26.19:137][525]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.14-20.26.19:645][525]DumpUnbuiltLightIteractions
+[2018.09.14-20.26.19:645][525]Lights with unbuilt interactions: 0
+[2018.09.14-20.26.19:645][525]
+[2018.09.14-20.26.19:645][525]Primitives with unbuilt interactions: 0
+[2018.09.14-20.26.19:713][526]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.14-20.26.19:714][526]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:26:19 PM
+[2018.09.14-20.26.20:109][526]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 394.715ms to complete.
+[2018.09.14-20.27.05:315][201]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.29.37:994][889]Cmd: TRANSACTION UNDO
+[2018.09.14-20.29.37:995][889]LogEditorTransaction: Undo Rotate Actors
+[2018.09.14-20.29.38:040][889]LogSlate: Took 0.000749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.14-20.30.36:176][323]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.30.56:754][451]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.31.14:110][286]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.31.21:971][643]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.31.36:956][508]LogSavePackage: Save=269.05ms
+[2018.09.14-20.31.36:956][508]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap384D75C0444EC062D2CA9E9C8E8A2267.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.31.36:962][508]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.31.38:536][508]LogSavePackage: Save=1523.72ms
+[2018.09.14-20.31.38:536][508]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltDataA684242C4E1BB97A0C3FE6B05EE004E8.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.31.38:546][508]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.32.02:595][  2]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.32.10:392][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.14-20.32.11:763][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.09.14-20.32.12:438][594]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.09.14-20.32.19:301][  5]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.32.30:174][666]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2018.09.14-20.32.31:396][740]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.32.52:498][989]LogSavePackage: Save=258.67ms
+[2018.09.14-20.32.52:498][989]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap2BCB48ED40C7FDE59130738D7EF4892D.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.32.52:504][989]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.32.54:023][989]LogSavePackage: Save=1495.81ms
+[2018.09.14-20.32.54:023][989]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltData195321AE4840683B1C1C8C86B094290B.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.32.54:032][989]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.33.04:577][648]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.09.14-20.33.21:409][691]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.34.13:046][850]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.34.18:875][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock8)
+[2018.09.14-20.34.20:806][313]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.09.14-20.34.40:059][476]LogSavePackage: Save=272.89ms
+[2018.09.14-20.34.40:059][476]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap90F5987843294B3A7E114E9476DBDE46.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.34.40:065][476]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.34.41:623][476]LogSavePackage: Save=1527.80ms
+[2018.09.14-20.34.41:623][476]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltDataB6E036D542415D2DCCE879BB12DD14A4.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.34.41:629][476]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.34.44:901][657]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.14-20.34.44:980][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.34.44:980][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-20.34.44:980][657]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 14, 2018, 12:34:44 PM)
+[2018.09.14-20.34.44:981][657]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.14-20.34.45:027][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046340s)
+[2018.09.14-20.34.45:028][657]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-20.34.45:029][657]LogPlayLevel: PIE: World Init took: (0.001542s)
+[2018.09.14-20.34.45:029][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048396s)
+[2018.09.14-20.34.45:061][657]LogInit: XAudio2 using 'Headphones (Bose QuietControl 30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-20.34.45:077][657]LogInit: FAudioDevice initialized.
+[2018.09.14-20.34.45:129][657]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-20.34.45:135][657]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.14-16.34.45
+[2018.09.14-20.34.45:136][657]LogWorld: Bringing up level for play took: 0.005078
+[2018.09.14-20.34.45:199][657]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.09.14-20.34.45:200][657]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.928
+[2018.09.14-20.34.45:201][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.35.24:011][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.35.24:076][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.35.33:261][961]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.09.14-20.35.46:974][819]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.36.15:063][525]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.36.26:276][191]LogSavePackage: Save=281.95ms
+[2018.09.14-20.36.26:276][191]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap612A6A8A4A621D12FD4A30953E8598FB.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.36.26:284][191]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.36.27:821][191]LogSavePackage: Save=1508.89ms
+[2018.09.14-20.36.27:821][191]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltDataE891C5414753248F09252E946C1DF9AF.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.36.27:829][191]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.37.04:466][424]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.37.29:401][ 72]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.09.14-20.37.31:730][232]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.09.14-20.37.42:125][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3_Line4)
+[2018.09.14-20.37.43:626][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2018.09.14-20.37.45:169][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock_01_body)
+[2018.09.14-20.37.46:122][281]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.37.50:428][597]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2018.09.14-20.37.55:811][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.09.14-20.38.14:678][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock_01_body6)
+[2018.09.14-20.38.15:701][313]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.38.18:523][518]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2018.09.14-20.38.33:671][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock4_Frame2)
+[2018.09.14-20.38.34:722][704]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2018.09.14-20.38.47:997][694]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.09.14-20.38.50:295][864]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.09.14-20.38.57:710][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.14-20.38.59:127][483]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.09.14-20.39.00:005][544]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.39.22:459][196]Cmd: DELETE
+[2018.09.14-20.39.22:459][196]Cmd: ACTOR DELETE
+[2018.09.14-20.39.22:460][196]LogEditorActor: Deleted Actor: PointLight
+[2018.09.14-20.39.22:476][196]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.09.14-20.39.53:492][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock_01_arms5)
+[2018.09.14-20.39.54:977][609]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2018.09.14-20.40.05:294][359]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.40.15:391][ 82]LogSavePackage: Save=263.72ms
+[2018.09.14-20.40.15:391][ 82]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMapD0D518784C9F92957381D8BABFB660D7.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.40.15:395][ 82]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.40.16:920][ 82]LogSavePackage: Save=1486.29ms
+[2018.09.14-20.40.16:920][ 82]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltData3CA2D20E42844820222A42A8A22BDB20.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.40.16:926][ 82]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.40.18:648][194]MapCheck: New page: Map Check
+[2018.09.14-20.40.18:678][194]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.14-20.40.18:678][194]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.14-20.40.18:739][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.14-20.40.18:746][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.09.14-20.40.18:758][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2018.09.14-20.40.18:770][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Rust, compiling. 
+[2018.09.14-20.40.18:781][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Paint_02, compiling. 
+[2018.09.14-20.40.18:793][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
+[2018.09.14-20.40.18:804][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.14-20.40.18:814][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2018.09.14-20.40.18:824][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_white, compiling. 
+[2018.09.14-20.40.18:834][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_black_, compiling. 
+[2018.09.14-20.40.18:842][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_glass, compiling. 
+[2018.09.14-20.40.18:850][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 3_2, compiling. 
+[2018.09.14-20.40.18:857][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2018.09.14-20.40.18:863][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile_Pulse, compiling. 
+[2018.09.14-20.40.18:872][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
+[2018.09.14-20.40.18:879][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.09.14-20.40.18:890][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-1, compiling. 
+[2018.09.14-20.40.18:899][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-2, compiling. 
+[2018.09.14-20.40.18:912][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.09.14-20.40.18:926][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.09.14-20.40.18:937][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.14-20.40.20:890][194]TextureStreamingBuild: Display: Compiling optional shaders took 2.156 seconds.
+[2018.09.14-20.40.20:914][194]LogLevel: Display: Export Material TexCoord Scales took 0.024 seconds.
+[2018.09.14-20.40.20:930][194]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2018.09.14-20.40.20:943][194]LightingResults: New page: Lighting Build - Sep 14, 2018, 12:40:20 PM
+[2018.09.14-20.40.20:957][194]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.14-20.40.20:962][194]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.14-20.40.20:962][194]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.14-20.40.20:964][194]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.14-20.40.20:964][194]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1892
+[2018.09.14-20.40.34:523][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.14-20.40.34:523][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.14-20.40.34:523][194]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.14-20.40.34:523][194]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.14-20.40.34:523][194]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.14-20.40.34:708][194]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.14-20.40.34:708][194]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:40:34 PM
+[2018.09.14-20.40.34:710][194]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.09.14-20.40.34:855][194]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 146.922ms to complete.
+[2018.09.14-20.40.34:880][194]LogEditorBuildUtils: Build time 0:16
+[2018.09.14-20.40.55:438][313]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.40.55:438][313]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.40.56:771][317]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.40.56:771][317]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.00:438][328]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.41.00:438][328]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.05:114][342]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.41.05:114][342]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.06:119][345]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.41.06:119][345]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.20:118][387]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.41.20:118][387]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.25:450][403]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.41.25:451][403]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.25:789][404]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.41.25:789][404]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.26:118][405]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.41.26:118][405]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.30:121][417]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.41.30:121][417]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.37:459][439]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.37:459][439]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.37:789][440]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.37:789][440]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.37:789][440]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.37:789][440]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.38:128][441]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.38:453][442]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.38:453][442]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.38:454][442]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.38:454][442]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.38:454][442]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.38:795][443]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.41.38:795][443]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.43:462][457]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.41.43:462][457]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.44:455][460]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.41.44:455][460]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.41.44:786][461]Job is a success!
+[2018.09.14-20.41.45:789][462]LightingResults: Error: PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:570][462]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 1024X512)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 1024X1024)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 64X32)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 64X64)
+[2018.09.14-20.41.49:571][462]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 64X64)
+[2018.09.14-20.41.49:975][462]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024)
+[2018.09.14-20.41.49:975][462]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2018.09.14-20.41.49:975][462]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2018.09.14-20.41.50:274][462]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2018.09.14-20.41.50:291][462]Lightmass on VARUNMW01: 1:13 min total, 183 ms importing, 58 ms setup, 8.45 sec photons, 1:04 min processing, 0 ms extra exporting [56/56 mappings]. Threads: 7:32 min total, 5:27 min processing.
+[2018.09.14-20.41.50:374][462]LogStaticLightingSystem: Illumination: 1:29 min (3.78 sec encoding lightmaps, 701 ms encoding shadowmaps)
+[2018.09.14-20.41.50:374][462]LogStaticLightingSystem: Lightmap texture memory:  45.3 MB (45.3 MB streaming, 0.0 MB non-streaming), 36 textures
+[2018.09.14-20.41.50:374][462]LogStaticLightingSystem: Shadowmap texture memory: 21.3 MB (21.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.09.14-20.42.04:626][462]DumpUnbuiltLightIteractions
+[2018.09.14-20.42.04:626][462]Lights with unbuilt interactions: 0
+[2018.09.14-20.42.04:626][462]
+[2018.09.14-20.42.04:626][462]Primitives with unbuilt interactions: 0
+[2018.09.14-20.42.04:656][463]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.14-20.42.04:656][463]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:42:04 PM
+[2018.09.14-20.42.05:058][463]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 403.392ms to complete.
+[2018.09.14-20.47.10:208][504]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.14-20.47.10:226][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.47.10:226][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-20.47.10:227][504]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 14, 2018, 12:47:10 PM)
+[2018.09.14-20.47.10:227][504]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.14-20.47.10:254][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026200s)
+[2018.09.14-20.47.10:255][504]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-20.47.10:255][504]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2018.09.14-20.47.10:256][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028062s)
+[2018.09.14-20.47.10:287][504]LogInit: XAudio2 using 'Headphones (Bose QuietControl 30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-20.47.10:304][504]LogInit: FAudioDevice initialized.
+[2018.09.14-20.47.10:339][504]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-20.47.10:344][504]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.09.14-16.47.10
+[2018.09.14-20.47.10:344][504]LogWorld: Bringing up level for play took: 0.004221
+[2018.09.14-20.47.10:345][504]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.073
+[2018.09.14-20.47.10:346][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.48.10:191][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.48.10:242][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.48.16:571][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock2)
+[2018.09.14-20.48.17:253][488]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.48.26:958][786]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2018.09.14-20.48.30:437][990]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.09.14-20.48.32:148][ 82]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2018.09.14-20.48.48:751][ 59]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.48.57:806][585]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.49.03:435][906]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.49.15:448][617]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.49.30:455][504]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.49.41:869][171]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.50.37:443][203]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.50.41:958][465]MapCheck: New page: Map Check
+[2018.09.14-20.50.41:981][465]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.14-20.50.41:981][465]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.14-20.50.42:042][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.14-20.50.42:049][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.09.14-20.50.42:057][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2018.09.14-20.50.42:065][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Rust, compiling. 
+[2018.09.14-20.50.42:079][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Paint_02, compiling. 
+[2018.09.14-20.50.42:091][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
+[2018.09.14-20.50.42:102][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.14-20.50.42:114][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2018.09.14-20.50.42:124][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_white, compiling. 
+[2018.09.14-20.50.42:133][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_black_, compiling. 
+[2018.09.14-20.50.42:142][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy IKea_glass, compiling. 
+[2018.09.14-20.50.42:148][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 3_2, compiling. 
+[2018.09.14-20.50.42:159][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2018.09.14-20.50.42:167][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile_Pulse, compiling. 
+[2018.09.14-20.50.42:174][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
+[2018.09.14-20.50.42:181][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.09.14-20.50.42:192][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-1, compiling. 
+[2018.09.14-20.50.42:200][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Arrow-2, compiling. 
+[2018.09.14-20.50.42:210][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2018.09.14-20.50.42:226][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2018.09.14-20.50.42:236][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.09.14-20.50.44:112][465]TextureStreamingBuild: Display: Compiling optional shaders took 2.076 seconds.
+[2018.09.14-20.50.44:137][465]LogLevel: Display: Export Material TexCoord Scales took 0.025 seconds.
+[2018.09.14-20.50.44:155][465]TextureStreamingBuild: Display: Build Texture Streaming took 0.017 seconds.
+[2018.09.14-20.50.44:170][465]LightingResults: New page: Lighting Build - Sep 14, 2018, 12:50:44 PM
+[2018.09.14-20.50.44:179][465]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.14-20.50.44:183][465]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.14-20.50.44:183][465]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.14-20.50.44:186][465]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.14-20.50.44:186][465]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1892
+[2018.09.14-20.50.57:747][465]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.14-20.50.57:747][465]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.14-20.50.57:747][465]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.14-20.50.57:747][465]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.14-20.50.57:747][465]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.14-20.50.57:936][465]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.14-20.50.57:936][465]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:50:57 PM
+[2018.09.14-20.50.57:938][465]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.09.14-20.50.58:090][465]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 154.557ms to complete.
+[2018.09.14-20.50.58:114][465]LogEditorBuildUtils: Build time 0:16
+[2018.09.14-20.51.19:155][579]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.51.19:155][579]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.24:148][594]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.51.24:148][594]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.30:159][612]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.51.30:159][612]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.32:819][620]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.51.32:819][620]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.35:821][629]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.51.35:821][629]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.38:162][636]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.51.38:162][636]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.38:831][638]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.51.38:831][638]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.43:898][652]LogSavePackage: Save=334.15ms
+[2018.09.14-20.51.43:898][652]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_Auto280710B4142E1ED4038260AB6CA2042D0.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.09.14-20.51.43:904][652]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.09.14-20.51.43:907][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.383
+[2018.09.14-20.51.43:907][652]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2018.09.14-20.51.43:911][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.09.14-20.51.43:911][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData]
+[2018.09.14-20.51.44:139][652]LogSavePackage: Save=203.98ms
+[2018.09.14-20.51.44:139][652]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltData_Auto2CA224AC5409A7688A754E9B7F9F69605.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto2.uasset'
+[2018.09.14-20.51.44:141][652]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto2.uasset
+[2018.09.14-20.51.44:141][652]LogFileHelpers: Auto-saving content packages took 0.232
+[2018.09.14-20.51.46:504][660]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.51.46:504][660]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.51.50:846][673]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.51.50:846][673]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.02:181][707]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.02:181][707]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.02:181][707]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.02:181][707]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.02:520][708]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.02:520][708]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.02:850][709]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.02:850][709]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.03:189][710]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.03:189][710]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.03:189][710]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.03:189][710]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.03:519][711]LightingResults: Warning: Clock2 Object has overlapping UVs.
+[2018.09.14-20.52.03:519][711]LightingResults: Clock2 Lightmap UV are overlapping by 42.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.04:854][715]LightingResults: Warning: Clock4_Frame Object has overlapping UVs.
+[2018.09.14-20.52.04:854][715]LightingResults: Clock4_Frame Lightmap UV are overlapping by 42.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.05:521][717]LightingResults: Warning: Clock4_Bottom Object has overlapping UVs.
+[2018.09.14-20.52.05:521][717]LightingResults: Clock4_Bottom Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.06:854][721]LightingResults: Warning: Clock4_Glass Object has overlapping UVs.
+[2018.09.14-20.52.06:854][721]LightingResults: Clock4_Glass Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.09.14-20.52.07:181][722]Job is a success!
+[2018.09.14-20.52.08:190][723]LightingResults: Error: PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.09.14-20.52.08:190][723]LightingResults: Error: PointLight11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.09.14-20.52.08:190][723]LightingResults: Error: PointLight10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:896][723]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 1024X512)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 64X32)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 64X64)
+[2018.09.14-20.52.11:897][723]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 64X64)
+[2018.09.14-20.52.12:296][723]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2018.09.14-20.52.12:297][723]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024)
+[2018.09.14-20.52.12:297][723]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
+[2018.09.14-20.52.12:589][723]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2018.09.14-20.52.12:610][723]Lightmass on VARUNMW01: 1:13 min total, 241 ms importing, 57 ms setup, 8.17 sec photons, 1:04 min processing, 0 ms extra exporting [56/56 mappings]. Threads: 7:31 min total, 5:38 min processing.
+[2018.09.14-20.52.12:681][723]LogStaticLightingSystem: Illumination: 1:28 min (3.70 sec encoding lightmaps, 688 ms encoding shadowmaps)
+[2018.09.14-20.52.12:682][723]LogStaticLightingSystem: Lightmap texture memory:  45.3 MB (45.3 MB streaming, 0.0 MB non-streaming), 36 textures
+[2018.09.14-20.52.12:682][723]LogStaticLightingSystem: Shadowmap texture memory: 21.3 MB (21.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.09.14-20.52.12:816][723]DumpUnbuiltLightIteractions
+[2018.09.14-20.52.12:816][723]Lights with unbuilt interactions: 0
+[2018.09.14-20.52.12:816][723]
+[2018.09.14-20.52.12:816][723]Primitives with unbuilt interactions: 0
+[2018.09.14-20.52.12:895][724]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.14-20.52.12:895][724]MapCheck: New page: ThirdPersonExampleMap - Sep 14, 2018, 12:52:12 PM
+[2018.09.14-20.52.13:092][724]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 197.045ms to complete.
+[2018.09.14-20.52.25:591][853]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.14-20.52.25:607][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.52.25:607][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-20.52.25:607][853]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 14, 2018, 12:52:25 PM)
+[2018.09.14-20.52.25:607][853]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.14-20.52.25:631][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024626s)
+[2018.09.14-20.52.25:633][853]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-20.52.25:633][853]LogPlayLevel: PIE: World Init took: (0.002134s)
+[2018.09.14-20.52.25:634][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027251s)
+[2018.09.14-20.52.25:660][853]LogInit: XAudio2 using 'Headphones (Bose QuietControl 30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-20.52.25:676][853]LogInit: FAudioDevice initialized.
+[2018.09.14-20.52.25:719][853]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-20.52.25:726][853]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.09.14-16.52.25
+[2018.09.14-20.52.25:726][853]LogWorld: Bringing up level for play took: 0.006020
+[2018.09.14-20.52.25:728][853]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.544
+[2018.09.14-20.52.25:728][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.53.02:793][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.53.02:849][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.53.03:960][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3_Line4)
+[2018.09.14-20.53.04:716][159]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.53.05:951][229]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.09.14-20.53.19:755][ 43]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.09.14-20.53.56:166][193]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.09.14-20.53.58:470][326]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.09.14-20.54.01:005][473]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.09.14-20.54.09:917][998]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2018.09.14-20.54.12:262][133]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2018.09.14-20.54.22:637][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.24:158][830]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2018.09.14-20.54.26:963][994]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2018.09.14-20.54.32:469][318]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.09.14-20.54.35:787][510]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.09.14-20.54.39:163][686]LogSavePackage: Save=265.41ms
+[2018.09.14-20.54.39:163][686]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap94014E304005025A8445258E08BAC2A1.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-20.54.39:170][686]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-20.54.40:775][686]LogSavePackage: Save=1579.24ms
+[2018.09.14-20.54.40:775][686]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltDataD6357B48434D6AC2273D5CB80CB41F98.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-20.54.40:784][686]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-20.54.55:520][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.57:061][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.57:681][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.58:056][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.58:459][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.54.59:079][365]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-20.55.00:183][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.55.00:759][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.55.03:821][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.55.04:526][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.55.04:934][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clock3)
+[2018.09.14-20.55.05:215][659]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.09.14-20.55.05:469][670]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.09.14-20.55.06:231][711]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.09.14-20.59.51:633][949]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.14-20.59.51:648][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-20.59.51:648][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-20.59.51:648][949]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 14, 2018, 12:59:51 PM)
+[2018.09.14-20.59.51:648][949]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.14-20.59.51:694][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046128s)
+[2018.09.14-20.59.51:696][949]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-20.59.51:696][949]LogPlayLevel: PIE: World Init took: (0.001841s)
+[2018.09.14-20.59.51:697][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048537s)
+[2018.09.14-20.59.51:726][949]LogInit: XAudio2 using 'Headphones (Bose QuietControl 30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-20.59.51:744][949]LogInit: FAudioDevice initialized.
+[2018.09.14-20.59.51:782][949]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-20.59.51:787][949]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.09.14-16.59.51
+[2018.09.14-20.59.51:788][949]LogWorld: Bringing up level for play took: 0.004181
+[2018.09.14-20.59.51:789][949]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.482
+[2018.09.14-20.59.51:789][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-21.00.05:348][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-21.00.05:416][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-21.03.38:313][450]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2018.09.14-21.03.50:081][143]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.09.14-21.04.07:124][132]LogSavePackage: Save=238.41ms
+[2018.09.14-21.04.07:124][132]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap132324F3466F8733FDA228A4F1CCCF11.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-21.04.07:128][132]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.09.14-21.04.08:691][132]LogSavePackage: Save=1524.05ms
+[2018.09.14-21.04.08:691][132]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/ThirdPersonExampleMap_BuiltData4D90B74B44B7B77A68BF50A297A63795.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-21.04.08:698][132]LogSavePackage: Display: Finished SavePackage C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.09.14-21.04.24:939][ 84]Cmd: QUIT_EDITOR
+[2018.09.14-21.04.25:673][ 84]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.14-21.04.25:688][ 84]LogExit: Preparing to exit.
+[2018.09.14-21.04.26:496][ 84]LogExit: Editor shut down
+[2018.09.14-21.04.26:532][ 84]LogExit: Transaction tracking system shut down
+[2018.09.14-21.04.26:693][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.09.14-21.04.26:693][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/' was aborted.
+[2018.09.14-21.04.26:693][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.09.14-21.04.26:693][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.09.14-21.04.26:693][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.09.14-21.04.26:778][ 84]LogExit: Object subsystem successfully closed.
+[2018.09.14-21.04.26:827][ 84]LogD3D11RHI: Shutdown
+[2018.09.14-21.04.26:827][ 84]LogD3D11RHI: CleanupD3DDevice
+[2018.09.14-21.04.26:831][ 84]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.14-21.04.26:840][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.09.14-21.04.26:840][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2018.09.14-21.04.26:840][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.09.14-21.04.26:840][ 84]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.09.14-21.04.26:840][ 84]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.09.14-21.04.26:840][ 84]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.09.14-21.04.26:844][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/Collections/' was aborted.
+[2018.09.14-21.04.26:844][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Content/Developers/Varun/Collections/' was aborted.
+[2018.09.14-21.04.26:844][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/Varun/Documents/Unreal Projects/PsychLighting/Saved/Collections/' was aborted.
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.09.14-21.04.26:844][ 84]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.09.14-21.04.26:845][ 84]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.09.14-21.04.26:846][ 84]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.09.14-21.04.27:386][ 84]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.09.14-21.04.27:386][ 84]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.09.14-21.04.27:386][ 84]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.09.14-21.04.27:386][ 84]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.09.14-21.04.27:386][ 84]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.09.14-21.04.27:387][ 84]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.09.14-21.04.27:441][ 84]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.09.14-21.04.27:442][ 84]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.09.14-21.04.27:626][ 84]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.09.14-21.04.27:627][ 84]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.09.14-21.04.27:628][ 84]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.09.14-21.04.27:730][ 84]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.09.14-21.04.27:830][ 84]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.09.14-21.04.27:831][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.09.14-21.04.27:831][ 84]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.09.14-21.04.27:831][ 84]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.09.14-21.04.27:831][ 84]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.09.14-21.04.27:876][ 84]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.09.14-21.04.27:877][ 84]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.09.14-21.04.27:880][ 84]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.09.14-21.04.27:881][ 84]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.09.14-21.04.27:883][ 84]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.09.14-21.04.27:900][ 84]LogDerivedDataCache: Shutdown
+[2018.09.14-21.04.27:900][ 84]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.09.14-21.04.27:900][ 84]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.09.14-21.04.27:901][ 84]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.09.14-21.04.27:902][ 84]LogOnline: Display: Unloading online subsystem: NULL
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.14-21.04.27:902][ 84]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.14-21.04.27:902][ 84]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.14-21.04.27:902][ 84]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA73A0AC4-4DDB-925F-A865-949531C93ED5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=492e65dd48673339ba3345820836acac%7C198f0c7eba5d40c39cde66691aa87a3b%7C708ffe7b-f8ea-4e7d-825c-9c27d99d23de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.14-21.04.27:918][ 84]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.14-21.04.27:920][ 84]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.14-21.04.27:921][ 84]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.14-21.04.27:922][ 84]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.14-21.04.27:922][ 84]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.14-21.04.27:926][ 84]LogExit: Exiting.
+[2018.09.14-21.04.27:940][ 84]Log file closed, 09/14/18 17:04:27
