@@ -1,0 +1,634 @@
+﻿Log file open, 03/19/19 00:05:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LungLevel
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.315891
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.453s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Unreal/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.19-04.05.15:589][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.19-04.05.15:589][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.19-04.05.15:605][  0]LogHAL: Display: Platform has ~ 16 GB [17059758080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.19-04.05.15:605][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.19-04.05.15:605][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.19-04.05.15:606][  0]LogInit: Computer: DESKTOP-G618QEF
+[2019.03.19-04.05.15:606][  0]LogInit: User: zdavi
+[2019.03.19-04.05.15:606][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.19-04.05.15:606][  0]LogInit: High frequency timer resolution =2.537594 MHz
+[2019.03.19-04.05.15:606][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.19-04.05.15:606][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.19-04.05.15:606][  0]LogMemory: Process Physical Memory: 100.60 MB used, 100.60 MB peak
+[2019.03.19-04.05.15:606][  0]LogMemory: Process Virtual Memory: 89.29 MB used, 89.29 MB peak
+[2019.03.19-04.05.15:606][  0]LogMemory: Physical Memory: 7356.44 MB used,  8913.01 MB free, 16269.45 MB total
+[2019.03.19-04.05.15:606][  0]LogMemory: Virtual Memory: 4638.92 MB used,  8913.01 MB free, 134217728.00 MB total
+[2019.03.19-04.05.15:657][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.19-04.05.15:657][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.19-04.05.16:088][  0]LogStreaming: Display: Took  0.432s to InitEngineTextLocalization.
+[2019.03.19-04.05.16:088][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.19-04.05.16:120][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.19-04.05.16:120][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.19-04.05.16:357][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.19-04.05.16:357][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.19-04.05.16:740][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.03.19-04.05.16:740][  0]LogD3D11RHI:       3032/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.19-04.05.16:749][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.19-04.05.16:749][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.19-04.05.16:752][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.19-04.05.16:752][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.19-04.05.16:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.19-04.05.16:789][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.19-04.05.16:789][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.19-04.05.16:789][  0]LogWindows: EnumDisplayDevices:
+[2019.03.19-04.05.16:789][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.19-04.05.16:790][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.19-04.05.16:791][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.19-04.05.16:791][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.19-04.05.16:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.03.19-04.05.16:791][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.19-04.05.16:791][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.19-04.05.16:791][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2019.03.19-04.05.16:856][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.19-04.05.16:877][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.19-04.05.16:878][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Intermediate/Shaders/WorkingDirectory/15060/).
+[2019.03.19-04.05.16:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zdavi/AppData/Local/Temp/UnrealShaderWorkingDir/60C4E2414518693485469BB221638C3C/'.
+[2019.03.19-04.05.17:301][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.19-04.05.17:319][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.19-04.05.17:336][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.19-04.05.17:353][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.19-04.05.17:371][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.19-04.05.17:388][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.19-04.05.17:406][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.19-04.05.17:423][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.19-04.05.17:431][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.19-04.05.17:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:541][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-04.05.17:544][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.19-04.05.17:618][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.19-04.05.17:618][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.19-04.05.17:650][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.19-04.05.17:650][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.19-04.05.17:668][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.19-04.05.17:685][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.19-04.05.17:702][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.19-04.05.17:721][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.19-04.05.17:734][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.19-04.05.17:734][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.19-04.05.17:827][  0]LogXGEController: Cleaning working directory: C:/Users/zdavi/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.19-04.05.17:828][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.19-04.05.17:828][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.19-04.05.17:828][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.19-04.05.18:794][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.19-04.05.18:886][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/zdavi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.19-04.05.18:887][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zdavi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.19-04.05.18:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.19-04.05.18:888][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.19-04.05.18:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.19-04.05.18:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.19-04.05.18:905][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.19-04.05.18:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zdavi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.19-04.05.18:921][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.19-04.05.18:921][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.19-04.05.18:941][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.19-04.05.18:943][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.19-04.05.18:943][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.19-04.05.19:022][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2019.03.19-04.05.19:456][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.19-04.05.19:607][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.19-04.05.19:614][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.19-04.05.19:614][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.19-04.05.19:614][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.19-04.05.19:614][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.19-04.05.19:630][  0]LogNetVersion: LungLevel 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3686118635)
+[2019.03.19-04.05.20:240][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.116794 seconds
+[2019.03.19-04.05.20:247][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.19-04.05.20:247][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.19-04.05.20:247][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.19-04.05.21:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.19-04.05.21:184][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.19-04.05.21:373][  0]SourceControl: Source control is disabled
+[2019.03.19-04.05.21:373][  0]SourceControl: Source control is disabled
+[2019.03.19-04.05.21:377][  0]SourceControl: Source control is disabled
+[2019.03.19-04.05.21:380][  0]SourceControl: Source control is disabled
+[2019.03.19-04.05.21:614][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.19-04.05.21:691][  0]LogOcInput: OculusInput pre-init called
+[2019.03.19-04.05.21:761][  0]LogEngine: Initializing Engine...
+[2019.03.19-04.05.21:763][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.19-04.05.21:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.19-04.05.21:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.19-04.05.21:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.19-04.05.21:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.19-04.05.22:028][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.19-04.05.22:044][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.19-04.05.22:053][  0]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.05.22:079][  0]LogInit: FAudioDevice initialized.
+[2019.03.19-04.05.22:079][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.19-04.05.22:179][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/zdavi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.19-04.05.22:196][  0]LogInit: Texture streaming: Enabled
+[2019.03.19-04.05.22:216][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.19-04.05.22:234][  0]LogInit: Transaction tracking system initialized
+[2019.03.19-04.05.22:261][  0]BlueprintLog: New page: Editor Load
+[2019.03.19-04.05.22:358][  0]LocalizationService: Localization service is disabled
+[2019.03.19-04.05.22:652][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.19-04.05.22:652][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.19-04.05.22:652][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.19-04.05.22:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.19-04.05.22:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.19-04.05.22:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.19-04.05.22:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.19-04.05.22:796][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/' took 0.04s
+[2019.03.19-04.05.22:797][  0]SourceControl: Source control is disabled
+[2019.03.19-04.05.22:797][  0]Cmd: MAP LOAD FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.19-04.05.22:798][  0]LightingResults: New page: Lighting Build
+[2019.03.19-04.05.22:800][  0]MapCheck: New page: Map Check
+[2019.03.19-04.05.22:801][  0]LightingResults: New page: Lighting Build
+[2019.03.19-04.05.25:435][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.05.25:487][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.19-04.05.25:517][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.19-04.05.25:776][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 258.53ms to complete.
+[2019.03.19-04.05.25:776][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 2.980
+[2019.03.19-04.05.25:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.05.25:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.05.25:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.05.25:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.05.25:922][  0]LogCollectionManager: Loaded 0 collections in 0.001466 seconds
+[2019.03.19-04.05.25:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Collections/' took 0.01s
+[2019.03.19-04.05.25:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Developers/zdavi/Collections/' took 0.01s
+[2019.03.19-04.05.25:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Collections/' took 0.01s
+[2019.03.19-04.05.25:971][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.19-04.05.25:981][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2581 classes and 608 folders.
+[2019.03.19-04.05.25:988][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.19-04.05.26:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.19-04.05.26:049][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.19-04.05.26:059][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.19-04.05.26:061][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.19-04.05.26:068][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.19-04.05.26:173][  0]LogRenderer: Reallocating scene render targets to support 1180x628 Format 10 NumSamples 1 (Frame:1).
+[2019.03.19-04.05.26:276][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.19-04.05.26:415][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.19-04.05.26:415][  0]LogLoad: (Engine Initialization) Total time: 13.08 seconds
+[2019.03.19-04.05.26:415][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.19-04.05.26:489][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.19-04.05.26:543][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/' took 0.09s
+[2019.03.19-04.05.26:561][  1]LogAssetRegistry: Asset discovery search completed in 7.5617 seconds
+[2019.03.19-04.05.26:563][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.19-04.05.26:563][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.03.19-04.05.27:883][  5]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.19-04.12.12:948][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.19-04.12.14:183][263]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.19-04.12.27:482][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.12.27:582][ 54]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.12.27:598][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.12.27:598][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.12.27:610][ 54]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:12:27 PM)
+[2019.03.19-04.12.27:610][ 54]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.12.27:627][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016955s)
+[2019.03.19-04.12.27:628][ 54]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.12.27:628][ 54]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2019.03.19-04.12.27:628][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.018012s)
+[2019.03.19-04.12.27:652][ 54]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.12.27:670][ 54]LogInit: FAudioDevice initialized.
+[2019.03.19-04.12.27:715][ 54]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.12.27:723][ 54]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.12.27
+[2019.03.19-04.12.27:726][ 54]LogWorld: Bringing up level for play took: 0.010000
+[2019.03.19-04.12.27:744][ 54]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.19-04.12.27:744][ 54]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.626
+[2019.03.19-04.12.27:744][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.12.29:070][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.12.29:071][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.12.29:109][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.12.29:109][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.12.29:131][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.12.29:179][133]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.03.19-04.12.33:033][363]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (The_Unassuming_Happy_Docks)
+[2019.03.19-04.12.33:554][374]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.03.19-04.12.46:317][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.12.54:641][634]LogSlate: Took 0.003462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.03.19-04.13.05:839][304]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (The_Unassuming_Happy_Docks)
+[2019.03.19-04.13.07:472][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.13.10:868][600]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.13.10:885][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.13.10:885][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.13.10:885][600]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:13:10 PM)
+[2019.03.19-04.13.10:885][600]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.13.10:900][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014954s)
+[2019.03.19-04.13.10:901][600]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.13.10:901][600]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2019.03.19-04.13.10:901][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.015903s)
+[2019.03.19-04.13.10:923][600]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.13.10:941][600]LogInit: FAudioDevice initialized.
+[2019.03.19-04.13.10:975][600]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.13.10:982][600]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.13.10
+[2019.03.19-04.13.10:985][600]LogWorld: Bringing up level for play took: 0.009907
+[2019.03.19-04.13.10:998][600]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.628
+[2019.03.19-04.13.10:998][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.13.19:866][130]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_0.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.19:866][130]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_0.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.19:982][137]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_1.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.19:983][137]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_1.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.20:099][144]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_2.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.20:099][144]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_2.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.20:216][151]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_3.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.20:216][151]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_3.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:133][206]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_4.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:133][206]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_4.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:250][213]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_5.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:250][213]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_5.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:366][220]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_6.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:366][220]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_6.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:483][227]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_7.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:483][227]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_7.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:600][234]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_8.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:600][234]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_8.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:717][241]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_9.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:717][241]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_9.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:834][248]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_10.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:834][248]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_10.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:950][255]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_11.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.21:951][255]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_11.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:067][262]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_12.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:067][262]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_12.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:184][269]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_13.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:184][269]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_13.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:301][276]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_14.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:301][276]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_14.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:416][283]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_15.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:416][283]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_15.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:533][290]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_16.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:533][290]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_16.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:650][297]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_17.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:650][297]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_17.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:766][304]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_18.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:767][304]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_18.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:883][311]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_19.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.22:883][311]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_19.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.36:868][150]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_20.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.36:868][150]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_20.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.36:985][157]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_21.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.36:985][157]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_21.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:101][164]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_22.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:101][164]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_22.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:485][187]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_23.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:485][187]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_23.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:600][194]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_24.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:600][194]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_24.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:717][201]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_25.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.37:717][201]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_25.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:001][278]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_26.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:002][278]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_26.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:117][285]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_27.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:117][285]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_27.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:235][292]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_28.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:235][292]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_28.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:351][299]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_29.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:351][299]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_29.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:468][306]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_30.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:468][306]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_30.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:585][313]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_31.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:585][313]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_31.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:702][320]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_32.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.39:702][320]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_32.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:135][406]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_33.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:135][406]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_33.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:252][413]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_34.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:252][413]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_34.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:368][420]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_35.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.41:368][420]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_35.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.42:818][507]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_36.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.42:818][507]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_36.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.42:935][514]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_37.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.42:935][514]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_37.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.43:051][521]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_38.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.43:052][521]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_38.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.43:902][572]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_39.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.43:902][572]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_39.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.44:018][579]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_40.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.44:019][579]PIE: Warning: Invalid Simulate Options: Body (TwinStickProjectile_C_40.ProjectileMesh TwinStickProjectile) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.19-04.13.51:003][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.13.51:003][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.13.51:041][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.13.51:041][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.13.51:063][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.13.51:103][999]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.19-04.15.01:262][273]AssetReimport: New page: Outstanding source content changes 8:15:01 PM
+[2019.03.19-04.15.01:265][273]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.wav)
+[2019.03.19-04.15.01:295][274]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.19-04.15.01:340][274]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/electric_door_openingCF6DE78847401A7B8A179AB2AAA92755.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.uasset'
+[2019.03.19-04.15.04:379][455]AssetReimport: Importing new asset /Game/lung_level_build/SFX/electric_door_opening.
+[2019.03.19-04.15.06:042][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.15.06:160][561]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Interactive_slide_door.Interactive_slide_door
+[2019.03.19-04.15.06:618][561]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.03.19-04.15.09:253][669]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.19-04.15.09:285][670]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.19-04.15.52:846][181]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave electric_door_opening...
+[2019.03.19-04.15.52:846][181]LogTemp: Couldn't find amount to resample to.
+[2019.03.19-04.15.53:151][181]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 190556 while cooking SoundWave /Game/lung_level_build/SFX/electric_door_opening.electric_door_opening.
+[2019.03.19-04.15.56:558][385]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.15.56:838][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.15.56:890][385]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door78BFFE54411AF28B6EF229A61319AC14.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.15.58:263][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.15.58:302][464]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door7BD5933E4447751A0DE43E9B951162DB.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.16.04:609][842]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.16.04:633][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.04:634][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.16.04:634][842]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:16:04 PM)
+[2019.03.19-04.16.04:634][842]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.16.04:650][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015746s)
+[2019.03.19-04.16.04:650][842]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.16.04:651][842]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2019.03.19-04.16.04:651][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.016915s)
+[2019.03.19-04.16.04:683][842]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.16.04:702][842]LogInit: FAudioDevice initialized.
+[2019.03.19-04.16.04:734][842]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.16.04:741][842]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.16.04
+[2019.03.19-04.16.04:744][842]LogWorld: Bringing up level for play took: 0.009725
+[2019.03.19-04.16.04:757][842]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.387
+[2019.03.19-04.16.04:757][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.21:742][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.21:742][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.16.21:778][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.16.21:778][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.21:803][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.16.21:873][861]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.19-04.16.22:223][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.16.30:254][347]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.16.30:510][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.16.30:557][347]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door7763F2F248A8FBD7013532AC3CCED3B8.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.16.31:935][427]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.16.31:957][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.31:957][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.16.31:957][427]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:16:31 PM)
+[2019.03.19-04.16.31:957][427]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.16.31:973][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015691s)
+[2019.03.19-04.16.31:974][427]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.16.31:974][427]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2019.03.19-04.16.31:974][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.016540s)
+[2019.03.19-04.16.32:002][427]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.16.32:020][427]LogInit: FAudioDevice initialized.
+[2019.03.19-04.16.32:051][427]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.16.32:058][427]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.16.32
+[2019.03.19-04.16.32:062][427]LogWorld: Bringing up level for play took: 0.010070
+[2019.03.19-04.16.32:074][427]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.296
+[2019.03.19-04.16.32:074][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.41:573][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.41:573][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.16.41:613][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.16.41:613][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.16.41:637][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.16.41:673][995]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.03.19-04.16.42:011][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.17.08:346][593]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.17.08:605][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.17.08:652][593]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_doorDDD5173440B577A8C78432BA548FA7D3.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.17.09:588][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.17.09:628][645]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_doorC5414C6B44E0785F8201EF8A291CE392.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.17.11:207][739]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.17.11:229][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.11:229][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.17.11:229][739]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:17:11 PM)
+[2019.03.19-04.17.11:229][739]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.17.11:244][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015389s)
+[2019.03.19-04.17.11:245][739]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.17.11:245][739]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2019.03.19-04.17.11:245][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.016274s)
+[2019.03.19-04.17.11:276][739]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.17.11:293][739]LogInit: FAudioDevice initialized.
+[2019.03.19-04.17.11:328][739]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.17.11:335][739]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.17.11
+[2019.03.19-04.17.11:339][739]LogWorld: Bringing up level for play took: 0.009871
+[2019.03.19-04.17.11:352][739]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.982
+[2019.03.19-04.17.11:352][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.20:888][309]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.20:889][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.17.20:929][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.17.20:929][309]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.20:958][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.17.21:037][310]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.19-04.17.21:422][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.17.28:552][755]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.17.28:808][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.17.28:855][755]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door229C2ABF43D5A6D6CB82E481C4F0A5FF.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.17.43:553][634]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.17.43:811][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.17.43:861][634]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door8D7A6B644BF2AA15494A428DAA82D694.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.17.45:896][753]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.17.45:920][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.45:920][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.17.45:920][753]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:17:45 PM)
+[2019.03.19-04.17.45:920][753]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.17.45:937][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016142s)
+[2019.03.19-04.17.45:937][753]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.17.45:938][753]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.03.19-04.17.45:938][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.017314s)
+[2019.03.19-04.17.45:967][753]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.17.45:984][753]LogInit: FAudioDevice initialized.
+[2019.03.19-04.17.46:018][753]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.17.46:025][753]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.17.46
+[2019.03.19-04.17.46:029][753]LogWorld: Bringing up level for play took: 0.009624
+[2019.03.19-04.17.46:042][753]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.328
+[2019.03.19-04.17.46:042][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.56:857][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.56:857][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.17.56:898][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.17.56:898][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.17.56:925][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.17.57:006][401]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.19-04.17.58:123][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.18.12:756][340]BlueprintLog: New page: Compile Interactive_slide_door
+[2019.03.19-04.18.13:019][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactive_slide_door" FILE="C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset" SILENT=true
+[2019.03.19-04.18.13:066][340]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/Interactive_slide_door8B89598A4A32AC3EE29ACF80EA959E69.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/Interactive_slide_door.uasset'
+[2019.03.19-04.18.21:355][817]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap
+[2019.03.19-04.18.28:014][184]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-04.18.28:030][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.18.28:031][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-04.18.28:031][184]PIE: New page: PIE session: TwinStickExampleMap (Mar 18, 2019, 8:18:28 PM)
+[2019.03.19-04.18.28:031][184]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.19-04.18.28:047][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016423s)
+[2019.03.19-04.18.28:048][184]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.19-04.18.28:048][184]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2019.03.19-04.18.28:048][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.017478s)
+[2019.03.19-04.18.28:083][184]LogInit: XAudio2 using '扬声器 (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-04.18.28:102][184]LogInit: FAudioDevice initialized.
+[2019.03.19-04.18.28:134][184]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.19-04.18.28:141][184]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.19-00.18.28
+[2019.03.19-04.18.28:145][184]LogWorld: Bringing up level for play took: 0.009898
+[2019.03.19-04.18.28:157][184]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.213
+[2019.03.19-04.18.28:157][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.18.36:216][665]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.18.36:216][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.18.36:273][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-04.18.36:274][665]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.19-04.18.36:308][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-04.18.36:388][666]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.19-04.18.36:945][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-04.19.20:829][929]AssetReimport: New page: Outstanding source content changes 8:19:20 PM
+[2019.03.19-04.19.21:142][929]LogAudioEditor: Performing atomic reimport of [C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.wav]
+[2019.03.19-04.19.21:143][929]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.wav)
+[2019.03.19-04.19.21:144][929]LogAudioEditor: -- imported successfully
+[2019.03.19-04.19.21:247][930]LogSavePackage: Moving 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Saved/electric_door_openingE411B4A64B79555492AE0687C3761D14.tmp' to 'C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.uasset'
+[2019.03.19-04.19.24:267][ 94]AssetReimport: Reimported asset electric_door_opening from C:/Users/zdavi/Desktop/CGT445/Final/CGT445_FinalProject/LungLevel/Content/lung_level_build/SFX/electric_door_opening.wav.
+[2019.03.19-04.19.45:860][525]LogD3D11RHI: Error: D3DRHI->GetFactory()->CreateSwapChain(DXGIDevice, &SwapChainDesc, SwapChain.GetInitReference()) failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows\WindowsD3D11Viewport.cpp:126 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2019.03.19-04.19.45:860][525]LogD3D11RHI: [Aftermath] GDynamicRHI=0000014FE1BE8100, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2019.03.19-04.19.45:861][525]LogWindows: Windows GetLastError: 操作成功完成。 (0)
