@@ -1,0 +1,580 @@
+﻿Log file open, 11/27/18 15:44:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: JungleMaze
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.340812
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.297s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EpicGames/Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.27-20.44.57:361][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.27-20.44.57:361][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.27-20.44.57:392][  0]LogHAL: Display: Platform has ~ 16 GB [17046654976 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.27-20.44.57:392][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.27-20.44.57:392][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.27-20.44.57:393][  0]LogInit: Computer: VARUNMW01
+[2018.11.27-20.44.57:393][  0]LogInit: User: Varun
+[2018.11.27-20.44.57:393][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.27-20.44.57:393][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2018.11.27-20.44.57:393][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.27-20.44.57:393][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.27-20.44.57:393][  0]LogMemory: Process Physical Memory: 99.91 MB used, 99.91 MB peak
+[2018.11.27-20.44.57:393][  0]LogMemory: Process Virtual Memory: 91.18 MB used, 91.18 MB peak
+[2018.11.27-20.44.57:393][  0]LogMemory: Physical Memory: 8953.53 MB used,  7303.43 MB free, 16256.96 MB total
+[2018.11.27-20.44.57:393][  0]LogMemory: Virtual Memory: 4645.25 MB used,  7303.43 MB free, 134217728.00 MB total
+[2018.11.27-20.44.57:442][  0]LogInit: Using OS detected language (en-US).
+[2018.11.27-20.44.57:442][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.27-20.44.57:443][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.27-20.44.57:957][  0]LogStreaming: Display: Took  0.515s to InitEngineTextLocalization.
+[2018.11.27-20.44.57:958][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.27-20.44.58:040][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.27-20.44.58:040][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.27-20.44.58:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.27-20.44.58:607][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.27-20.44.58:708][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.11.27-20.44.58:708][  0]LogD3D11RHI:       4055/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.27-20.44.58:733][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.27-20.44.58:733][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.27-20.44.58:740][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.27-20.44.58:740][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.27-20.44.58:740][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.27-20.44.58:793][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.27-20.44.58:793][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.11.27-20.44.58:793][  0]LogWindows: EnumDisplayDevices:
+[2018.11.27-20.44.58:794][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.11.27-20.44.58:794][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.27-20.44.58:795][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.27-20.44.58:795][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.27-20.44.58:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.11.27-20.44.58:795][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.27-20.44.58:795][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.27-20.44.58:795][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.11.27-20.44.58:874][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.27-20.44.58:907][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.27-20.44.58:908][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Intermediate/Shaders/WorkingDirectory/23216/).
+[2018.11.27-20.44.58:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Varun/AppData/Local/Temp/UnrealShaderWorkingDir/CB47D732427B898E1527E8AB854B0E19/'.
+[2018.11.27-20.44.59:480][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.27-20.44.59:506][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.27-20.44.59:533][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.27-20.44.59:562][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.27-20.44.59:587][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.27-20.44.59:609][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.27-20.44.59:631][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.27-20.44.59:656][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.27-20.44.59:667][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:789][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.27-20.44.59:792][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.27-20.44.59:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.27-20.44.59:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.27-20.44.59:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.27-20.44.59:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.27-20.44.59:928][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.27-20.44.59:951][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.27-20.44.59:972][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.27-20.44.59:993][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.27-20.45.00:011][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.27-20.45.00:011][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.27-20.45.00:117][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.27-20.45.00:117][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.27-20.45.00:117][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.27-20.45.01:176][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.27-20.45.01:268][  0]LogDerivedDataCache: Loaded boot cache 0.09s 87MB C:/Users/Varun/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.27-20.45.01:269][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Varun/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.27-20.45.01:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.27-20.45.01:270][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.27-20.45.01:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.27-20.45.01:270][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.27-20.45.01:285][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.27-20.45.01:299][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Varun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.27-20.45.01:299][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.27-20.45.01:299][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.27-20.45.01:325][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.27-20.45.01:327][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.27-20.45.01:329][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.27-20.45.01:452][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.11.27-20.45.02:006][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.27-20.45.02:218][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.27-20.45.02:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.27-20.45.02:224][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.27-20.45.02:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.27-20.45.02:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.27-20.45.02:246][  0]LogNetVersion: JungleMaze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 723645141)
+[2018.11.27-20.45.03:160][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.276182 seconds
+[2018.11.27-20.45.03:171][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.27-20.45.03:171][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.27-20.45.03:171][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.27-20.45.04:898][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.27-20.45.04:913][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.27-20.45.05:123][  0]SourceControl: Source control is disabled
+[2018.11.27-20.45.05:123][  0]SourceControl: Source control is disabled
+[2018.11.27-20.45.05:126][  0]SourceControl: Source control is disabled
+[2018.11.27-20.45.05:129][  0]SourceControl: Source control is disabled
+[2018.11.27-20.45.05:380][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.27-20.45.05:613][  0]LogOcInput: OculusInput pre-init called
+[2018.11.27-20.45.05:696][  0]LogEngine: Initializing Engine...
+[2018.11.27-20.45.05:697][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.27-20.45.05:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.27-20.45.05:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.27-20.45.05:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.27-20.45.05:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.27-20.45.06:012][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.27-20.45.06:032][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.27-20.45.06:086][  0]LogInit: XAudio2 using 'Headphones (otium beats Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.27-20.45.06:113][  0]LogInit: FAudioDevice initialized.
+[2018.11.27-20.45.06:114][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.27-20.45.06:545][  0]LogDerivedDataCache: Saved boot cache 0.43s 87MB C:/Users/Varun/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.27-20.45.06:564][  0]LogInit: Texture streaming: Enabled
+[2018.11.27-20.45.06:592][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.27-20.45.06:626][  0]LogInit: Transaction tracking system initialized
+[2018.11.27-20.45.06:655][  0]BlueprintLog: New page: Editor Load
+[2018.11.27-20.45.06:767][  0]LocalizationService: Localization service is disabled
+[2018.11.27-20.45.07:140][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.27-20.45.07:140][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.27-20.45.07:140][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.27-20.45.07:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.27-20.45.07:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.27-20.45.07:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.27-20.45.07:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.27-20.45.07:335][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/' took 0.09s
+[2018.11.27-20.45.07:335][  0]SourceControl: Source control is disabled
+[2018.11.27-20.45.07:335][  0]Cmd: MAP LOAD FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.27-20.45.07:338][  0]LightingResults: New page: Lighting Build
+[2018.11.27-20.45.07:340][  0]MapCheck: New page: Map Check
+[2018.11.27-20.45.07:340][  0]LightingResults: New page: Lighting Build
+[2018.11.27-20.45.09:555][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.09:851][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.27-20.45.09:851][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.27-20.45.09:851][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.27-20.45.09:851][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.27-20.45.09:851][  0]LogStaticMesh: Building static mesh main_island_polySurface197...
+[2018.11.27-20.45.10:021][  0]LogStaticMesh: Built static mesh [0.26s] /Game/First_Level/Main_Island/main_island_polySurface197.main_island_polySurface197
+[2018.11.27-20.45.10:222][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.10:601][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.27-20.45.10:601][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.11.27-20.45.10:601][  0]LogStaticMesh: Building static mesh crown_polySurface216...
+[2018.11.27-20.45.10:626][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2018.11.27-20.45.10:626][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.11.27-20.45.10:626][  0]LogStaticMesh: Built static mesh [0.15s] /Game/First_Level/Crown/crown_polySurface216.crown_polySurface216
+[2018.11.27-20.45.10:633][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.11.27-20.45.10:633][  0]LogStaticMesh: Building static mesh center_island_polySurface336...
+[2018.11.27-20.45.10:640][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Center_Island/center_island_polySurface336.center_island_polySurface336
+[2018.11.27-20.45.10:645][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.11.27-20.45.10:646][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.11.27-20.45.10:646][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.10:958][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2018.11.27-20.45.10:958][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.11.27-20.45.10:958][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.11.27-20.45.10:958][  0]LogMaterial: Display: Missing cached shader map for material Flower, compiling. 
+[2018.11.27-20.45.10:979][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.11.27-20.45.10:979][  0]LogMaterial: Display: Missing cached shader map for material AzaleaLeaf_1, compiling. 
+[2018.11.27-20.45.11:053][  0]LogStaticMesh: Building static mesh Azalea_Mobile_Flowers_2...
+[2018.11.27-20.45.11:210][  0]LogStaticMesh: Built static mesh [0.16s] /Game/Geometry/Meshes/Azalea_Mobile_Flowers_2.Azalea_Mobile_Flowers_2
+[2018.11.27-20.45.12:401][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.11.27-20.45.12:401][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
+[2018.11.27-20.45.12:401][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 1024X1024)
+[2018.11.27-20.45.12:401][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 1024X128)
+[2018.11.27-20.45.12:402][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.11.27-20.45.12:713][  0]LogStaticMesh: Building static mesh Red_Maple_Young_LowPoly...
+[2018.11.27-20.45.12:832][  0]LogStaticMesh: Built static mesh [0.12s] /Game/Red_Maple_Young_LowPoly.Red_Maple_Young_LowPoly
+[2018.11.27-20.45.12:875][  0]LogStaticMesh: Building static mesh center_island_polySurface324...
+[2018.11.27-20.45.12:952][  0]LogStaticMesh: Built static mesh [0.08s] /Game/First_Level/Center_Island/center_island_polySurface324.center_island_polySurface324
+[2018.11.27-20.45.12:971][  0]LogStaticMesh: Building static mesh brige_polySurface1...
+[2018.11.27-20.45.12:975][  0]LogStaticMesh: Built static mesh [0.00s] /Game/First_Level/Bridge/brige_polySurface1.brige_polySurface1
+[2018.11.27-20.45.12:979][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.13:035][  0]LogStaticMesh: Building static mesh brige_pasted__pCube4...
+[2018.11.27-20.45.13:054][  0]LogStaticMesh: Built static mesh [0.04s] /Game/First_Level/Bridge/brige_pasted__pCube4.brige_pasted__pCube4
+[2018.11.27-20.45.13:082][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.13:108][  0]LogStaticMesh: Building static mesh base...
+[2018.11.27-20.45.13:125][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Base/base.base
+[2018.11.27-20.45.13:131][  0]LogStaticMesh: Building static mesh Plane1_polySurface206...
+[2018.11.27-20.45.13:147][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane1/Plane1_polySurface206.Plane1_polySurface206
+[2018.11.27-20.45.13:154][  0]LogStaticMesh: Building static mesh Plane1_polySurface202...
+[2018.11.27-20.45.13:160][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane1/Plane1_polySurface202.Plane1_polySurface202
+[2018.11.27-20.45.13:173][  0]LogStaticMesh: Building static mesh Plane1_polySurface201...
+[2018.11.27-20.45.13:207][  0]LogStaticMesh: Built static mesh [0.04s] /Game/First_Level/Plane1/Plane1_polySurface201.Plane1_polySurface201
+[2018.11.27-20.45.13:215][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.13:242][  0]LogStaticMesh: Building static mesh Plane1_polySurface200...
+[2018.11.27-20.45.13:259][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane1/Plane1_polySurface200.Plane1_polySurface200
+[2018.11.27-20.45.13:266][  0]LogStaticMesh: Building static mesh main_island_polySurface212...
+[2018.11.27-20.45.13:314][  0]LogStaticMesh: Built static mesh [0.05s] /Game/First_Level/Main_Island/main_island_polySurface212.main_island_polySurface212
+[2018.11.27-20.45.13:330][  0]LogStaticMesh: Building static mesh Plane2_polySurface220...
+[2018.11.27-20.45.13:352][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface220.Plane2_polySurface220
+[2018.11.27-20.45.13:360][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.27-20.45.13:382][  0]LogStaticMesh: Building static mesh Plane2_polySurface219...
+[2018.11.27-20.45.13:388][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface219.Plane2_polySurface219
+[2018.11.27-20.45.13:394][  0]LogStaticMesh: Building static mesh Plane1_polySurface210...
+[2018.11.27-20.45.13:403][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane1/Plane1_polySurface210.Plane1_polySurface210
+[2018.11.27-20.45.13:421][  0]LogStaticMesh: Building static mesh Plane1_polySurface207...
+[2018.11.27-20.45.13:460][  0]LogStaticMesh: Built static mesh [0.04s] /Game/First_Level/Plane1/Plane1_polySurface207.Plane1_polySurface207
+[2018.11.27-20.45.13:521][  0]LogStaticMesh: Building static mesh Plane2_polySurface242...
+[2018.11.27-20.45.13:536][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface242.Plane2_polySurface242
+[2018.11.27-20.45.13:546][  0]LogStaticMesh: Building static mesh Plane2_polySurface240...
+[2018.11.27-20.45.13:561][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface240.Plane2_polySurface240
+[2018.11.27-20.45.13:576][  0]LogStaticMesh: Building static mesh Plane2_polySurface238...
+[2018.11.27-20.45.13:603][  0]LogStaticMesh: Built static mesh [0.03s] /Game/First_Level/Plane2/Plane2_polySurface238.Plane2_polySurface238
+[2018.11.27-20.45.13:612][  0]LogStaticMesh: Building static mesh Plane2_polySurface237...
+[2018.11.27-20.45.13:627][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface237.Plane2_polySurface237
+[2018.11.27-20.45.13:631][  0]LogStaticMesh: Building static mesh Plane2_polySurface233...
+[2018.11.27-20.45.13:635][  0]LogStaticMesh: Built static mesh [0.00s] /Game/First_Level/Plane2/Plane2_polySurface233.Plane2_polySurface233
+[2018.11.27-20.45.13:643][  0]LogStaticMesh: Building static mesh Plane2_polySurface231...
+[2018.11.27-20.45.13:665][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface231.Plane2_polySurface231
+[2018.11.27-20.45.13:689][  0]LogStaticMesh: Building static mesh Plane2_polySurface228...
+[2018.11.27-20.45.13:737][  0]LogStaticMesh: Built static mesh [0.05s] /Game/First_Level/Plane2/Plane2_polySurface228.Plane2_polySurface228
+[2018.11.27-20.45.13:747][  0]LogStaticMesh: Building static mesh Plane2_polySurface225...
+[2018.11.27-20.45.13:759][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface225.Plane2_polySurface225
+[2018.11.27-20.45.13:764][  0]LogStaticMesh: Building static mesh Plane2_polySurface221...
+[2018.11.27-20.45.13:776][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface221.Plane2_polySurface221
+[2018.11.27-20.45.14:083][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.27-20.45.14:882][  0]LogShaderCompilers: Display: Shaders left to compile 175
+[2018.11.27-20.45.14:891][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.27-20.45.14:968][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.27-20.45.15:302][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 333.392ms to complete.
+[2018.11.27-20.45.15:302][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.967
+[2018.11.27-20.45.15:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.45.15:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.45.15:816][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.45.15:833][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.45.15:914][  0]LogCollectionManager: Loaded 0 collections in 0.062354 seconds
+[2018.11.27-20.45.15:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/Collections/' took 0.01s
+[2018.11.27-20.45.15:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/Developers/Varun/Collections/' took 0.01s
+[2018.11.27-20.45.15:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/Collections/' took 0.01s
+[2018.11.27-20.45.15:965][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.27-20.45.15:984][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2572 classes and 603 folders.
+[2018.11.27-20.45.15:993][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.27-20.45.16:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.27-20.45.16:438][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.27-20.45.16:772][  0]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.27-20.45.16:776][  0]LogSlate: Took 0.000580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.27-20.45.16:820][  0]LogSlate: Took 0.021246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.27-20.45.17:283][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.11.27-20.45.20:417][  0]LogShaderCompilers: Display: Shaders left to compile 165
+[2018.11.27-20.45.20:417][  0]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.11.27-20.45.20:417][  0]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.11.27-20.45.20:417][  0]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.11.27-20.45.20:417][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.45.20:500][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.11.27-20.45.20:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.27-20.45.20:540][  0]LogLoad: (Engine Initialization) Total time: 26.04 seconds
+[2018.11.27-20.45.20:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.27-20.45.20:553][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.27-20.45.20:788][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.27-20.45.21:339][  3]LogAssetRegistry: Asset discovery search completed in 19.9099 seconds
+[2018.11.27-20.45.21:345][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.27-20.45.21:345][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000107 seconds (updated 0 objects)
+[2018.11.27-20.45.23:961][ 44]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.11.27-20.45.25:951][100]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.11.27-20.45.26:374][116]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.11.27-20.45.27:674][168]LogSlate: Took 0.043436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.27-20.45.28:250][194]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.11.27-20.45.30:930][290]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/' took 10.35s
+[2018.11.27-20.45.35:544][448]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.11.27-20.45.36:767][494]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.11.27-20.45.41:665][659]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.27-20.45.42:558][685]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.27-20.45.45:597][778]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.27-20.45.45:786][783]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.27-20.45.49:361][891]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.27-20.45.51:212][942]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.27-20.45.53:721][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.27-20.46.26:532][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2018.11.27-20.46.33:368][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2018.11.27-20.46.34:109][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-20.46.37:247][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2_polySurface230)
+[2018.11.27-20.46.37:558][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-20.46.45:975][188]Cmd: TRANSACTION UNDO
+[2018.11.27-20.46.45:976][188]LogEditorTransaction: Undo Move Actors
+[2018.11.27-20.46.46:068][188]LogSlate: Took 0.000593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.27-20.46.51:070][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.46.51:128][414]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.27-20.46.51:184][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.46.51:184][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.27-20.46.51:229][414]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 27, 2018, 10:46:51 AM)
+[2018.11.27-20.46.51:230][414]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.27-20.46.51:293][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063466s)
+[2018.11.27-20.46.51:295][414]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.27-20.46.51:295][414]LogPlayLevel: PIE: World Init took: (0.001837s)
+[2018.11.27-20.46.51:296][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.065749s)
+[2018.11.27-20.46.51:387][414]LogInit: XAudio2 using 'Headphones (otium beats Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.27-20.46.51:400][414]LogInit: FAudioDevice initialized.
+[2018.11.27-20.46.51:467][414]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.27-20.46.51:541][414]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.27-15.46.51
+[2018.11.27-20.46.51:627][414]LogWorld: Bringing up level for play took: 0.142621
+[2018.11.27-20.46.51:711][414]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.11.27-20.46.51:731][414]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.289
+[2018.11.27-20.46.51:731][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.47.39:601][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.47.39:971][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.47.40:058][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.27-20.47.40:058][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.47.40:095][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.47.40:181][160]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.27-20.47.41:366][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (brige_pasted__pCube6)
+[2018.11.27-20.47.42:249][265]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-20.47.43:154][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (brige_pasted__pCube6)
+[2018.11.27-20.47.43:700][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (brige_pasted__pCube6)
+[2018.11.27-20.47.46:905][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.47.51:682][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (brige_pasted__pCube6)
+[2018.11.27-20.47.52:654][776]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.27-20.47.53:189][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.27-20.47.54:302][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.47.54:374][830]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.27-20.47.54:417][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.47.54:417][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.27-20.47.54:417][830]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 27, 2018, 10:47:54 AM)
+[2018.11.27-20.47.54:417][830]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.27-20.47.54:448][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030633s)
+[2018.11.27-20.47.54:449][830]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.27-20.47.54:450][830]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2018.11.27-20.47.54:450][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032342s)
+[2018.11.27-20.47.54:498][830]LogInit: XAudio2 using 'Headphones (otium beats Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.27-20.47.54:513][830]LogInit: FAudioDevice initialized.
+[2018.11.27-20.47.54:548][830]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.27-20.47.54:556][830]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.27-15.47.54
+[2018.11.27-20.47.54:556][830]LogWorld: Bringing up level for play took: 0.007257
+[2018.11.27-20.47.54:571][830]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.128
+[2018.11.27-20.47.54:571][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.48.38:819][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.48.38:820][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.48.38:871][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.27-20.48.38:872][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.27-20.48.38:906][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.27-20.48.38:981][274]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.27-20.49.06:928][757]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.27-20.49.07:714][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (main_island_polySurface203)
+[2018.11.27-20.49.08:130][809]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-20.51.36:377][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.51.38:683][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.51.41:265][880]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.51.41:336][884]LogRenderer: Reallocating scene render targets to support 964x488 Format 10 NumSamples 1 (Frame:816).
+[2018.11.27-20.51.47:126][139]LogRenderer: Reallocating scene render targets to support 964x708 Format 10 NumSamples 1 (Frame:4467).
+[2018.11.27-20.52.36:966][367]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.27-20.53.10:600][722]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/First_Level/Portal/BP_Portal.BP_Portal
+[2018.11.27-20.53.11:563][722]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.11.27-20.53.15:197][791]LogSlate: Window 'BP_Portal*' being destroyed
+[2018.11.27-20.53.32:661][937]LogSlate: Took 0.061631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.27-20.55.11:279][437]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.57.28:651][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-20.57.51:162][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.59.00:165][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.59.00:277][309]BlueprintLog: New page: Compile BP_Portal
+[2018.11.27-20.59.05:794][586]BlueprintLog: New page: Compile BP_Portal
+[2018.11.27-20.59.06:058][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/First_Level/Portal/BP_Portal" FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset" SILENT=true
+[2018.11.27-20.59.06:134][586]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_Portal9AAEEDF542DAE2A6B474EB8BDED8AADC.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset'
+[2018.11.27-20.59.19:688][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-20.59.19:785][  9]BlueprintLog: New page: Compile BP_Portal
+[2018.11.27-20.59.20:049][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/First_Level/Portal/BP_Portal" FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset" SILENT=true
+[2018.11.27-20.59.20:111][  9]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_PortalAAB86F2448B74B38326A7DB9FB0044E8.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset'
+[2018.11.27-20.59.23:640][145]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMapB314155B4264BDE8E6767496A556DC37.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.27-20.59.24:257][145]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataB9A1CE154B3FB6B201592CA7558141BD.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.27-20.59.48:210][925]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-21.00.13:181][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-21.00.17:820][749]BlueprintLog: New page: Compile BP_Portal
+[2018.11.27-21.00.18:100][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/First_Level/Portal/BP_Portal" FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset" SILENT=true
+[2018.11.27-21.00.18:137][749]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_PortalA9B6E3894A218AAC93428CB53A76811E.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset'
+[2018.11.27-21.01.19:532][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-21.01.27:544][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-21.01.27:590][503]BlueprintLog: New page: Compile BP_Portal
+[2018.11.27-21.01.27:861][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/First_Level/Portal/BP_Portal" FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset" SILENT=true
+[2018.11.27-21.01.27:900][503]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_Portal03846DE54C09ADC82D4639A2D4DFC73D.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal.uasset'
+[2018.11.27-21.02.01:215][254]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-21.02.10:663][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-21.02.11:232][767]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMap1045168E480AF3F535D8569E039A1AD3.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.27-21.02.11:682][767]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltData22F76005405354F24831DAA7276CE619.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.27-21.02.33:863][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (main_island_polySurface203)
+[2018.11.27-21.02.34:888][916]LogEditorViewport: Clicking on Actor (LMB): BP_Portal_C (BP_Portal)
+[2018.11.27-21.02.52:293][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.11.27-21.02.53:382][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.27-21.02.54:247][934]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-21.02.58:569][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.27-21.03.01:327][266]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-21.03.06:863][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.27-21.03.07:348][518]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMapFBA85E5D45A8B99C57FAC5B6BB623ACE.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.27-21.03.07:788][518]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataFF6FE20F492D75BAAEC717A56551B6DA.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.27-21.03.11:652][684]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.27-21.03.17:261][965]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMapED4780074F71DA1F19793B92829929E5.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.27-21.03.17:699][965]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataDDA8201145ACD1931BA6B3977D7C83C5.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.27-21.03.23:927][998]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4afe69f0-e6a8-4f54-be73-e44ce485b309} was removed. Shutting down audio device.
+[2018.11.27-21.03.23:927][998]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.27-21.03.24:619][999]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.27-23.33.39:210][636]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.11.27-23.33.39:211][636]LogHttp: Warning: 000001E719BE4680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.27-23.33.39:211][636]LogHttp: Warning: 000001E719BE4680: libcurl info message cache 0 (Connection 12 seems to be dead!)
+[2018.11.27-23.33.39:211][636]LogHttp: Warning: 000001E719BE4680: libcurl info message cache 1 (Closing connection 12)
+[2018.11.27-23.33.39:211][636]LogHttp: Warning: 000001E719BE4680: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.27-23.33.39:211][636]LogHttp: Warning: 000001E719BE4680: libcurl info message cache 3 (Closing connection 13)
+[2018.11.27-23.33.48:002][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.055
+[2018.11.27-23.33.48:009][659]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/First_Level/Portal/BP_Portal1] ([1] browsable assets)...
+[2018.11.27-23.33.48:157][659]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/First_Level/Portal/BP_Portal1.BP_Portal1]
+[2018.11.27-23.33.48:157][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/First_Level/Portal/BP_Portal1]
+[2018.11.27-23.33.48:362][659]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_Portal1_Auto1D1CBB87A433E2FE84071758F0BA5D0F5.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/Autosaves/Game/First_Level/Portal/BP_Portal1_Auto1.uasset'
+[2018.11.27-23.33.48:369][659]LogFileHelpers: Auto-saving content packages took 0.365
+[2018.11.27-23.36.00:201][ 69]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.27-23.36.00:558][ 70]LogInit: XAudio2 using 'Headphones (Varun's Bose QC30 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.27-23.37.34:115][388]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
+[2018.11.27-23.37.34:720][388]LogSlate: Took 0.024324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.27-23.37.58:646][604]LogSlate: Window 'Save Content' being destroyed
+[2018.11.27-23.37.58:683][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/First_Level/Portal/BP_Portal1" FILE="C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal1.uasset" SILENT=true
+[2018.11.27-23.37.58:719][604]LogSavePackage: Moving 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Saved/BP_Portal199DFE7DA44EC8CE57C899D98B2BF534D.tmp' to 'C:/Users/Varun/Documents/Unreal Projects/JungleMaze 4.20/Content/First_Level/Portal/BP_Portal1.uasset'
+[2018.11.27-23.41.40:850][384]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.11.27-23.41.40:850][384]LogD3D11RHI: [Aftermath] GDynamicRHI=000001E6F0EAC140, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2018.11.27-23.41.40:850][384]LogWindows: Windows GetLastError: The operation completed successfully. (0)

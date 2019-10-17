@@ -1,0 +1,953 @@
+﻿Log file open, 11/28/18 16:58:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: JungleMaze
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.211239
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.522s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: %iSKLULTGT2%
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.28-21.58.03:815][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-21.58.03:815][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.28-21.58.03:864][  0]LogHAL: Display: Platform has ~ 8 GB [8476520448 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.28-21.58.03:864][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.28-21.58.03:864][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.28-21.58.03:865][  0]LogInit: Computer: DESKTOP-4KV6N86
+[2018.11.28-21.58.03:865][  0]LogInit: User: Grace
+[2018.11.28-21.58.03:865][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.28-21.58.03:865][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.11.28-21.58.03:865][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.28-21.58.03:865][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.28-21.58.03:865][  0]LogMemory: Process Physical Memory: 100.18 MB used, 100.18 MB peak
+[2018.11.28-21.58.03:865][  0]LogMemory: Process Virtual Memory: 84.18 MB used, 84.18 MB peak
+[2018.11.28-21.58.03:865][  0]LogMemory: Physical Memory: 5439.51 MB used,  2644.33 MB free, 8083.84 MB total
+[2018.11.28-21.58.03:865][  0]LogMemory: Virtual Memory: 4616.41 MB used,  2644.33 MB free, 134217728.00 MB total
+[2018.11.28-21.58.03:908][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.11.28-21.58.03:908][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.11.28-21.58.04:334][  0]LogStreaming: Display: Took  0.426s to InitEngineTextLocalization.
+[2018.11.28-21.58.04:334][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.28-21.58.04:379][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.28-21.58.04:379][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.28-21.58.04:914][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-21.58.04:914][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.28-21.58.05:006][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.11.28-21.58.05:006][  0]LogD3D11RHI:       2010/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.28-21.58.05:018][  0]LogD3D11RHI:    1. '%iSKLULTGT2%' (Feature Level 11_0)
+[2018.11.28-21.58.05:018][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.28-21.58.05:021][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.28-21.58.05:021][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.28-21.58.05:021][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.28-21.58.05:064][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.28-21.58.05:064][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.11.28-21.58.05:064][  0]LogWindows: EnumDisplayDevices:
+[2018.11.28-21.58.05:064][  0]LogWindows:    0. '%iSKLULTGT2%' (P:1 D:1)
+[2018.11.28-21.58.05:065][  0]LogWindows:    1. '%iSKLULTGT2%' (P:0 D:0)
+[2018.11.28-21.58.05:066][  0]LogWindows:    2. '%iSKLULTGT2%' (P:0 D:0)
+[2018.11.28-21.58.05:067][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.28-21.58.05:067][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.11.28-21.58.05:067][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.28-21.58.05:067][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.28-21.58.05:067][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.11.28-21.58.05:116][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.28-21.58.05:134][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.28-21.58.05:136][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Intermediate/Shaders/WorkingDirectory/14348/).
+[2018.11.28-21.58.05:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Grace/AppData/Local/Temp/UnrealShaderWorkingDir/0C20A4D74B707609E87C0DA5BF13571A/'.
+[2018.11.28-21.58.05:669][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.28-21.58.05:684][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.28-21.58.05:699][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.28-21.58.05:714][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.28-21.58.05:729][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.28-21.58.05:744][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.28-21.58.05:759][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.28-21.58.05:774][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.28-21.58.05:781][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:874][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-21.58.05:877][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.28-21.58.05:945][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-21.58.05:945][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-21.58.05:973][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-21.58.05:973][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-21.58.05:988][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.28-21.58.06:002][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.28-21.58.06:017][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.28-21.58.06:033][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.28-21.58.06:044][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.28-21.58.06:044][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.28-21.58.06:115][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.28-21.58.06:115][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.28-21.58.06:115][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.28-21.58.06:946][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.28-21.58.07:015][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Grace/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-21.58.07:016][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Grace/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.28-21.58.07:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.28-21.58.07:016][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.28-21.58.07:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.28-21.58.07:016][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.28-21.58.07:031][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.28-21.58.07:047][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grace/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.28-21.58.07:047][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.28-21.58.07:048][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.28-21.58.07:068][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.28-21.58.07:070][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.28-21.58.07:071][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-21.58.07:174][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.11.28-21.58.07:589][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-21.58.07:747][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.28-21.58.07:753][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.28-21.58.07:753][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.28-21.58.07:753][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.28-21.58.07:753][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.28-21.58.07:777][  0]LogNetVersion: JungleMaze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 723645141)
+[2018.11.28-21.58.08:532][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.179964 seconds
+[2018.11.28-21.58.08:541][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.28-21.58.08:541][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.28-21.58.08:541][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.28-21.58.09:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.28-21.58.09:862][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.28-21.58.10:053][  0]SourceControl: Source control is disabled
+[2018.11.28-21.58.10:053][  0]SourceControl: Source control is disabled
+[2018.11.28-21.58.10:056][  0]SourceControl: Source control is disabled
+[2018.11.28-21.58.10:058][  0]SourceControl: Source control is disabled
+[2018.11.28-21.58.10:283][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.28-21.58.10:410][  0]LogOcInput: OculusInput pre-init called
+[2018.11.28-21.58.10:487][  0]LogEngine: Initializing Engine...
+[2018.11.28-21.58.10:489][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-21.58.10:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-21.58.10:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-21.58.10:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.28-21.58.10:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-21.58.10:754][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.28-21.58.10:769][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.28-21.58.10:805][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-21.58.10:903][  0]LogInit: FAudioDevice initialized.
+[2018.11.28-21.58.10:903][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.28-21.58.10:992][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Grace/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-21.58.11:000][  0]LogInit: Texture streaming: Enabled
+[2018.11.28-21.58.11:024][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.28-21.58.11:043][  0]LogInit: Transaction tracking system initialized
+[2018.11.28-21.58.11:074][  0]BlueprintLog: New page: Editor Load
+[2018.11.28-21.58.11:165][  0]LocalizationService: Localization service is disabled
+[2018.11.28-21.58.11:489][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.28-21.58.11:489][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.28-21.58.11:489][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.28-21.58.11:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-21.58.11:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-21.58.11:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.28-21.58.11:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-21.58.11:650][  0]LogFileCache: Scanning file cache for directory 'D:/###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/' took 0.04s
+[2018.11.28-21.58.11:650][  0]SourceControl: Source control is disabled
+[2018.11.28-21.58.11:651][  0]Cmd: MAP LOAD FILE="../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.28-21.58.11:651][  0]LightingResults: New page: Lighting Build
+[2018.11.28-21.58.11:654][  0]MapCheck: New page: Map Check
+[2018.11.28-21.58.11:654][  0]LightingResults: New page: Lighting Build
+[2018.11.28-21.58.44:713][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.11.28-21.58.44:713][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.11.28-21.58.44:714][  0]LogMaterial: Display: Missing cached shader map for material RT_Portal_1_Mat, compiling. 
+[2018.11.28-21.58.45:859][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2018.11.28-21.58.47:374][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 1024X1024)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 1024X128)
+[2018.11.28-21.58.47:999][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.11.28-21.58.47:999][  0]LogMaterial: Display: Missing cached shader map for material Flower, compiling. 
+[2018.11.28-21.58.48:060][  0]LogMaterial: Display: Missing cached shader map for material AzaleaLeaf_1, compiling. 
+[2018.11.28-21.58.48:128][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.28-21.58.48:128][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.28-21.58.48:128][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-21.58.48:128][  0]LogStaticMesh: Building static mesh Azalea_Mobile_Flowers_2...
+[2018.11.28-21.58.48:323][  0]LogStaticMesh: Built static mesh [0.20s] /Game/Geometry/Meshes/Azalea_Mobile_Flowers_2.Azalea_Mobile_Flowers_2
+[2018.11.28-21.58.48:426][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.48:449][  0]LogStaticMesh: Building static mesh crown_polySurface216...
+[2018.11.28-21.58.48:476][  0]LogStaticMesh: Built static mesh [0.03s] /Game/First_Level/Crown/crown_polySurface216.crown_polySurface216
+[2018.11.28-21.58.48:481][  0]LogStaticMesh: Building static mesh center_island_polySurface336...
+[2018.11.28-21.58.48:488][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Center_Island/center_island_polySurface336.center_island_polySurface336
+[2018.11.28-21.58.48:495][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.48:559][  0]LogStaticMesh: Building static mesh center_island_polySurface324...
+[2018.11.28-21.58.48:660][  0]LogStaticMesh: Built static mesh [0.10s] /Game/First_Level/Center_Island/center_island_polySurface324.center_island_polySurface324
+[2018.11.28-21.58.48:671][  0]LogStaticMesh: Building static mesh brige_polySurface1...
+[2018.11.28-21.58.48:675][  0]LogStaticMesh: Built static mesh [0.00s] /Game/First_Level/Bridge/brige_polySurface1.brige_polySurface1
+[2018.11.28-21.58.48:680][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.48:762][  0]LogStaticMesh: Building static mesh brige_pasted__pCube4...
+[2018.11.28-21.58.48:784][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Bridge/brige_pasted__pCube4.brige_pasted__pCube4
+[2018.11.28-21.58.48:792][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.48:827][  0]LogStaticMesh: Building static mesh base...
+[2018.11.28-21.58.48:845][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Base/base.base
+[2018.11.28-21.58.48:898][  0]LogStaticMesh: Building static mesh Red_Maple_Young_LowPoly...
+[2018.11.28-21.58.49:036][  0]LogStaticMesh: Built static mesh [0.14s] /Game/Red_Maple_Young_LowPoly.Red_Maple_Young_LowPoly
+[2018.11.28-21.58.49:094][  0]LogStaticMesh: Building static mesh Plane2_polySurface242...
+[2018.11.28-21.58.49:111][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface242.Plane2_polySurface242
+[2018.11.28-21.58.49:124][  0]LogStaticMesh: Building static mesh Plane2_polySurface240...
+[2018.11.28-21.58.49:144][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface240.Plane2_polySurface240
+[2018.11.28-21.58.49:160][  0]LogStaticMesh: Building static mesh Plane2_polySurface238...
+[2018.11.28-21.58.49:193][  0]LogStaticMesh: Built static mesh [0.03s] /Game/First_Level/Plane2/Plane2_polySurface238.Plane2_polySurface238
+[2018.11.28-21.58.49:203][  0]LogStaticMesh: Building static mesh Plane2_polySurface237...
+[2018.11.28-21.58.49:222][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane2/Plane2_polySurface237.Plane2_polySurface237
+[2018.11.28-21.58.49:227][  0]LogStaticMesh: Building static mesh Plane2_polySurface233...
+[2018.11.28-21.58.49:232][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface233.Plane2_polySurface233
+[2018.11.28-21.58.49:241][  0]LogStaticMesh: Building static mesh Plane2_polySurface231...
+[2018.11.28-21.58.49:270][  0]LogStaticMesh: Built static mesh [0.03s] /Game/First_Level/Plane2/Plane2_polySurface231.Plane2_polySurface231
+[2018.11.28-21.58.49:300][  0]LogStaticMesh: Building static mesh Plane2_polySurface228...
+[2018.11.28-21.58.49:365][  0]LogStaticMesh: Built static mesh [0.07s] /Game/First_Level/Plane2/Plane2_polySurface228.Plane2_polySurface228
+[2018.11.28-21.58.49:378][  0]LogStaticMesh: Building static mesh Plane2_polySurface225...
+[2018.11.28-21.58.49:392][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface225.Plane2_polySurface225
+[2018.11.28-21.58.49:399][  0]LogStaticMesh: Building static mesh Plane2_polySurface221...
+[2018.11.28-21.58.49:412][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface221.Plane2_polySurface221
+[2018.11.28-21.58.49:430][  0]LogStaticMesh: Building static mesh Plane2_polySurface220...
+[2018.11.28-21.58.49:462][  0]LogStaticMesh: Built static mesh [0.03s] /Game/First_Level/Plane2/Plane2_polySurface220.Plane2_polySurface220
+[2018.11.28-21.58.49:470][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.49:505][  0]LogStaticMesh: Building static mesh Plane2_polySurface219...
+[2018.11.28-21.58.49:513][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane2/Plane2_polySurface219.Plane2_polySurface219
+[2018.11.28-21.58.49:518][  0]LogStaticMesh: Building static mesh Plane1_polySurface210...
+[2018.11.28-21.58.49:531][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane1/Plane1_polySurface210.Plane1_polySurface210
+[2018.11.28-21.58.49:554][  0]LogStaticMesh: Building static mesh Plane1_polySurface207...
+[2018.11.28-21.58.49:601][  0]LogStaticMesh: Built static mesh [0.05s] /Game/First_Level/Plane1/Plane1_polySurface207.Plane1_polySurface207
+[2018.11.28-21.58.49:613][  0]LogStaticMesh: Building static mesh Plane1_polySurface206...
+[2018.11.28-21.58.49:633][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane1/Plane1_polySurface206.Plane1_polySurface206
+[2018.11.28-21.58.49:643][  0]LogStaticMesh: Building static mesh Plane1_polySurface202...
+[2018.11.28-21.58.49:649][  0]LogStaticMesh: Built static mesh [0.01s] /Game/First_Level/Plane1/Plane1_polySurface202.Plane1_polySurface202
+[2018.11.28-21.58.49:663][  0]LogStaticMesh: Building static mesh Plane1_polySurface201...
+[2018.11.28-21.58.49:700][  0]LogStaticMesh: Built static mesh [0.04s] /Game/First_Level/Plane1/Plane1_polySurface201.Plane1_polySurface201
+[2018.11.28-21.58.49:709][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.49:746][  0]LogStaticMesh: Building static mesh Plane1_polySurface200...
+[2018.11.28-21.58.49:771][  0]LogStaticMesh: Built static mesh [0.02s] /Game/First_Level/Plane1/Plane1_polySurface200.Plane1_polySurface200
+[2018.11.28-21.58.49:777][  0]LogStaticMesh: Building static mesh main_island_polySurface212...
+[2018.11.28-21.58.49:845][  0]LogStaticMesh: Built static mesh [0.07s] /Game/First_Level/Main_Island/main_island_polySurface212.main_island_polySurface212
+[2018.11.28-21.58.49:851][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.28-21.58.49:901][  0]LogStaticMesh: Building static mesh main_island_polySurface197...
+[2018.11.28-21.58.49:978][  0]LogStaticMesh: Built static mesh [0.08s] /Game/First_Level/Main_Island/main_island_polySurface197.main_island_polySurface197
+[2018.11.28-21.58.50:317][  0]LogMaterial: Display: Missing cached shader map for material RT_Portal_2_Mat, compiling. 
+[2018.11.28-21.58.50:338][  0]LogMaterial: Display: Missing cached shader map for material RT_Portal_4_Mat, compiling. 
+[2018.11.28-21.58.50:351][  0]LogMaterial: Display: Missing cached shader map for material RT_Portal_3_Mat, compiling. 
+[2018.11.28-21.58.50:366][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.28-21.58.50:450][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-21.58.50:503][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-21.58.50:703][  0]LogShaderCompilers: Display: Shaders left to compile 209
+[2018.11.28-21.58.50:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 199.305ms to complete.
+[2018.11.28-21.58.50:703][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 39.053
+[2018.11.28-21.58.50:863][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-21.58.50:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-21.58.50:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-21.58.50:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-21.58.50:919][  0]LogCollectionManager: Loaded 0 collections in 0.002093 seconds
+[2018.11.28-21.58.50:982][  0]LogFileCache: Scanning file cache for directory 'D:/###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/Collections/' took 0.01s
+[2018.11.28-21.58.50:982][  0]LogFileCache: Scanning file cache for directory 'D:/###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Developers/Grace/Collections/' took 0.01s
+[2018.11.28-21.58.50:982][  0]LogFileCache: Scanning file cache for directory 'D:/###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Collections/' took 0.01s
+[2018.11.28-21.58.50:982][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.28-21.58.51:002][  0]LogContentBrowser: Native class hierarchy populated in 0.0195 seconds. Added 2572 classes and 603 folders.
+[2018.11.28-21.58.51:013][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.28-21.58.51:161][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.28-21.58.51:168][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.28-21.58.51:195][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.28-21.58.51:199][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.28-21.58.51:207][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.28-21.58.51:400][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-21.58.51:574][  0]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-21.58.52:018][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.28-21.58.52:018][  0]LogLoad: (Engine Initialization) Total time: 51.37 seconds
+[2018.11.28-21.58.52:018][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.28-21.58.52:030][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.28-21.58.52:078][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.28-21.58.52:343][  3]LogAssetRegistry: Asset discovery search completed in 45.1916 seconds
+[2018.11.28-21.58.52:347][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.28-21.58.52:347][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2018.11.28-21.58.53:213][ 14]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-21.58.54:264][ 55]LogShaderCompilers: Display: Shaders left to compile 199
+[2018.11.28-21.58.56:141][ 81]LogShaderCompilers: Display: Shaders left to compile 189
+[2018.11.28-21.58.58:330][109]LogShaderCompilers: Display: Shaders left to compile 179
+[2018.11.28-21.59.00:406][131]LogShaderCompilers: Display: Shaders left to compile 169
+[2018.11.28-21.59.02:066][148]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.11.28-21.59.02:927][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-21.59.06:440][199]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.11.28-21.59.06:505][199]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.11.28-21.59.11:150][226]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.11.28-21.59.15:903][251]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.11.28-21.59.16:333][252]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.11.28-21.59.22:971][256]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.11.28-21.59.23:307][256]LogFileCache: Retrieving MD5 hashes for directory 'D:/###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/' took 31.26s
+[2018.11.28-21.59.24:498][266]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.11.28-21.59.26:152][277]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.11.28-21.59.30:556][302]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.11.28-21.59.32:209][314]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.28-21.59.35:030][331]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.28-21.59.35:538][334]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.28-21.59.41:793][369]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.28-21.59.43:074][375]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.28-21.59.45:539][390]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.28-21.59.49:556][408]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.01.01:761][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.01.43:442][465]LogLinker: Warning: Can't find file '/Game/M_Hologram'
+[2018.11.28-22.01.43:442][465]LogLinker: Warning: Can't find file for asset '/Game/M_Hologram' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Guide_Sphere.uasset.
+[2018.11.28-22.01.43:442][465]LoadErrors: Error: /Game/Guide_Sphere : Can't find file for asset. /Game/M_Hologram
+[2018.11.28-22.01.43:443][465]LogLinker: Warning: Can't find file '/Game/M_Hologram'
+[2018.11.28-22.01.43:443][465]LogLinker: Warning: Can't find file for asset '/Game/M_Hologram' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Guide_Sphere.uasset.
+[2018.11.28-22.01.43:444][465]LogLinker: Warning: Can't find file '/Game/M_Hologram'
+[2018.11.28-22.01.43:456][465]LoadErrors: Failed to load /Game/M_Hologram.M_Hologram Referenced by Guide_Sphere
+[2018.11.28-22.01.43:456][465]LogLinker: Warning: Can't find file for asset '/Game/M_Hologram' while loading NULL.
+[2018.11.28-22.01.43:480][465]LogLinker: Warning: Can't find file '/Game/M_Hologram'
+[2018.11.28-22.01.43:481][465]LogLinker: Warning: Can't find file for asset '/Game/M_Hologram' while loading NULL.
+[2018.11.28-22.01.48:973][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Basement_Grace/Guide_Sphere" FILE="../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/Guide_Sphere.uasset" SILENT=true
+[2018.11.28-22.01.48:998][ 65]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/Guide_SphereCBE5547B44F7ECB6ED834184B61EA573.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/Guide_Sphere.uasset'
+[2018.11.28-22.01.51:612][227]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/Pool_Room_StaticMesh284A60E34ACA36845703F196A783FC67.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/Pool_Room_StaticMesh.uasset'
+[2018.11.28-22.01.52:938][241]LogLinker: Warning: Can't find file '/Game/M_Basic_Floor'
+[2018.11.28-22.01.52:939][241]LogLinker: Warning: Can't find file for asset '/Game/M_Basic_Floor' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/SM_MERGED_Hallway_Room_StaticMesh.uasset.
+[2018.11.28-22.01.52:939][241]LoadErrors: Error: /Game/SM_MERGED_Hallway_Room_StaticMesh : Can't find file for asset. /Game/M_Basic_Floor
+[2018.11.28-22.01.52:939][241]LogLinker: Warning: Can't find file '/Game/M_Glow'
+[2018.11.28-22.01.52:940][241]LogLinker: Warning: Can't find file for asset '/Game/M_Glow' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/SM_MERGED_Hallway_Room_StaticMesh.uasset.
+[2018.11.28-22.01.52:940][241]LoadErrors: Error: /Game/SM_MERGED_Hallway_Room_StaticMesh : Can't find file for asset. /Game/M_Glow
+[2018.11.28-22.01.52:940][241]LogLinker: Warning: Can't find file '/Game/M_Basic_Floor'
+[2018.11.28-22.01.52:940][241]LogLinker: Warning: Can't find file for asset '/Game/M_Basic_Floor' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/SM_MERGED_Hallway_Room_StaticMesh.uasset.
+[2018.11.28-22.01.52:940][241]LogLinker: Warning: Can't find file '/Game/M_Glow'
+[2018.11.28-22.01.52:940][241]LogLinker: Warning: Can't find file for asset '/Game/M_Glow' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/SM_MERGED_Hallway_Room_StaticMesh.uasset.
+[2018.11.28-22.01.52:941][241]LogLinker: Warning: Can't find file '/Game/M_Basic_Floor'
+[2018.11.28-22.01.52:941][241]LoadErrors: Failed to load /Game/M_Basic_Floor.M_Basic_Floor Referenced by SM_MERGED_Hallway_Room_StaticMesh
+[2018.11.28-22.01.52:941][241]LogLinker: Warning: Can't find file for asset '/Game/M_Basic_Floor' while loading NULL.
+[2018.11.28-22.01.52:942][241]LogLinker: Warning: Can't find file '/Game/M_Glow'
+[2018.11.28-22.01.52:942][241]LoadErrors: Failed to load /Game/M_Glow.M_Glow Referenced by SM_MERGED_Hallway_Room_StaticMesh
+[2018.11.28-22.01.52:942][241]LogLinker: Warning: Can't find file for asset '/Game/M_Glow' while loading NULL.
+[2018.11.28-22.01.52:942][241]LogLinker: Warning: Can't find file '/Game/M_Basic_Floor'
+[2018.11.28-22.01.52:942][241]LogLinker: Warning: Can't find file for asset '/Game/M_Basic_Floor' while loading NULL.
+[2018.11.28-22.01.52:943][241]LogLinker: Warning: Can't find file '/Game/M_Glow'
+[2018.11.28-22.01.52:943][241]LogLinker: Warning: Can't find file for asset '/Game/M_Glow' while loading NULL.
+[2018.11.28-22.01.54:167][349]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/SM_MERGED_Hallway_Room_StaticMes97D151904FFBCDE1F8DD919012F6CC8C.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/SM_MERGED_Hallway_Room_StaticMesh.uasset'
+[2018.11.28-22.02.11:592][508]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Basement_Grace/Guide_Sphere.Guide_Sphere
+[2018.11.28-22.02.12:501][508]LogSlate: Took 0.020585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.28-22.02.14:501][531]LogAssetEditorManager: Opening Asset editor for Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2018.11.28-22.02.14:527][531]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2018.11.28-22.02.15:007][531]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.11.28-22.02.15:216][531]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.11.28-22.02.15:216][531]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.11.28-22.02.15:216][531]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.11.28-22.02.15:223][531]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.11.28-22.02.15:370][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2018.11.28-22.02.15:378][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2018.11.28-22.02.15:390][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.11.28-22.02.15:398][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2018.11.28-22.02.15:406][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.11.28-22.02.16:037][531]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.11.28-22.02.16:177][531]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.11.28-22.02.16:271][531]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.11.28-22.02.16:380][531]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.11.28-22.02.16:487][531]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.11.28-22.02.16:558][531]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.11.28-22.02.16:778][531]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.11.28-22.02.16:830][531]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.11.28-22.02.16:830][531]LogSlate: Window 'Warning: Editing Default Material' being destroyed
+[2018.11.28-22.02.16:928][531]LogSlate: Took 0.022895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.28-22.02.17:577][532]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.11.28-22.02.17:578][532]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.11.28-22.02.17:578][532]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.11.28-22.02.17:578][532]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.11.28-22.02.17:578][532]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.11.28-22.02.17:578][532]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.28-22.02.17:755][535]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.11.28-22.02.17:965][537]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.11.28-22.02.18:117][538]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.11.28-22.02.18:335][545]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.11.28-22.02.18:741][567]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.11.28-22.02.19:135][583]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.11.28-22.02.19:261][584]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.11.28-22.02.19:318][585]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.11.28-22.02.19:527][587]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.11.28-22.02.19:658][589]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.28-22.02.19:714][589]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.11.28-22.02.19:933][592]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.11.28-22.02.20:035][593]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.11.28-22.02.20:248][593]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.11.28-22.02.20:363][596]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.28-22.02.20:499][597]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.11.28-22.02.20:703][599]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.11.28-22.02.20:942][603]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.11.28-22.02.20:964][603]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.11.28-22.02.21:198][606]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.28-22.02.21:466][609]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.28-22.02.21:612][611]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.28-22.02.21:756][613]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.28-22.02.21:929][615]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.28-22.02.22:134][617]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.28-22.02.22:219][618]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.28-22.02.22:389][620]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.28-22.02.22:505][621]LogSlate: Window 'Guide_Sphere' being destroyed
+[2018.11.28-22.02.22:565][621]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.28-22.02.22:766][621]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.28-22.02.22:916][625]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.28-22.02.23:162][627]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.28-22.02.23:230][628]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.28-22.02.23:435][630]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.28-22.02.23:509][631]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.28-22.02.23:612][632]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.28-22.02.23:951][637]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.28-22.02.24:482][644]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.28-22.02.24:621][645]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.28-22.02.24:906][649]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.28-22.02.25:976][654]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.28-22.02.26:183][654]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.02.26:296][654]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.28-22.02.27:015][658]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.28-22.02.27:648][659]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.28-22.02.28:151][665]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.28-22.02.28:195][666]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.28-22.02.28:997][675]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.28-22.02.29:278][679]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.28-22.02.29:612][680]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.28-22.02.30:797][681]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.28-22.02.30:847][681]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.28-22.02.31:504][682]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.28-22.02.31:504][682]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.02.31:951][682]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.02.32:507][686]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.28-22.02.32:767][687]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.28-22.02.32:772][687]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.28-22.02.34:053][689]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.28-22.02.34:211][689]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.28-22.02.34:211][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.02.34:411][689]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.28-22.02.35:141][693]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.28-22.02.35:494][694]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.28-22.02.35:793][694]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-22.02.36:121][698]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.28-22.02.36:251][698]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.28-22.02.36:283][698]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.28-22.02.37:027][702]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.28-22.02.37:772][706]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.28-22.02.37:772][706]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.28-22.02.38:173][708]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.28-22.02.38:369][710]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.28-22.02.38:540][711]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.28-22.02.38:923][713]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-22.02.39:196][714]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.28-22.02.39:555][717]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.28-22.02.39:599][718]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.28-22.02.39:853][719]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.28-22.02.40:371][723]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.28-22.02.40:524][724]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.28-22.02.40:707][725]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.28-22.02.41:037][727]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.02.41:129][727]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.03.28:736][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (main_island_polySurface201)
+[2018.11.28-22.03.29:314][938]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.03.35:950][ 27]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.11.28-22.03.37:017][ 42]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.03.40:971][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.03.44:294][236]LogEditorViewport: Clicking Background
+[2018.11.28-22.03.45:061][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (center_island_polySurface324)
+[2018.11.28-22.03.45:595][254]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.03.52:446][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2_polySurface230)
+[2018.11.28-22.03.54:039][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.03.59:093][442]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.11.28-22.03.59:930][454]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.04.09:678][587]LogSlate: Took 0.097427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.28-22.04.12:941][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.04.14:291][640]LogActorFactory: Actor Factory created SM_MERGED_Hallway_Room_StaticMesh
+[2018.11.28-22.04.19:606][165]LogActorFactory: Actor Factory created SM_MERGED_Hallway_Room_StaticMesh
+[2018.11.28-22.04.25:006][237]Cmd: TRANSACTION UNDO
+[2018.11.28-22.04.25:007][237]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.04.26:746][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.04.37:883][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.04.38:109][475]LogActorFactory: Actor Factory created Pool_Room_StaticMesh
+[2018.11.28-22.04.41:492][798]LogActorFactory: Actor Factory created Pool_Room_StaticMesh
+[2018.11.28-22.04.50:267][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.04.50:598][930]LogActorFactory: Actor Factory created Guide_Sphere
+[2018.11.28-22.04.51:226][989]LogActorFactory: Actor Factory created Guide_Sphere
+[2018.11.28-22.04.55:250][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.04.55:897][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.04.57:650][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Guide_Sphere)
+[2018.11.28-22.04.58:890][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.05.24:599][336]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMapBAACF3FC4C7A2B249D1628A68DC6DCF6.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.05.25:698][336]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltData5ABE87804317938505D9438572D75B52.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.05.37:363][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal'
+[2018.11.28-22.05.37:364][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:364][488]LoadErrors: Error: /Game/Basement_Grace/M_Hologram : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal
+[2018.11.28-22.05.37:364][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor'
+[2018.11.28-22.05.37:364][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:364][488]LoadErrors: Error: /Game/Basement_Grace/M_Hologram : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor
+[2018.11.28-22.05.37:364][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T'
+[2018.11.28-22.05.37:364][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:364][488]LoadErrors: Error: /Game/Basement_Grace/M_Hologram : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T
+[2018.11.28-22.05.37:365][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal'
+[2018.11.28-22.05.37:365][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:365][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor'
+[2018.11.28-22.05.37:365][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:365][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T'
+[2018.11.28-22.05.37:366][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T' while loading ../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset.
+[2018.11.28-22.05.37:368][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal'
+[2018.11.28-22.05.37:369][488]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal.Earth_Normal Referenced by MaterialExpressionTextureSample_1
+[2018.11.28-22.05.37:369][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Earth_Normal' while loading NULL.
+[2018.11.28-22.05.37:369][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T'
+[2018.11.28-22.05.37:369][488]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T.Scanlines_T Referenced by MaterialExpressionTextureSample_2
+[2018.11.28-22.05.37:369][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T' while loading NULL.
+[2018.11.28-22.05.37:369][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor'
+[2018.11.28-22.05.37:369][488]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor.Key_BaseColor Referenced by MaterialExpressionTextureSample_4
+[2018.11.28-22.05.37:369][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Key_BaseColor' while loading NULL.
+[2018.11.28-22.05.37:370][488]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T'
+[2018.11.28-22.05.37:370][488]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T.Scanlines_T Referenced by MaterialExpressionTextureSample_5
+[2018.11.28-22.05.37:370][488]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Hologram/Scanlines_T' while loading NULL.
+[2018.11.28-22.05.37:375][488]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.05.37:399][488]LogMaterial: Warning: D:\###\【PURDUE\【2018 Fall\CGT 345 Game\#Final\JungleMaze 4.20\Content\Basement_Grace\M_Hologram.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.05.37:399][488]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.37:399][488]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.05.50:502][749]LogAssetEditorManager: Opening Asset editor for Material /Game/Basement_Grace/M_Hologram.M_Hologram
+[2018.11.28-22.05.50:507][749]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.05.50:508][749]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.05.50:508][749]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.50:508][749]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.05.50:778][749]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.05.50:780][749]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.05.50:780][749]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.50:780][749]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.05.50:784][749]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.05.50:785][749]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.05.50:785][749]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.50:785][749]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.05.50:816][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.11.28-22.05.50:819][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.11.28-22.05.50:822][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.11.28-22.05.50:824][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.11.28-22.05.50:828][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.11.28-22.05.50:835][749]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.05.50:835][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.05.50:835][749]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.11.28-22.05.50:877][749]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.50:877][749]MaterialEditorStats: Error: [SM5] Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.05.51:144][749]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.05.52:186][765]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.05.56:235][832]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.11.28-22.05.56:272][833]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.28-22.05.58:809][889]LogEditorTransaction: Undo Replace component used material
+[2018.11.28-22.05.58:883][889]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.05.58:884][889]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.05.58:884][889]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.05.58:884][889]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.06.03:373][ 41]LogSlate: Window 'M_Hologram' being destroyed
+[2018.11.28-22.06.09:070][511]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.09:071][511]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.09:071][511]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.09:071][511]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.06.18:891][351]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.18:893][351]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.18:893][351]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.18:893][351]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.06.18:900][351]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.11.28-22.06.18:916][351]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.06.18:916][351]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.06.18:931][351]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.18:933][351]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.18:933][351]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.18:933][351]LogMaterial: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2018.11.28-22.06.25:972][892]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.25:973][892]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.25:973][892]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.25:973][892]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.06.25:984][892]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.11.28-22.06.26:000][892]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.06.26:000][892]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.06.26:014][892]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.26:016][892]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.26:016][892]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.26:016][892]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.06.26:026][892]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.26:027][892]MaterialEditorStats: Error: [SM5] Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.06.29:656][152]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.29:657][152]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.29:658][152]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.29:658][152]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.06.29:665][152]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.11.28-22.06.29:681][152]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.06.29:681][152]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.06.29:696][152]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.06.29:698][152]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.06.29:698][152]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.06.29:698][152]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.06.34:436][309]LogMaterialEditor: Applying material M_Hologram
+[2018.11.28-22.06.36:673][309]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2018.11.28-22.07.41:216][715]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.41:218][715]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.07.41:218][715]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.07.41:218][715]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.07.41:228][715]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.11.28-22.07.41:244][715]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.07.41:244][715]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.07.41:260][715]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.41:262][715]LogMaterial: Warning: /Engine/Transient.M_Hologram (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.28-22.07.41:262][715]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.28-22.07.41:262][715]LogMaterial: 	Function Blend_Overlay: (Node If) Failed to compile AGreaterThanB input.
+[2018.11.28-22.07.44:235][910]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.44:260][910]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-22.07.44:260][910]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.28-22.07.44:260][910]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.28-22.07.44:265][910]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.11.28-22.07.44:297][910]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.44:641][920]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.28-22.07.44:687][923]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.28-22.07.45:450][981]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-22.07.45:674][999]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.28-22.07.45:942][ 19]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.28-22.07.46:174][ 37]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.28-22.07.46:481][ 57]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.28-22.07.46:801][ 80]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.28-22.07.47:001][ 93]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.28-22.07.47:279][112]LogMaterialEditor: Saving and Compiling material M_Hologram
+[2018.11.28-22.07.48:314][112]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.28-22.07.48:314][112]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.28-22.07.48:315][112]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.07.48:341][112]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.48:418][112]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.48:451][112]LogMaterial: Display: Missing cached shader map for material M_Hologram, compiling. 
+[2018.11.28-22.07.48:550][112]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.28-22.07.48:550][112]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Hologram, compiling. 
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.28-22.07.50:323][112]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.28-22.07.50:324][112]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.28-22.07.50:324][112]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.28-22.07.50:324][112]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.28-22.07.50:370][112]TextureStreamingBuild: Display: Compiling optional shaders took 1.858 seconds.
+[2018.11.28-22.07.52:768][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Basement_Grace/M_Hologram" FILE="../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset" SILENT=true
+[2018.11.28-22.07.52:823][112]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/M_HologramE91B91D54074A70CA9F8258569D5D50B.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_Hologram.uasset'
+[2018.11.28-22.07.52:855][112]MaterialEditorStats: Base pass shader without light map: 102 instructions
+[2018.11.28-22.07.52:855][112]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.11.28-22.07.52:855][112]MaterialEditorStats: Texture samplers: 5/16
+[2018.11.28-22.07.52:855][112]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2018.11.28-22.07.52:855][112]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.28-22.08.11:253][634]LogEditorViewport: Clicking Background
+[2018.11.28-22.08.12:220][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Guide_Sphere)
+[2018.11.28-22.08.13:631][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.08.19:791][ 69]LogEditorViewport: Clicking Background
+[2018.11.28-22.08.20:879][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.08.21:531][ 83]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap6829B51447C66E7925D1F8B053FA185F.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.08.22:565][ 83]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataAE3CF31648ECD65B3A95158F98DCCD60.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.08.22:886][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.08.28:485][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.08.47:872][628]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/M_BaseRoomFloorE1E3658047A8553AF0BE81863E77404C.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/Basement_Grace/M_BaseRoomFloor.uasset'
+[2018.11.28-22.09.09:446][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.09.12:712][151]LogEditorViewport: Clicking Background
+[2018.11.28-22.09.14:034][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.09.23:056][291]Cmd: TRANSACTION UNDO
+[2018.11.28-22.09.23:056][291]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.09.25:711][391]Cmd: TRANSACTION UNDO
+[2018.11.28-22.09.25:711][391]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.09.40:208][586]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.09.40:288][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.09.47:479][216]Cmd: ACTOR BAKEPREPIVOT
+[2018.11.28-22.09.49:720][247]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.09.50:870][261]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.09.51:693][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.10.06:248][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.10.09:432][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.10.30:694][796]Cmd: TRANSACTION UNDO
+[2018.11.28-22.10.30:694][796]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.10.33:848][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.34:468][902]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMapA02899B84A04BC55FEE0A8B66B659F54.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.10.35:448][902]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataD4A827444D152425BA092C84ECFF939B.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.10.38:149][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.10.41:737][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.10.43:122][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.43:545][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.43:758][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.43:827][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.43:915][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.10.45:880][ 97]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.11.02:984][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.11.03:857][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.11.04:445][325]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.11.28:417][505]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.11.48:868][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.11.58:731][937]Cmd: TRANSACTION UNDO
+[2018.11.28-22.11.58:731][937]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.12.31:555][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.12.32:821][324]Cmd: TRANSACTION UNDO
+[2018.11.28-22.12.32:821][324]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-22.12.33:535][371]Cmd: TRANSACTION UNDO
+[2018.11.28-22.12.33:535][371]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.12.34:905][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Guide_Sphere)
+[2018.11.28-22.12.40:538][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.12.43:946][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.12.51:504][634]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.12.58:740][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.13.23:522][951]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.13.36:189][114]Cmd: TRANSACTION UNDO
+[2018.11.28-22.13.36:189][114]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.13.36:337][116]Cmd: TRANSACTION UNDO
+[2018.11.28-22.13.36:337][116]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-22.13.37:261][190]Cmd: TRANSACTION UNDO
+[2018.11.28-22.13.37:262][190]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-22.13.40:688][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.13.42:215][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.13.47:250][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.13.48:498][385]Cmd: TRANSACTION UNDO
+[2018.11.28-22.13.48:498][385]LogEditorTransaction: Undo Set Rotation
+[2018.11.28-22.13.52:237][640]Cmd: TRANSACTION UNDO
+[2018.11.28-22.13.52:238][640]LogEditorTransaction: Undo Set Rotation
+[2018.11.28-22.14.00:262][788]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.28-22.14.02:056][812]Cmd: TRANSACTION UNDO
+[2018.11.28-22.14.02:056][812]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-22.14.04:176][904]Cmd: TRANSACTION UNDO
+[2018.11.28-22.14.04:176][904]LogEditorTransaction: Undo Set Rotation
+[2018.11.28-22.14.07:207][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.14.14:738][679]Cmd: TRANSACTION UNDO
+[2018.11.28-22.14.14:738][679]LogEditorTransaction: Undo Set Rotation
+[2018.11.28-22.14.16:031][758]Cmd: TRANSACTION UNDO
+[2018.11.28-22.14.16:031][758]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-22.14.18:320][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.14.21:262][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.14.24:140][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.14.36:252][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.14.48:619][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.15.10:080][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.15.25:320][988]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.11.28-22.15.25:791][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.15.52:575][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.15.58:301][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.16.17:511][870]LogEditorViewport: Clicking Background
+[2018.11.28-22.16.18:007][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.16.18:620][882]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.16.22:558][985]Cmd: TRANSACTION UNDO
+[2018.11.28-22.16.22:558][985]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.16.23:281][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.28-22.16.26:261][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.16.30:129][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.16.31:141][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.16.32:456][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.17.02:106][473]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap8CBE57354E0C62F759B77DA8374F6C52.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.17.03:090][473]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltData0581EF4145E7E495CD0F1980BF93DFA4.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.17.39:190][834]Cmd: TRANSACTION UNDO
+[2018.11.28-22.17.39:190][834]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.17.40:140][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.17.41:574][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.17.55:463][205]Cmd: TRANSACTION UNDO
+[2018.11.28-22.17.55:463][205]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.18.09:279][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.18.12:762][494]LogEditorViewport: Clicking Background
+[2018.11.28-22.18.13:525][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.18.23:586][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.18.28:025][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.18.32:807][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.18.33:972][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.18.41:753][  1]Cmd: TRANSACTION UNDO
+[2018.11.28-22.18.41:753][  1]LogEditorTransaction: Undo Paste Location
+[2018.11.28-22.18.42:834][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.18.46:171][119]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.18.58:361][358]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.18.58:416][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.19.02:617][682]Cmd: ACTOR BAKEPREPIVOT
+[2018.11.28-22.19.05:627][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Guide_Sphere)
+[2018.11.28-22.19.08:642][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.19.11:260][849]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.19.19:649][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.19.39:530][198]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.19.39:566][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.19.41:773][371]Cmd: ACTOR BAKEPREPIVOT
+[2018.11.28-22.19.43:467][391]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.28-22.19.44:093][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_Hallway_Room_StaticMesh)
+[2018.11.28-22.19.48:138][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.20.06:328][674]Cmd: TRANSACTION UNDO
+[2018.11.28-22.20.06:329][674]LogEditorTransaction: Undo Move Actors
+[2018.11.28-22.20.11:998][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.20.18:367][876]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.28-22.20.18:680][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.20.19:299][881]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap05C3C1134A6CDF50ABB50397D2E278CC.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.20.20:254][881]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltData9A3CB1FC41085A8D6CB10AB749FBD5AC.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.20.46:098][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.20.46:786][207]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap0C24F4904C13C08B66EBD9AC3F4B5B9A.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.20.47:848][207]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataEFB6BE814D6D813E806301B5CC7ED634.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.20.50:036][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.20.54:207][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.20.58:388][336]LogActorFactory: Actor Factory created Plane
+[2018.11.28-22.20.59:404][400]LogActorFactory: Actor Factory created Plane
+[2018.11.28-22.21.00:793][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.21.42:172][856]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.28-22.21.44:438][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.21.45:566][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.21.48:031][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water_Surface)
+[2018.11.28-22.21.49:194][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.21.54:219][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.21.55:689][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water_Surface)
+[2018.11.28-22.22.07:147][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pool_Room_StaticMesh)
+[2018.11.28-22.22.11:421][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water_Surface)
+[2018.11.28-22.22.15:138][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.22.24:912][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.22.48:158][836]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.22.48:726][836]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap2198193642DCA1296CD0D2B3A78590A8.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.28-22.22.49:704][836]LogSavePackage: Moving '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Saved/ThirdPersonExampleMap_BuiltDataB699DA374223E39D1E64B584D1B0A7C7.tmp' to '../../../../../###/【PURDUE/【2018 Fall/CGT 345 Game/#Final/JungleMaze 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.28-22.22.59:455][945]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.24.24:397][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-22.24.31:404][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-22.24.38:482][984]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.28-22.24.38:485][984]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:146 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.11.28-22.24.38:485][984]LogD3D11RHI: [Aftermath] GDynamicRHI=0000016B93040100, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2018.11.28-22.24.38:485][984]LogWindows: Windows GetLastError: 操作成功完成。 (0)
